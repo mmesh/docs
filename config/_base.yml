@@ -1,0 +1,88 @@
+site_name: ""
+site_url: https://docs.mmesh.io
+site_description: Multi-cloud integration made simple
+copyright: Copyright &copy; 2022 mmesh
+repo_name: mmesh/mmesh
+repo_url: https://github.com/mmesh/mmesh
+edit_uri: ""
+
+theme:
+  name: material
+  custom_dir: ../overrides
+  language: en
+  logo: "assets/images/logo/mmesh_logo_v5_146x30_transparent.png"
+  favicon: "assets/images/logo/mmesh_logo_v5_symbol_512x512.png"
+  include_search_page: false
+  search_index_only: true
+  features:
+    - navigation.instant
+    # - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.expand
+    # - navigation.indexes
+    - navigation.top
+    # - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - header.autohide
+  # font:
+  #   text: Roboto
+  #   code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"  # Light mode
+      scheme: mmesh-light
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"  # Dark mode
+      scheme: mmesh-dark
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search
+  # - git-revision-date
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - meta
+  - toc:
+      permalink: false
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+extra:
+  homepage: https://mmesh.io
+  # generator: false
+  # analytics:
+    # provider: google
+    # property: G-XXXXXXXXXX
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mmesh
+    - icon: fontawesome/brands/discord
+      link: https://mmesh.io/discord
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mmesh_io

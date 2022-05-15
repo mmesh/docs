@@ -1,0 +1,20 @@
+INHERIT: ./_base.yml
+
+site_url: https://docs.mmesh.io/legal/
+use_directory_urls: true
+
+docs_dir: ../docs/legal
+site_dir: ../site/legal
+
+theme:
+  features:
+    - navigation.expand
+
+nav:
+  - 🡠 Back: /
+  - Terms:
+    - terms/terms-and-conditions.md
+    - terms/acceptable-use-policy.md
+  - Privacy:
+    - privacy/privacy-policy.md
+    - privacy/cookies-policy.md

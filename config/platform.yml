@@ -1,0 +1,76 @@
+INHERIT: ./_base.yml
+
+site_url: https://docs.mmesh.io/platform/
+use_directory_urls: true
+
+docs_dir: ../docs/platform
+site_dir: ../site/platform
+
+nav:
+  - 🡠 Back: /
+  - Getting Started:
+    - getting-started/quickstart.md
+    - getting-started/features.md
+    - getting-started/integrations.md
+  - Installation:
+    - installation/overview.md
+    - installation/cli.md
+    - installation/nodes.md
+  - Concepts:
+    - concepts/overview.md
+    - concepts/architecture.md
+  - Networking:
+    - networking/overview.md
+    - networking/topology.md
+    - networking/nodes.md
+    - networking/network-security.md
+    - networking/service-discovery.md
+    - networking/advanced-features.md
+    - networking/best-practices.md
+  - Kubernetes:
+    - kubernetes/overview.md
+    - kubernetes/services.md
+    - kubernetes/pods.md
+  - Cloud Provisioning:
+    - cloud-provisioning/overview.md
+    - cloud-provisioning/google-cloud.md
+    - cloud-provisioning/digital-ocean.md
+    - cloud-provisioning/scaleway.md
+  - Automation (Ops):
+    - automation/overview.md
+    - automation/workflows.md
+    - automation/projects.md
+  - Monitoring:
+    - monitoring/overview.md
+    - monitoring/analytics.md
+    - monitoring/alerts.md
+  - IAM:
+    - iam/overview.md
+    - iam/users.md
+    - iam/authentication.md
+    - iam/authorization.md
+  - Support:
+    - support/overview.md
+  - Administration:
+    - administration/tenants.md
+    - administration/networks.md
+    - administration/subnets.md
+    - administration/nodes.md
+    - administration/kubernetes.md
+    - administration/cloud-provisioning.md
+    - administration/ops-projects.md
+    - administration/ops-workflows.md
+    - administration/alerts.md
+    - administration/iam-users.md
+    - administration/iam-security-groups.md
+    - administration/iam-roles.md
+    - administration/iam-acls.md
+    - administration/support.md
+    - administration/user.md
+    - administration/account.md
+  - Reference:
+    - reference/mmesh-node.yml.md
+    - reference/mmeshctl.yml.md
+    - reference/workflow.yml.md
+  - FAQ: faq.md
+  - Tags: tags.md
