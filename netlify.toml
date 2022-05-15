@@ -10,7 +10,7 @@ publish = "site/"
 command = "./scripts/build.sh"
 
 [build.environment]
-PYTHON_VERSION = "3.9"
+PYTHON_VERSION = "3.8"
 
 [[headers]]
 for = "/*"
