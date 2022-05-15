@@ -4,15 +4,15 @@ The automation subsystem of mmesh is based on `workflows`.
 
 They are declarative YAML files where you define the processes you want to automate, the triggers and schedule configuration to launch them, the target nodes and other parameters like notification recipients and reviewers / approvers.
 
-You can easily manage your mmesh workflows via GitOps by enabling the [GitHub integration](/docs/platform/administration/account#gitops).
+You can easily manage your mmesh workflows via GitOps by enabling the [GitHub integration](/platform/administration/account#gitops).
 
-> See [Automation](/docs/platform/automation/workflows) section to find more information on mmesh workflows.
+> See [Automation](/platform/automation/workflows) section to find more information on mmesh workflows.
 
 ## Attributes
 
 In mmesh you set an automation `workflow` by applying a configuration from a YAML file.
 
-Browse the [Workflow Configuration Reference](/docs/platform/reference/mmesh-workflow.yml) section for information on the workflows YAML file format.
+Browse the [Workflow Configuration Reference](/platform/reference/mmesh-workflow.yml) section for information on the workflows YAML file format.
 
 ## Operations
 

@@ -4,23 +4,23 @@
 >
 >Every cloud provider in the world is supported and you **don't need any specific integration** for that.
 >
-> See [Add Nodes](/docs/platform/administration/nodes) to learn how to add your existing cloud infrastructure to mmesh.
+> See [Add Nodes](/platform/administration/nodes) to learn how to add your existing cloud infrastructure to mmesh.
 
 In this section you will learn how to take advantage of some extended features that mmesh supports via integrations with some popular cloud providers, currently:
 
-- [Google Cloud](/docs/platform/cloud-provisioning/google-cloud)
-- [Digital Ocean](/docs/platform/cloud-provisioning/digital-ocean)
-- [Scaleway Cloud](/docs/platform/cloud-provisioning/scaleway)
+- [Google Cloud](/platform/cloud-provisioning/google-cloud)
+- [Digital Ocean](/platform/cloud-provisioning/digital-ocean)
+- [Scaleway Cloud](/platform/cloud-provisioning/scaleway)
 
-To enable the extended features described below, you will need to configure the [integration](/docs/platform/administration/account#cloud) with at least one of those cloud providers.
+To enable the extended features described below, you will need to configure the [integration](/platform/administration/account#cloud) with at least one of those cloud providers.
 
-> See [Cloud Provisioning](/docs/platform/cloud-provisioning/overview) to learn more about those integrations and features.
+> See [Cloud Provisioning](/platform/cloud-provisioning/overview) to learn more about those integrations and features.
 
 ## Operations
 
 If you've already configured your mmesh account with at least one cloud provider integration, you can use the mmesh webUI or the mmesh CLI for cloud provisioning.
 
-> If you prefer to add your cloud nodes without configuring any specific cloud provider integration, or you aim to add your existing, already provisioned, cloud infrastructure, please see the section [Add Nodes](/docs/platform/administration/nodes).
+> If you prefer to add your cloud nodes without configuring any specific cloud provider integration, or you aim to add your existing, already provisioned, cloud infrastructure, please see the section [Add Nodes](/platform/administration/nodes).
 
 ### WebUI: Cloud Provisioning
 

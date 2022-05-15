@@ -513,7 +513,7 @@ The CCPA provides California residents with specific rights regarding their pers
 
 ### Exercising Your CCPA Data Protection Rights
 
-In order to exercise any of Your rights under the CCPA, and if You are a California resident, You can send us an email to [legal@mmesh.io](legal@mmesh.io).
+In order to exercise any of Your rights under the CCPA, and if You are a California resident, You can send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).
 
 Only You, or a person registered with the California Secretary of State that You authorize to act on Your behalf, may make a verifiable request related to Your personal information.
 
@@ -607,4 +607,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, you can send us an email to [legal@mmesh.io](legal@mmesh.io).
+If you have any questions about this Privacy Policy, you can send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).

@@ -6,7 +6,7 @@ A security group is defined with the list of tenants that the user will have acc
 
 The IAM subsystem of mmesh allows to manage the security groups.
 
-> See [Identity and Access Management](/docs/platform/iam/authorization#security-groups) section to find more information about the mmesh authorization subsystem.
+> See [Identity and Access Management](/platform/iam/authorization#security-groups) section to find more information about the mmesh authorization subsystem.
 
 ## Attributes
 

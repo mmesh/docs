@@ -2,7 +2,7 @@
 
 mmesh monitors your nodes and generates alerts when important events occur.
 
-> See [Alerts](/docs/platform/monitoring/alerts) section to find more information on mmesh alert system.
+> See [Alerts](/platform/monitoring/alerts) section to find more information on mmesh alert system.
 
 ## Operations
 

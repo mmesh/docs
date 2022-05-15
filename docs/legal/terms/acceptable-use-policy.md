@@ -118,7 +118,7 @@ If We determine, in Our discretion, that You have violated this AUP, We may remo
 
 ## Reporting of Violations of this AUP
 
-If You become aware of any suspected violation of this AUP, please notify Us by providing a full explanation of the bases for the violation. We may request Your assistance to help stop or remedy the violation. To report any violation of this AUP or make related inquiries, please send us an email to [legal@mmesh.io](legal@mmesh.io).
+If You become aware of any suspected violation of this AUP, please notify Us by providing a full explanation of the bases for the violation. We may request Your assistance to help stop or remedy the violation. To report any violation of this AUP or make related inquiries, please send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).
 
 ## Changes to this Acceptable Use Policy
 
@@ -130,4 +130,4 @@ You are advised to review this AUP periodically for any changes. Changes to this
 
 ## Contact Us
 
-If you have any questions about this AUP, you can send us an email to [legal@mmesh.io](legal@mmesh.io).
+If you have any questions about this AUP, you can send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).

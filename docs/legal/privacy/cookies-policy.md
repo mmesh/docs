@@ -90,4 +90,4 @@ For any other web browser, please visit your web browser's official web pages.
 
 ## Contact Us
 
-If you have any questions about this Cookies Policy, you can send us an email to [legal@mmesh.io](legal@mmesh.io).
+If you have any questions about this Cookies Policy, you can send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).
