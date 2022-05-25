@@ -2,8 +2,8 @@ site_name: ""
 site_url: https://docs.mmesh.io
 site_description: Multi-cloud integration made simple
 copyright: Copyright &copy; 2022 mmesh
-repo_name: mmesh/mmesh
-repo_url: https://github.com/mmesh/mmesh
+repo_name: mmesh/docs
+repo_url: https://github.com/mmesh/docs
 edit_uri: ""
 
 theme:
