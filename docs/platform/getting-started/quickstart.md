@@ -11,8 +11,8 @@ Get started with the following steps:
 
 ## 2. Install and configure mmesh CLI
 
-1. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
-2. The first time you run `mmeshctl`, you will be assisted to generate your `mmeshctl.yml`. This config file will be located by default at the `$HOME/.mmesh` directory.
+1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
+2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default at the `$HOME/.mmesh` directory.
 
 Find more details in the [mmesh-cli installation guide](/platform/installation/cli).
 
