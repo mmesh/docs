@@ -7,7 +7,7 @@ docs_dir: ../docs/platform
 site_dir: ../site/platform
 
 nav:
-  - 🡠 Back: /
+  - 🡠 Back: /docs/
   - Getting Started:
     - getting-started/quickstart.md
     - getting-started/features.md

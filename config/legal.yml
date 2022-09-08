@@ -11,7 +11,7 @@ theme:
     - navigation.expand
 
 nav:
-  - 🡠 Back: /
+  - 🡠 Back: /docs/
   - Terms:
     - terms/terms-and-conditions.md
     - terms/acceptable-use-policy.md
