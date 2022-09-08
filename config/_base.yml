@@ -1,5 +1,5 @@
 site_name: ""
-site_url: https://mmesh.io/docs/
+site_url: https://docs.mmesh.io/
 site_description: Multi-cloud integration made simple
 copyright: Copyright &copy; 2022 mmesh
 repo_name: mmesh/docs
@@ -10,8 +10,8 @@ theme:
   name: material
   custom_dir: ../overrides
   language: en
-  logo: "assets/images/logo/mmesh_logo_v5_146x30_transparent.png"
-  favicon: "assets/images/logo/mmesh_logo_v5_symbol_512x512.png"
+  logo: "/assets/images/logo/mmesh_logo_v5_146x30_transparent.png"
+  favicon: "/assets/images/logo/mmesh_logo_v5_symbol_512x512.png"
   include_search_page: false
   search_index_only: true
   features:
@@ -68,10 +68,10 @@ markdown_extensions:
   - footnotes
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - /assets/stylesheets/extra.css
 
 extra_javascript:
-  - assets/javascripts/extra.js
+  - /assets/javascripts/extra.js
 
 extra:
   homepage: https://mmesh.io
