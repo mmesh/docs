@@ -1,6 +1,6 @@
 INHERIT: ./_base.yml
 
-site_url: https://docs.mmesh.io/
+site_url: https://docs.mmesh.io/docs/
 use_directory_urls: true
 
 docs_dir: ../docs/global
