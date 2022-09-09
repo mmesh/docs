@@ -8,7 +8,7 @@ The mmesh CLI also supports authentication by RSA key.
 
 You can edit your user credentials and SSH keys using the mmesh webUI or the mmesh CLI.
 
-Browse the [User Settings](/platform/administration/user/) section to learn how to manage your mmesh credentials.
+Browse the [User Settings](/docs/platform/administration/user/) section to learn how to manage your mmesh credentials.
 
 ## RSA Authentication
 

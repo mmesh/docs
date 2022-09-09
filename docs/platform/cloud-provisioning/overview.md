@@ -8,17 +8,17 @@ Once the cloud provider integration is configured in your mmesh, you will be abl
 
 Currently, extended features are available for the following public cloud providers:
 
-### [Google Cloud](/platform/cloud-provisioning/google-cloud/)
+### [Google Cloud](/docs/platform/cloud-provisioning/google-cloud/)
 
-Learn about how to configure your [Google Cloud](/platform/cloud-provisioning/google-cloud/) integration.
+Learn about how to configure your [Google Cloud](/docs/platform/cloud-provisioning/google-cloud/) integration.
 
-### [Digital Ocean](/platform/cloud-provisioning/digital-ocean/)
+### [Digital Ocean](/docs/platform/cloud-provisioning/digital-ocean/)
 
-Learn about how to configure your [Digital Ocean](/platform/cloud-provisioning/digital-ocean/) integration.
+Learn about how to configure your [Digital Ocean](/docs/platform/cloud-provisioning/digital-ocean/) integration.
 
-### [Scaleway Cloud](/platform/cloud-provisioning/scaleway/)
+### [Scaleway Cloud](/docs/platform/cloud-provisioning/scaleway/)
 
-Learn about how to configure your [Scaleway Cloud](/platform/cloud-provisioning/scaleway/) integration.
+Learn about how to configure your [Scaleway Cloud](/docs/platform/cloud-provisioning/scaleway/) integration.
 
 ## Administration
 
@@ -28,5 +28,5 @@ In mmeshctl CLI you can provision and manage these node instances with the `mmes
 
 If using mmesh webUI, you can navigate to the `Cloud` section on the left menu.
 
-Browse the [Cloud Administration](/platform/administration/cloud/) section
+Browse the [Cloud Administration](/docs/platform/administration/cloud/) section
 to learn how to take advantage of the mmesh cloud provisioning features.

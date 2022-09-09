@@ -12,7 +12,7 @@ You are responsible for violations of this AUP by anyone using Your Account with
 
 ### Interpretation
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural.
 
 ### Definitions
 
@@ -20,7 +20,7 @@ For the purposes of this Privacy Policy:
 
 - "**Account**" means a unique account created for You to access Our Service or parts of Our Service.
 
-- "**Company**" (referred to as either "the Company", "We","Us" or "Our" in this Agreement) refers to **mmesh OÜ**.
+- "**Company**" (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to **mmesh OÜ**.
 
 - “**Content**" refers to content such as text, images, or other information that can be posted, uploaded, linked to or otherwise made available by You, regardless of the form of that content.
 
@@ -36,13 +36,13 @@ For the purposes of this Privacy Policy:
 
 You may not use the Service for any unlawful or abusive purpose. Prohibited activities include:
 
-- **Illegal Activities**. Any use of the Service to engage in, further, promote, or encourage illegal conduct or activities, including the dissemination of content that has been determined by a court of competent jurisdiction to be unlawful.
+- **Illegal Activities**. Any use of the Service to engage in, further, promote or encourage illegal conduct or activities, including the dissemination of content that has been determined by a court of competent jurisdiction to be unlawful.
 
-- **Fraudulent or Harmful Activities**. Engaging in activities that is deceptive or harmful to others, or that would harm the Company's operations or reputation, including offering or disseminating fraudulent goods, services, schemes, or promotions (e.g., make-money-fast schemes, Ponzi and pyramid schemes, phishing, or pharming), deceptively impersonating another person or entity, or engaging in other fraudulent or misleading practices.
+- **Fraudulent or Harmful Activities**. Engaging in activities that are deceptive or harmful to others, or that would harm the Company's operations or reputation, including offering or disseminating fraudulent goods, services, schemes, or promotions (e.g., make-money-fast schemes, Ponzi and pyramid schemes, phishing, or pharming), deceptively impersonating another person or entity, or engaging in other fraudulent or misleading practices.
 
 - **Violation of Intellectual Property Rights**. Using the Service in a manner that violates, infringes on or misappropriates the intellectual property or proprietary rights of any third party, including without limitation any rights in or to copyright, patent, trademark, trade secret, privacy or publicity, and publishing Content intended to assist others in unlawfully circumventing technical measures intended to protect any such rights.
 
-- **Violent, Harassing, Offensive or Abusive Content**. Content that incites or threatens violence against any person, promotes terrorism, is intended to harass, abuse or invade the privacy of any individual, creates a risk to the physical safety or health of any individual or to public safety or health, or that threatens or encourages harm on the basis of race, ethnicity, national origin, religion, caste, sexual orientation, sex, gender, gender identity, serious disease or disability, or immigration status.
+- **Violent, Harassing, Offensive or Abusive Content**. Content that incites or threatens violence against any person promotes terrorism, is intended to harass, abuse or invade the privacy of any individual creates a risk to the physical safety or health of any individual or to public safety or health, or that threatens or encourages harm on the basis of race, ethnicity, national origin, religion, caste, sexual orientation, sex, gender, gender identity, serious disease or disability, or immigration status.
 
 ## Security Violations
 
@@ -102,11 +102,11 @@ These mail policies apply to messages sent using the Service, or to messages sen
 
 ## Vulnerability Testing
 
-You may not attempt to probe, scan, penetrate, or test the vulnerability of a Company Device or network, or to breach the Company security or authentication measures, whether by passive or intrusive techniques, or conduct any security or malware research on or using the Service, without the Company's prior written consent.
+You may not attempt to probe, scan, penetrate, or test the vulnerability of a Company Device or network, or to breach the Company security or authentication measures, whether by passive or intrusive techniques or conduct any security or malware research on or using the Service, without the Company's prior written consent.
 
 ## Export Control
 
-You will ensure the Service is not used in breach of export laws, controls, regulations or sanction policies of Your applicable jurisdiction. You will ensure the Service is not used by any person or entity suspected of involvement or affiliation with those involved in activities or causes relating to: human trafficking; illegal gambling; terrorism; narcotics trafficking; arms trafficking or the proliferation, development, design, manufacture, production, stockpiling, or use of nuclear, chemical, or biological weapons, weapons of mass destruction, or missiles.
+You will ensure the Service is not used in breach of export laws, controls, regulations or sanction policies of Your applicable jurisdiction. You will ensure the Service is not used by any person or entity suspected of involvement or affiliation with those involved in activities or causes relating to human trafficking; illegal gambling; terrorism; narcotics trafficking; arms trafficking or the proliferation, development, design, manufacture, production, stockpiling, or use of nuclear, chemical, or biological weapons, weapons of mass destruction, or missiles.
 
 ## Our Monitoring and Enforcement
 
@@ -114,11 +114,11 @@ We reserve the right, but have no obligation, to investigate any suspected viola
 
 ## Consequences of Violation of AUP
 
-If We determine, in Our discretion, that You have violated this AUP, We may remove, disable access to, or modify any Content or resource and/or to suspend or terminate Your use of the Service. We also may intercept or block any Content or traffic belonging to You or to users where the Service are being used unlawfully or not in accordance with this AUP. Our right to suspend or terminate Your use of the Service applies even if a violation is committed unintentionally or without Your authorization. Such right is not an obligation on Us to act at any given time or with respect to any given Subscriber, and We may exercise such right at any time within Our sole discretion.
+If We determine, at Our discretion, that You have violated this AUP, We may remove, disable access to, or modify any Content or resource and/or to suspend or terminate Your use of the Service. We also may intercept or block any Content or traffic belonging to You or to users where the Service is being used unlawfully or not in accordance with this AUP. Our right to suspend or terminate Your use of the Service applies even if a violation is committed unintentionally or without Your authorization. Such right is not an obligation on Us to act at any given time or with respect to any given Subscriber, and We may exercise such right at any time within Our sole discretion.
 
 ## Reporting of Violations of this AUP
 
-If You become aware of any suspected violation of this AUP, please notify Us by providing a full explanation of the bases for the violation. We may request Your assistance to help stop or remedy the violation. To report any violation of this AUP or make related inquiries, please send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).
+If You become aware of any suspected violation of this AUP, please notify Us by providing a full explanation of the bases for the violation. We may request Your assistance to help stop or remedy the violation. To report any violation of this AUP or make related inquiries, please send us an email at [legal@mmesh.io](mailto:legal@mmesh.io).
 
 ## Changes to this Acceptable Use Policy
 
@@ -130,4 +130,4 @@ You are advised to review this AUP periodically for any changes. Changes to this
 
 ## Contact Us
 
-If you have any questions about this AUP, you can send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).
+If you have any questions about this AUP, you can send us an email at [legal@mmesh.io](mailto:legal@mmesh.io).

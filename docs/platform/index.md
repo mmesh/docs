@@ -8,4 +8,4 @@ mmesh builds an abstraction layer on top of the underlying infrastructure, letti
 
 This documentation is a reference for all features of mmesh.
 
-Browse the [Quick Start](/platform/getting-started/quickstart/) guide to get started.
+Browse the [Quick Start](/docs/platform/getting-started/quickstart/) guide to get started.

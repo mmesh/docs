@@ -14,15 +14,15 @@ You will be able to keep your automation workflows and network policies YAML fil
 
 #### PagerDuty
 
-The PagerDuty integration allows to forward all the alerts of your mmesh to your PagerDuty account.
+The PagerDuty integration allows forwarding all the alerts of your mmesh to your PagerDuty account.
 
 ### Notifications
 
 #### Slack
 
-The Slack integration allows to receive general notifications, automation reports and alerts on the channels of your choice in your Slack organization.
+The Slack integration allows receiving general notifications, automation reports and alerts on the channels of your choice in your Slack organization.
 
-mmesh will use **two different channels**: one for **general notifications and automation reports** and other for **alerts and high priority notifications**.
+mmesh will use **two different channels**: one for **general notifications and automation reports** and the other for **alerts and high-priority notifications**.
 
 ##### Configuration
 

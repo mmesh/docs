@@ -14,20 +14,20 @@ mmesh allows you to simplify your infrastructure deployments and get rid of comp
 
 The mmesh architecture is based on a hierarchical model composed by four types of logical entities: `tenants`, `networks`, `subnets` and `nodes`.
 
-With these components you design your own [mmesh topology](/platform/networking/topology/): an unified abstraction overlay built on top of your cloud and traditional environments.
+With these components you design your own [mmesh topology](/docs/platform/networking/topology/): an unified abstraction overlay built on top of your cloud and traditional environments.
 
-### [Tenant](/platform/networking/topology/#tenant)
+### [Tenant](/docs/platform/networking/topology/#tenant)
 
-A [tenant](/platform/networking/topology/#tenant) is a logical component of mmesh that groups networks.
+A [tenant](/docs/platform/networking/topology/#tenant) is a logical component of mmesh that groups networks.
 
-### [Network](/platform/networking/topology/#network)
+### [Network](/docs/platform/networking/topology/#network)
 
-A [network](/platform/networking/topology/#network) is a logical component of mmesh that groups subnets.
+A [network](/docs/platform/networking/topology/#network) is a logical component of mmesh that groups subnets.
 
-### [Subnet](/platform/networking/topology/#subnet)
+### [Subnet](/docs/platform/networking/topology/#subnet)
 
-A [subnet](/platform/networking/topology/#subnet) is a logical component of mmesh that groups nodes.
+A [subnet](/docs/platform/networking/topology/#subnet) is a logical component of mmesh that groups nodes.
 
-### [Node](/platform/networking/nodes/)
+### [Node](/docs/platform/networking/nodes/)
 
-A [node](/platform/networking/nodes/) is any system connected to a mmesh subnet.
+A [node](/docs/platform/networking/nodes/) is any system connected to a mmesh subnet.

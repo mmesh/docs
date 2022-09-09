@@ -14,7 +14,7 @@ Get started with the following steps:
 1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
 2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default at the `$HOME/.mmesh` directory.
 
-Find more details in the [mmesh-cli installation guide](/platform/installation/cli).
+Find more details in the [mmesh-cli installation guide](/docs/platform/installation/cli).
 
 ## 3. Create your first network
 
@@ -44,7 +44,7 @@ At this point you also configure the default Security Policy (`ACCEPT` or `DROP`
 
 ## 5. Add your nodes
 
-> For Linux nodes only. See the mmesh-node [Installation Guide](/platform/installation/nodes) for more details and other platforms.
+> For Linux nodes only. See the mmesh-node [Installation Guide](/docs/platform/installation/nodes) for more details and other platforms.
 
 The easiest way to add nodes to your mmesh is by generating a magic link with `mmeshctl`:
 

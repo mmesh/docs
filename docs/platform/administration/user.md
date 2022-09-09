@@ -2,7 +2,7 @@
 
 You can edit your user settings, credentials and different authentication options.
 
-> See [Authentication](/platform/iam/authentication) section to find more information about mmesh authentication options.
+> See [Authentication](/docs/platform/iam/authentication) section to find more information about mmesh authentication options.
 
 ## Operations
 

@@ -18,5 +18,5 @@ The process creates, if not exists, a Kubernetes StatefulSet in your Cluster wit
 
 You can connect your Kubernetes Services to your mmesh in seconds with the mmesh CLI.
 
-Browse the [Kubernetes Administration](/platform/administration/kubernetes/) section
+Browse the [Kubernetes Administration](/docs/platform/administration/kubernetes/) section
 to learn how to manage your Kubernetes Services.

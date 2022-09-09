@@ -2,7 +2,7 @@
 
 A `node` is any system connected to a mmesh `subnet`.
 
-> See [Nodes](/platform/networking/nodes) to find more information on mmesh nodes.
+> See [Nodes](/docs/platform/networking/nodes) to find more information on mmesh nodes.
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ A node is automatically added to your mmesh when a system running the `mmesh-nod
 
 The `mmesh-node` software client uses a configuration file called `mmesh-node.yml` usually located at the `/etc/mmesh` directory.
 
-See the [Node Configuration Reference](/platform/reference/mmesh-node.yml) to get information on this configuration file.
+See the [Node Configuration Reference](/docs/platform/reference/mmesh-node.yml) to get information on this configuration file.
 
 ## Operations
 
@@ -107,7 +107,7 @@ mmesh CLI supports some functions related to the remote management of your nodes
 
 These features are intended to simplify the way you can do some basic tasks on your nodes, but can be disabled in the `mmesh-node.yml` file.
 
-> See the [Node Configuration Reference](/platform/reference/mmesh-node.yml) to get more information.
+> See the [Node Configuration Reference](/docs/platform/reference/mmesh-node.yml) to get more information.
 
 The mmesh CLI commands, inspired by the ones in Kubernetes `kubectl`, are the following:
 

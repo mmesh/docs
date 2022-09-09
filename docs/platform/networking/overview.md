@@ -14,47 +14,47 @@ Browse the topics below to learn more.
 
 ## Network Abstraction
 
-mmesh acts as a compatibility layer on top of your cloud and traditional environments, allowing you to create a seamless [virtual topology](/platform/networking/topology/) where you can define your [security policies](/platform/networking/network-security/#security-policies) and access controls ([RBAC](/platform/iam/authorization/)) to operate and [automate](/platform/automation/overview/) your [nodes](/platform/networking/nodes/) in a simpler and unified way.
+mmesh acts as a compatibility layer on top of your cloud and traditional environments, allowing you to create a seamless [virtual topology](/docs/platform/networking/topology/) where you can define your [security policies](/docs/platform/networking/network-security/#security-policies) and access controls ([RBAC](/docs/platform/iam/authorization/)) to operate and [automate](/docs/platform/automation/overview/) your [nodes](/docs/platform/networking/nodes/) in a simpler and unified way.
 
-### [Topology](/platform/networking/topology/)
+### [Topology](/docs/platform/networking/topology/)
 
-Learn how to build your mmesh [topology](/platform/networking/topology/).
+Learn how to build your mmesh [topology](/docs/platform/networking/topology/).
 
-### [Nodes](/platform/networking/nodes/)
+### [Nodes](/docs/platform/networking/nodes/)
 
 A `node` is any system connected to your mmesh topology.
 
-Find more information and learn how to manage them in the [Nodes](/platform/networking/nodes/) section.
+Find more information and learn how to manage them in the [Nodes](/docs/platform/networking/nodes/) section.
 
 ## Network Security
 
 One of the main goals of mmesh is to help you enhance your infrastructure security in hybrid cloud environments. Easily, without requiring complex tools often difficult to configure, or expensive deployments of legacy equipment.
 
-### [Security Policies](/platform/networking/network-security/#security-policies)
+### [Security Policies](/docs/platform/networking/network-security/#security-policies)
 
-[Security policies](/platform/networking/network-security/#security-policies) act as distributed firewalls and protect the [nodes](/platform/networking/nodes/) connected to mmesh.
+[Security policies](/docs/platform/networking/network-security/#security-policies) act as distributed firewalls and protect the [nodes](/docs/platform/networking/nodes/) connected to mmesh.
 
-### [End-to-End Encryption](/platform/networking/network-security/#end-to-end-encryption)
+### [End-to-End Encryption](/docs/platform/networking/network-security/#end-to-end-encryption)
 
-mmesh automatically enforces [end-to-end encryption](/platform/networking/network-security/#end-to-end-encryption) on all network traffic and user interactions. No configuration required.
+mmesh automatically enforces [end-to-end encryption](/docs/platform/networking/network-security/#end-to-end-encryption) on all network traffic and user interactions. No configuration required.
 
 ## Service Discovery
 
-mmesh implements a [service discovery](/platform/network/service-discovery/) system where every node connected to mmesh is published on an internal DNS subsystem with the `.mmesh.local` suffix.
+mmesh implements a [service discovery](/docs/platform/network/service-discovery/) system where every node connected to mmesh is published on an internal DNS subsystem with the `.mmesh.local` suffix.
 
 You can easily integrate the `.mmesh.local` domain into your DNS infrastructure by configuring the `mmesh.local` domain as a _forward_ zone.
 
-See [DNS Integration](/platform/networking/service-discovery/#dns-integration) for more details.
+See [DNS Integration](/docs/platform/networking/service-discovery/#dns-integration) for more details.
 
 ## Advanced Features
 
-mmesh supports [advanced features](/platform/networking/advanced-features/) designed to meet service provider requirements in scenarios with complex network environments.
+mmesh supports [advanced features](/docs/platform/networking/advanced-features/) designed to meet service provider requirements in scenarios with complex network environments.
 
-- [Dynamic Routing](/platform/networking/advanced-features/#dynamic-routing)
-- [Address Overlapping](/platform/networking/advanced-features/#address-overlapping)
-- [mmesh64](/platform/networking/advanced-features/#mmesh64)
-- [High Availability](/platform/networking/advanced-features/#high-availability)
+- [Dynamic Routing](/docs/platform/networking/advanced-features/#dynamic-routing)
+- [Address Overlapping](/docs/platform/networking/advanced-features/#address-overlapping)
+- [mmesh64](/docs/platform/networking/advanced-features/#mmesh64)
+- [High Availability](/docs/platform/networking/advanced-features/#high-availability)
 
 ## Best Practices
 
-Learn some tricks and recommended configurations [here](/platform/networking/best-practices/).
+Learn some tricks and recommended configurations [here](/docs/platform/networking/best-practices/).

@@ -19,13 +19,13 @@ A `tenant` is a logical component of mmesh that groups `networks`.
 
 You can create unlimited tenants in your mmesh topology.
 
-Tenants are also relevant for your mmesh authorization policy since they are usually associated to [security groups](/platform/iam/authorization/#security-groups).
+Tenants are also relevant for your mmesh authorization policy since they are usually associated to [security groups](/docs/platform/iam/authorization/#security-groups).
 
 As example, if you were a service provider with multiple customers, you could design your mmesh by creating a tenant per customer. Then you could associate each tenant to a security-group that you then assign to the team members who need to have access to that customer.
 
 #### Tenants Administration
 
-Browse the [Tenants Administration](/platform/administration/tenants/) section to learn how to manage your tenants.
+Browse the [Tenants Administration](/docs/platform/administration/tenants/) section to learn how to manage your tenants.
 
 ### Network
 
@@ -51,7 +51,7 @@ In other words, every subnet within a network with this option disabled becomes 
 
 #### Networks Administration
 
-Browse the [Networks Administration](/platform/administration/networks/) section to learn how to manage your networks.
+Browse the [Networks Administration](/docs/platform/administration/networks/) section to learn how to manage your networks.
 
 ### Subnet
 
@@ -87,11 +87,11 @@ The `authorization secret` won't be never displayed once configured, but can be 
 
 #### Security Policies
 
-Every subnet has a [security policy](/platform/networking/network-security/#security-policies) attached.
+Every subnet has a [security policy](/docs/platform/networking/network-security/#security-policies) attached.
 
 This **security policy acts as a distributed firewall** protecting every node connected to the subnet.
 
-You can browse the [network security](/platform/networking/network-security/) section to learn about security policies and how to increase the protection of your nodes.
+You can browse the [network security](/docs/platform/networking/network-security/) section to learn about security policies and how to increase the protection of your nodes.
 
 ## Examples
 

@@ -2,7 +2,7 @@
 
 An mmesh `project` is a logical component of mmesh that groups automation `workflows`.
 
-> See [Automation](/platform/automation/projects) section to find more information on mmesh projects.
+> See [Automation](/docs/platform/automation/projects) section to find more information on mmesh projects.
 
 ## Attributes
 

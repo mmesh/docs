@@ -10,7 +10,7 @@ We use Your Personal data to provide and improve the Service. By using the Servi
 
 ### Interpretation
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or plural.
 
 ### Definitions
 
@@ -521,7 +521,7 @@ Your request to Us must:
 
 - Provide sufficient information that allows Us to reasonably verify You are the person about whom We collected personal information or an authorized representative
 
-- Describe Your request with sufficient detail that allows Us to properly understand, evaluate, and respond to it
+- Describe Your Request with sufficient detail that allows Us to properly understand, evaluate, and respond to it
 
 We cannot respond to Your request or provide You with the required information if we cannot:
 
@@ -537,15 +537,15 @@ For data portability requests, We will select a format to provide Your personal 
 
 ### Do Not Sell My Personal Information
 
-You have the right to opt-out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will stop selling Your personal information. To exercise Your right to opt-out, please contact Us.
+You have the right to opt out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will stop selling Your personal information. To exercise Your right to opt out, please contact Us.
 
 The Service Providers we partner with (for example, our analytics or advertising partners) may use technology on the Service that sells personal information as defined by the CCPA law. If you wish to opt out of the use of Your personal information for interest-based advertising purposes and these potential sales as defined under CCPA law, you may do so by following the instructions below.
 
-Please note that any opt out is specific to the browser You use. You may need to opt out on every browser that You use.
+Please note that any opt-out is specific to the browser You use. You may need to opt out on every browser that You use.
 
 #### Website
 
-You can opt out of receiving ads that are personalized as served by our Service Providers by following the instructions presented on the Services:
+You can opt-out of receiving ads that are personalized as served by our Service Providers by following the instructions presented on the Services:
 
 - The NAI's opt-out platform: [https://optout.networkadvertising.org](https://optout.networkadvertising.org)
 
@@ -553,13 +553,13 @@ You can opt out of receiving ads that are personalized as served by our Service 
 
 - The DAA's opt-out platform: [https://optout.aboutads.info](https://optout.aboutads.info)
 
-The opt out will place a cookie on Your computer that is unique to the browser You use to opt out. If you change browsers or delete the cookies saved by your browser, You will need to opt out again.
+The opt-out will place a cookie on Your computer that is unique to the browser You use to opt out. If you change browsers or delete the cookies saved by your browser, You will need to opt out again.
 
 #### Mobile Devices
 
-Your mobile device may give You the ability to opt out of the use of information about the apps You use in order to serve You ads that are targeted to Your interests:
+Your mobile device may give You the ability to opt-out of the use of information about the apps You use in order to serve You ads that are targeted to Your interests:
 
-- "Opt out of Interest-Based Ads" or "Opt out of Ads Personalization" on Android devices
+- "Opt-out of Interest-Based Ads" or "Opt-out of Ads Personalization" on Android devices
 
 - "Limit Ad Tracking" on iOS devices
 
@@ -569,7 +569,7 @@ You can also stop the collection of location information from Your mobile device
 
 Our Service does not respond to Do Not Track signals.
 
-However, some third party websites do keep track of Your browsing activities. If You are visiting such websites, You can set Your preferences in Your web browser to inform websites that You do not want to be tracked. You can enable or disable DNT by visiting the preferences or settings page of Your web browser.
+However, some third-party websites do keep track of Your browsing activities. If You are visiting such websites, You can set Your preferences in Your web browser to inform websites that You do not want to be tracked. You can enable or disable DNT by visiting the preferences or settings page of Your web browser.
 
 ## Children's Privacy
 
@@ -579,23 +579,23 @@ If We need to rely on consent as a legal basis for processing Your information a
 
 ## Your California Privacy Rights (California's Shine the Light law)
 
-Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.
+Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties direct marketing purposes.
 
 If you'd like to request more information under the California Shine the Light law, and if You are a California resident, You can contact Us using the contact information provided below.
 
 ## California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)
 
-California Business and Professions Code Section 22581 allows California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.
+California Business and Professions Code Section 22581 allows California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain the removal of content or information they have publicly posted.
 
-To request removal of such data, and if You are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.
+To request the removal of such data, and if You are a California resident, You can contact Us using the contact information provided below and include the email address associated with Your account.
 
 Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.
 
 ## Links to Other Websites
 
-Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+Our Service may contain links to other websites that are not operated by Us. If You click on a third-party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
 
-We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services.
 
 ## Changes to this Privacy Policy
 
@@ -607,4 +607,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, you can send us an email to [legal@mmesh.io](mailto:legal@mmesh.io).
+If you have any questions about this Privacy Policy, you can send us an email at [legal@mmesh.io](mailto:legal@mmesh.io).

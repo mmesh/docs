@@ -2,7 +2,7 @@
 
 mmesh aims to be a simple and enjoyable platform, not only by offering a reliable service to its clients but also by building a premium customer experience.
 
-> See [Customer Service](/platform/support/overview) section to find more information on mmesh Customer Service.
+> See [Customer Service](/docs/platform/support/overview) section to find more information on mmesh Customer Service.
 
 ## Operations
 

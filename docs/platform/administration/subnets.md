@@ -2,7 +2,7 @@
 
 A mmesh `subnet` is a logical component of mmesh that groups `nodes`.
 
-> See [Topology](/platform/networking/topology#subnet) section to find more information on mmesh subnets.
+> See [Topology](/docs/platform/networking/topology#subnet) section to find more information on mmesh subnets.
 
 ## Attributes
 
