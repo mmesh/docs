@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arial+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 /*
 @import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arial+Narrow&display=swap');
@@ -9,9 +11,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root {
+    /*
     --md-text-font: "Roboto";
     --md-text-font: "Prompt";
-    --md-code-font: "Roboto Mono";
+    */
+    --md-text-font: "Inter";
+    /* --md-code-font: "Roboto Mono"; */
     --md-code-font: "monospace";
 
     --md-header-bg-color: #16222aea;
@@ -23,15 +28,22 @@
 }
 
 [data-md-color-scheme="mmesh-light"] {
-    --md-default-fg-color:               hsl(200, 19%, 47%);
-    --md-default-fg-color--light:        hsl(200, 19%, 47%);
-    --md-default-fg-color--lighter:      hsl(200, 19%, 67%);
-    --md-default-fg-color--lightest:     hsl(200, 19%, 97%);
-    --md-default-fg-color--dark:         hsl(200, 19%, 37%);
+    --md-default-fg-color:               hsl(200, 19%, 30%);
+    /* --md-default-fg-color:               hsl(187, 22%, 30%); */
+    --md-default-fg-color--light:        hsl(200, 19%, 40%);
+    /* --md-default-fg-color--light:        hsl(187, 22%, 30%); */
+    --md-default-fg-color--lighter:      hsl(200, 19%, 50%);
+    /* --md-default-fg-color--lighter:      hsl(187, 22%, 50%); */
+    --md-default-fg-color--lightest:     hsl(200, 19%, 90%);
+    /* --md-default-fg-color--lightest:     hsl(187, 22%, 90%); */
+    --md-default-fg-color--dark:         hsl(200, 19%, 40%);
+    /* --md-default-fg-color--dark:         hsl(187, 22%, 20%); */
     --md-default-bg-color:               #fff;
+    /*
     --md-default-bg-color--light:        #fff;
     --md-default-bg-color--lighter:      #fff;
     --md-default-bg-color--lightest:     #fff;
+    */
 
     --md-primary-fg-color:               #16222aea;
     --md-primary-fg-color--light:        #16222a08;
@@ -47,10 +59,12 @@
     --md-accent-bg-color--lighter:         hsla(195, 100%, 54%, 0.04);
 
     --md-accent-border-header-color:     #ff1d00;
-    --md-divider-color:                  hsla(187, 22%, 70%, 0.1);
+    /* --md-divider-color:                  hsla(187, 22%, 70%, 0.1); */
+    --md-divider-color:                  hsla(200, 19%, 70%, 0.1);
 
     --md-code-fg-color:                  var(--md-default-fg-color--dark);
-    --md-code-bg-color:                hsla(187, 22%, 70%, 0.07);
+    /* --md-code-bg-color:                hsla(187, 22%, 70%, 0.07); */
+    --md-code-bg-color:                hsla(200, 19%, 70%, 0.07);
     --md-pre-fg-color:                   var(--md-default-fg-color--lightest);
     --md-pre-bg-color:                 hsla(200, 19%, 27%, 0.9);
 
@@ -73,17 +87,24 @@
 }
 
 [data-md-color-scheme="mmesh-dark"] {
-    --md-default-fg-color:               hsl(200, 19%, 57%);
-    --md-default-fg-color--light:        hsl(200, 19%, 47%);
-    --md-default-fg-color--lighter:      hsl(200, 19%, 37%);
-    --md-default-fg-color--lightest:     #00111122;
-    --md-default-fg-color--dark:         hsl(200, 19%, 77%);
+    --md-default-fg-color:               hsl(200, 19%, 75%);
+    /* --md-default-fg-color:               hsl(187, 22%, 75%); */
+    --md-default-fg-color--light:        hsl(200, 19%, 65%);
+    /* --md-default-fg-color--light:        hsl(187, 22%, 65%); */
+    --md-default-fg-color--lighter:      hsl(200, 19%, 55%);
+    /* --md-default-fg-color--lighter:      hsl(187, 22%, 55%); */
+    --md-default-fg-color--lightest:     #0011112a;
+    --md-default-fg-color--dark:         hsl(200, 19%, 85%);
     --md-default-bg-color:               #16222a;
+    /*
     --md-default-bg-color--light:        #fff;
     --md-default-bg-color--lighter:      #fff;
     --md-default-bg-color--lightest:     #fff;
+    */
 
-    --md-primary-fg-color:               hsl(187, 22%, 70%);
+    /* --md-primary-fg-color:               #a2bfc3; */
+    /* --md-primary-fg-color:               hsl(187, 22%, 70%); */
+    --md-primary-fg-color:               hsl(200, 19%, 90%);
     --md-primary-fg-color--light:        #16222a08;
     --md-primary-fg-color--dark:         #16222a;
     --md-primary-bg-color:               var(--md-primary-fg-color);
@@ -92,14 +113,16 @@
 
     --md-accent-fg-color:                hsla(195, 100%, 54%, 1);
     --md-accent-fg-color--transparent:   hsla(195, 100%, 74%, 0.05);
-    --md-accent-bg-color:                hsla(195, 100%, 54%, 0.5);
-    --md-accent-bg-color--light:         hsla(195, 100%, 54%, 0.1);
+    --md-accent-bg-color:                hsla(195, 100%, 54%, 0.6);
+    --md-accent-bg-color--light:         hsla(195, 100%, 54%, 0.25);
     --md-accent-bg-color--lighter:       hsla(195, 100%, 54%, 0.04);
 
     --md-accent-border-header-color:     #ff1d0022;
-    --md-divider-color:                  hsla(187, 22%, 70%, 0.1);
+    /* --md-divider-color:                  hsla(187, 22%, 70%, 0.1); */
+    --md-divider-color:                  hsla(200, 19%, 70%, 0.1);
 
-    --md-code-fg-color:                hsla(187, 22%, 70%, 0.90);
+    /* --md-code-fg-color:                hsla(187, 22%, 70%, 0.90); */
+    --md-code-fg-color:                var(--md-default-fg-color--dark);
     --md-code-bg-color:                var(--md-default-fg-color--lightest);
     --md-pre-fg-color:                 var(--md-code-fg-color);
     --md-pre-bg-color:                 var(--md-code-bg-color);
@@ -191,8 +214,8 @@
     margin-right: 8px;
     padding-top: 0px;
     padding-bottom: 13px;
-    font-family: "Arial Black", sans-serif;
-    font-size: 0.70rem;
+    font-family: 'Archivo Black', 'Arial Black', sans-serif;
+    font-size: 0.75rem;
     color: var(--md-header__custom-menu);
     border-bottom: 3px solid transparent;
 }
@@ -270,11 +293,11 @@ p code {
 }
 
 ul li.md-nav__item {
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 li.md-nav__item--nested label {
-    font-family: "Arial Black", sans-serif;
+    font-family: 'Archivo Black', 'Arial Black', sans-serif;
 }
 
 li.md-nav__item--nested ul {
@@ -301,7 +324,7 @@ blockquote {
 .md-footer__title {
     padding-left: 0px;
     padding-right: 0px;
-    font-family: "Arial Black", sans-serif;
+    font-family: 'Archivo Black', 'Arial Black', sans-serif;
     color: var(--md-default-fg-color--dark);
 }
 
@@ -316,9 +339,9 @@ blockquote {
 .md-content h1 {
     margin-top: -20px;
     margin-bottom: 25px;
-    font-family: "Arial Black", sans-serif;
+    font-family: 'Archivo Black', 'Arial Black', sans-serif;
     font-size: 2.5rem !important;
-    letter-spacing: -0.15rem !important;
+    letter-spacing: -0.05rem !important;
     border-bottom: 6px solid var(--md-accent-bg-color--light);
 }
 

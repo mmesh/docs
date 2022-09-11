@@ -8,7 +8,7 @@
 
 The GitHub integration allows you to implement GitOps flows and automate the configuration of your mmesh infrastructure.
 
-You will be able to keep your automation workflows and network policies YAML files well organized in your private Github repositories and automatically configure your mmesh policies and workflows, or trigger custom actions on your nodes when git-push events are detected.
+You will be able to keep your automation workflows and network policies YAML files well organized in your private GitHub repositories and automatically configure your mmesh policies and workflows, or trigger custom actions on your nodes when git-push events are detected.
 
 ### Alerts
 

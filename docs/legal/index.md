@@ -9,5 +9,5 @@ In this section, you will find legal texts related to privacy and service terms.
 
 #### Privacy
 
-- [Privacy Policy](/docs/legal/privacy/privacy-policy)
-- [Cookies Policy](/docs/legal/privacy/cookies-policy)
+- [Privacy Policy](/docs/legal/privacy/privacy-policy/)
+- [Cookies Policy](/docs/legal/privacy/cookies-policy/)

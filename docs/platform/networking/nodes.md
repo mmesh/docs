@@ -22,7 +22,7 @@ A node will also have a DNS name which can be also manually configured in the `m
 
 ## Endpoints
 
-In mmesh terminology, the node IP along with the internal DNS name correspond with a node's `endpoint`.
+In mmesh terminology, the node IP along with the internal DNS name corresponds with a node's `endpoint`.
 
 A node will have at least one endpoint, although in some scenarios, as when the node is configured as a _`Kubernetes Gateway`_, it can have more.
 
@@ -38,7 +38,7 @@ Learn more about mmesh nodes acting as Kubernetes gateways [here](/docs/platform
 
 ## Service Discovery
 
-mmesh has a service discovery system which publishes every node endpoint in an internal DNS subsystem which is enabled in every node.
+mmesh has a service discovery system that publishes every node endpoint in an internal DNS subsystem which is enabled in every node.
 
 You can query this internal DNS service by default on the port `UDP/5353`.
 

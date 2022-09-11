@@ -9,7 +9,7 @@ mmesh implements an abstraction layer built on top of **any** physical or virtua
 - Define your own virtual topology.
 - [Multi-Cloud](/docs/platform/cloud-provisioning/overview/) & on-prem.
 - [Multi-Tenancy](/docs/platform/networking/topology/).
-- [Advanced Networking](/docs/platform/networking/advanced-features/) features: IPv4 / IPv6, support of address overlapping, dynamic routing, high-availability.
+- [Advanced Networking](/docs/platform/networking/advanced-features/) features: IPv4 / IPv6, support of address overlapping, dynamic routing, high availability.
 - [Kubernetes Integration](/docs/platform/kubernetes/overview/).
 - [Security Policies](/docs/platform/networking/network-security/).
 - [Service Discovery](/docs/platform/network/service-discovery/).

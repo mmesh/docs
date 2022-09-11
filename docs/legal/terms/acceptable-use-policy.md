@@ -28,7 +28,7 @@ For the purposes of this Privacy Policy:
 
 - "**Service**" refers to the Website.
 
-- "**Website**" refers to **mmesh.io**, accessible from [https://mmesh.io](https://mmesh.io).
+- "**Website**" refers to **mmesh.io**, accessible from [https://mmesh.io](https://mmesh.io/).
 
 - "**You**" means the individual accessing or using the Service, or the Company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 

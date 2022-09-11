@@ -2,7 +2,7 @@
 
 You can connect your Kubernetes Services and Pods to your mmesh in seconds with the mmesh CLI without adding a single line of code or configuration.
 
-> See [Kubernetes](/docs/platform/kubernetes/overview) section to find more information on how it works the Kubernetes integration in mmesh.
+> See [Kubernetes](/docs/platform/kubernetes/overview/) section to find more information on how it works the Kubernetes integration in mmesh.
 
 ## Operations
 
