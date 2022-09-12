@@ -5,7 +5,7 @@ tags:
 
 # Service Discovery
 
-mmesh has a service discovery system which publish every node endpoint on an internal DNS subsystem which is enabled in every node.
+mmesh has a service discovery system that publishes every node endpoint on an internal DNS subsystem which is enabled in every node.
 
 ## DNS Integration
 

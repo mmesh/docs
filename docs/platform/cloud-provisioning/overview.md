@@ -28,5 +28,5 @@ In mmeshctl CLI you can provision and manage these node instances with the `mmes
 
 If using mmesh webUI, you can navigate to the `Cloud` section on the left menu.
 
-Browse the [Cloud Administration](/docs/platform/administration/cloud/) section
+Browse the [Cloud Administration](/docs/platform/administration/cloud-provisioning/) section
 to learn how to take advantage of the mmesh cloud provisioning features.

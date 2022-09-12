@@ -1,3 +1,9 @@
+---
+title: Introduction
+description: mmesh is an all-in-one, hybrid cloud integration platform that allows you to work seamlessly with on-prem and multi-cloud infrastructure.
+status: new
+---
+
 # Introduction
 
 Welcome to the mmesh documentation.

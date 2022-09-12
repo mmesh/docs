@@ -12,7 +12,7 @@ You can easily manage your mmesh workflows via GitOps by enabling [GitHub integr
 
 In mmesh you set an automation `workflow` by applying a configuration from a YAML file.
 
-Browse the [Workflow Configuration Reference](/docs/platform/reference/mmesh-workflow.yml/) section for information on the workflows YAML file format.
+Browse the [Workflow Configuration Reference](/docs/platform/reference/workflow.yml/) section for information on the workflows YAML file format.
 
 ## Operations
 

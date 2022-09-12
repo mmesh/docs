@@ -40,7 +40,7 @@ mmesh automatically enforces [end-to-end encryption](/docs/platform/networking/n
 
 ## Service Discovery
 
-mmesh implements a [service discovery](/docs/platform/network/service-discovery/) system where every node connected to mmesh is published on an internal DNS subsystem with the `.mmesh.local` suffix.
+mmesh implements a [service discovery](/docs/platform/networking/service-discovery/) system where every node connected to mmesh is published on an internal DNS subsystem with the `.mmesh.local` suffix.
 
 You can easily integrate the `.mmesh.local` domain into your DNS infrastructure by configuring the `mmesh.local` domain as a _forward_ zone.
 

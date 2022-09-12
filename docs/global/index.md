@@ -1,3 +1,9 @@
+---
+title: Official Documentation
+description: Need help? Browse the documentation to learn about the mmesh platform and services.
+status: new
+---
+
 # Need help?
 
 Welcome to the mmesh documentation.
