@@ -20,6 +20,9 @@
     /* --md-code-font: "Roboto Mono"; */
     --md-code-font: "monospace";
 
+    --md-banner-bg-color: #16222a;
+    --md-banner-fg-color: #fff;
+
     --md-header-bg-color: #16222aea;
 
     --md-top-fg-color: #ffffffcc;
@@ -187,6 +190,19 @@
     background-color: var(--md-accent-bg-color--light);
     border: 0px;
     border-radius: 4px;
+}
+
+.md-banner {
+    background-color: var(--md-banner-bg-color);
+    font-family: sans-serif;
+}
+
+.md-banner__inner a, .md-banner__inner a:hover {
+    color: var(--md-banner-fg-color);
+}
+
+.md-banner__inner .twitter {
+    color: #00acee;
 }
 
 .md-header, .md-sidebar--primary label.md-nav__title {
@@ -363,4 +379,13 @@ blockquote {
     font-family: "Raleway", sans-serif;
     font-size: 1.10rem !important;
     font-weight: normal;
+}
+
+.md-feedback {
+    /* border-top: 1px solid #00000005; */
+}
+
+.md-feedback .md-feedback__title {
+    font-family: sans-serif, monospace, Inter, sans-serif, Raleway, "Archivo Black", sans-serif;
+    font-weight: bold;
 }

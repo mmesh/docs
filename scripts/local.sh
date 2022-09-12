@@ -2,6 +2,8 @@
 #
 set -e
 
+docker pull squidfunk/mkdocs-material:latest
+
 if [[ "$1" == "test" ]]; then
   case "$2" in
   "global")

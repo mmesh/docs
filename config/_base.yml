@@ -1,10 +1,15 @@
-site_name: ""
+site_name: mmesh
 site_url: https://mmesh.io/docs/
 site_description: Multi-cloud integration made simple
+site_author: mmesh team
 copyright: Copyright &copy; 2022 mmesh
 repo_name: mmesh/docs
 repo_url: https://github.com/mmesh/docs
 edit_uri: ""
+
+twitter_id: "@mmesh_io"
+# social image/png: 1200x630
+social_image_url: "https://mmesh.imgix.net/images/social/mmesh_card_v5_twitter-1200x630.png"
 
 theme:
   name: material
@@ -28,6 +33,7 @@ theme:
     - search.highlight
     - search.share
     # - header.autohide
+    - announce.dismiss
   # font:
   #   text: Roboto
   #   code: Roboto Mono
@@ -47,28 +53,49 @@ plugins:
   - tags:
       tags_file: tags.md
   - search
-  # - git-revision-date
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: datetime
   - minify:
       minify_html: true
+  # - tooltips
 
 markdown_extensions:
+  # Python Markdown
   - abbr
   - admonition
   - attr_list
   - def_list
+  - footnotes
+  - md_in_html
   - meta
   - toc:
       permalink: false
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
-  - footnotes
+  - pymdownx.tilde
+  - pymdownx.details
 
 extra_css:
   - assets/stylesheets/extra.css
+  # - css/hint_min.css
 
 extra_javascript:
   - assets/javascripts/extra.js
@@ -76,9 +103,6 @@ extra_javascript:
 extra:
   homepage: https://mmesh.io
   # generator: false
-  # analytics:
-    # provider: google
-    # property: G-XXXXXXXXXX
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mmesh
@@ -86,3 +110,23 @@ extra:
       link: https://discord.com/invite/KgbzJ3V
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/mmesh_io
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: G-MENG6GRE3G
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
