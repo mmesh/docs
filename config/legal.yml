@@ -13,8 +13,8 @@ theme:
 nav:
   - 🡠 Back: /docs/
   - Terms:
-    - terms/terms-and-conditions.md/
-    - terms/acceptable-use-policy.md/
+    - terms/terms-and-conditions.md
+    - terms/acceptable-use-policy.md
   - Privacy:
-    - privacy/privacy-policy.md/
-    - privacy/cookies-policy.md/
+    - privacy/privacy-policy.md
+    - privacy/cookies-policy.md

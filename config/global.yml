@@ -7,6 +7,6 @@ docs_dir: ../docs/global
 site_dir: ../site
 
 nav:
-  - Home: index.md/
+  - Home: index.md
   - Platform: /docs/platform/
   - Site Policy: /docs/legal/
