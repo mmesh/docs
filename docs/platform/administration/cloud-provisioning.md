@@ -12,7 +12,7 @@ In this section you will learn how to take advantage of some extended features t
 - [Digital Ocean](/docs/platform/cloud-provisioning/digital-ocean/)
 - [Scaleway Cloud](/docs/platform/cloud-provisioning/scaleway/)
 
-To enable the extended features described below, you will need to configure the [integration](/docs/platform/administration/account#cloud) with at least one of those cloud providers.
+To enable the extended features described below, you will need to configure the [integration](/docs/platform/administration/account/#cloud) with at least one of those cloud providers.
 
 > See [Cloud Provisioning](/docs/platform/cloud-provisioning/overview/) to learn more about those integrations and features.
 

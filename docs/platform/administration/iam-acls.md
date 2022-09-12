@@ -6,7 +6,7 @@ An ACL is defined with the set of nodes that the user will have access.
 
 The IAM subsystem of mmesh allows to manage the ACLs.
 
-> See [Identity and Access Management](/docs/platform/iam/authorization#access-control-lists-acls) section to find more information about the mmesh authorization subsystem.
+> See [Identity and Access Management](/docs/platform/iam/authorization/#access-control-lists-acls) section to find more information about the mmesh authorization subsystem.
 
 ## Attributes
 
