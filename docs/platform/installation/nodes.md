@@ -1,6 +1,11 @@
+---
+title: Connect your nodes
+description: Learn how to form your mmesh virtual private topology and start adding your nodes. Supported x86 and ARM on Linux, Windows and macOS.
+---
+
 # Nodes
 
-The `mmesh-node` agent is the open-source app that runs on the machines you want to connect to your [mmesh](https://mmesh.io/) network.
+The `mmesh-node` agent is an open-source app that runs on the machines you want to connect to your [mmesh](https://mmesh.io/) virtual private topology.
 
 `mmesh-node` is available for a variety of Linux platforms, macOS and Windows.
 
@@ -23,7 +28,7 @@ You can download the pre-compiled binaries and install them with the appropriate
 
 ## Linux Installation
 
-### Linux installation with magic link
+### Linux installation with a magic link
 
 The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
 
