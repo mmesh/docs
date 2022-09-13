@@ -1,12 +1,12 @@
 ---
-title: Networking overview
+title: Networking
 description: You don't need to be a network expert to take full advantage of mmesh. This section will help you learn about the platform networking concepts and features.
 tags:
   - networking
   - security
 ---
 
-# Overview
+# Networking
 
 This documentation section helps you learn about the networking concepts and features of mmesh.
 

@@ -1,3 +1,8 @@
+---
+title: [IAM] Authorization
+description: mmesh implements an authorization system based on an extended RBAC model with three levels of control for the individual users.
+---
+
 # Authorization
 
 mmesh implements an authorization system based on an extended RBAC model with three levels of control for the individual users:

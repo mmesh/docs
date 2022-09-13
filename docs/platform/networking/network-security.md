@@ -1,5 +1,5 @@
 ---
-title: Network security
+title: Network Security
 description: The mmesh platform enforces end-to-end encryption and security policies out of the box. Just add the nodes to your virtual private topology.
 tags:
   - networking

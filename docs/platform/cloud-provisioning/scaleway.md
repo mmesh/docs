@@ -1,6 +1,11 @@
+---
+title: Scaleway Cloud
+description: The Scaleway Cloud integration supports cloud direct provisioning right from mmeshctl or webUI.
+---
+
 # Scaleway Cloud
 
-The Scaleway Cloud integration supports direct provisioning from the mmesh CLI and webUI for the following resources:
+The Scaleway Cloud integration supports cloud direct provisioning right from mmeshctl or webUI for the following resources:
 
 - VM Instances
 

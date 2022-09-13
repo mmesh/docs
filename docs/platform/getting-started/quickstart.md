@@ -1,5 +1,5 @@
 ---
-title: Integrate your multi-cloud infrastructure in minutes
+title: Quick Start
 description: Follow this guide to build your own multi-cloud virtual private topology and integrate your on-prem and multi-cloud environments in minutes.
 ---
 

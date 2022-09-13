@@ -1,8 +1,13 @@
+---
+title: [IAM] Authentication
+description: Learn about the different authentication methods supported by mmesh.
+---
+
 # Authentication
 
-You can interact with your mmesh using the webUI or the mmesh CLI. Both apps support user/password authentication.
+You can interact with your mmesh using the webUI or `mmeshctl`. Both apps support user/password authentication.
 
-The mmesh CLI also supports authentication by RSA key.
+Authentication by RSA key is also supported (and recommended) by `mmeshctl`.
 
 ## User Credentials
 

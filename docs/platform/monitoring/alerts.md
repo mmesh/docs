@@ -1,3 +1,8 @@
+---
+title: [Monitoring] Alerts
+description: mmesh monitors the nodes and generates alerts when it detects a node is unhealthy. Integrations with PagerDuty and Slack are supported.
+---
+
 # Alerts
 
 mmesh monitors the nodes and generates alerts when it detects the following events:
@@ -12,7 +17,7 @@ mmesh monitors the nodes and generates alerts when it detects the following even
 
 ### PagerDuty
 
-The PagerDuty integration allows to forward all the alerts of your mmesh to your PagerDuty account.
+The PagerDuty integration allows you to forward all the alerts of your mmesh to your PagerDuty account.
 
 mmesh highly recommends the PagerDuty service and configuring this integration to take full advantage of the mmesh alert system.
 
@@ -26,7 +31,7 @@ You can also configure a Slack webhook for mmesh to notify you when an alert has
 
 ## Administration
 
-You can manage your alerts using the mmesh webUI or the mmesh CLI.
+You can manage your alerts using the mmesh webUI or `mmeshctl`.
 
 Browse the [Alerts Administration](/docs/platform/administration/alerts/) section
 to learn how to manage your alerts.

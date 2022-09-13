@@ -1,10 +1,15 @@
-# Overview
+---
+title: Cloud Provisioning Overview
+description: Learn how to create new cloud VMs in seconds right from mmeshctl or mmesh webUI, connected out-of-the-box to your mmesh virtual private topology.
+---
+
+# Cloud Provisioning
 
 You can add your existing cloud infrastructure to your mmesh no matter where it is deployed. Every cloud provider in the world is supported.
 
-In addition to this, you can optionally configure your mmesh account to enable, for some providers, some extended features like direct provisioning from the mmesh CLI and webUI.
+In addition to this, you can optionally configure your mmesh account to enable, for some cloud providers, extended features like direct provisioning right from `mmeshctl` or webUI.
 
-Once the cloud provider integration is configured in your mmesh, you will be able to provision your nodes in seconds, right from the mmesh CLI and webUI, connected out-of-the-box to the chosen mmesh subnet.
+Once the cloud provider integration is configured in your mmesh, you will be able to provision your nodes in seconds, right from `mmeshctl` or webUI, connected out-of-the-box to the chosen mmesh subnet.
 
 Currently, extended features are available for the following public cloud providers:
 

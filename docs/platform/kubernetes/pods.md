@@ -1,9 +1,9 @@
 ---
-title: Kubernetes Pods integration
+title: Kubernetes Pods Integration
 description: Learn how to connect your Kubernetes Pods to your mmesh virtual private topology without adding a single line of code or configuration.
 ---
 
-# Pods
+# Kubernetes Pods
 
 ## Kubernetes Pods Routing
 

@@ -1,4 +1,9 @@
-# CLI Configuration Reference
+---
+title: Command Line Tool (mmeshctl) Configuration Reference
+description: The file mmeshctl.yml is used to configure mmeshctl. This is the complete reference of the configuration options supported.
+---
+
+# Command Line Tool Configuration Reference
 
 If you run `mmeshctl` for the first time or the file `mmeshctl.yml` is not found under your `$HOME/.mmesh` directory, you will be asked to enter your mmesh accountID and credentials, and a new configuration file will be generated and saved in `$HOME/.mmesh`.
 
@@ -7,6 +12,8 @@ The generated file does not include the `agent` section (see below) where you ca
 > See [Nodes Remote Management Features](/docs/platform/networking/nodes/#remote-management-features) for more information about mmesh remote management and extended security credentials.
 
 ## mmeshctl.yml
+
+This is the complete reference of the configuration options supported.
 
 ```yaml
 # mmeshctl configuration

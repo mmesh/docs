@@ -1,9 +1,9 @@
 ---
-title: Kubernetes integration overview
+title: Kubernetes Integration Overview
 description: Learn how to connect your Kubernetes Services and Pods to your mmesh virtual private topology without adding a single line of code or configuration.
 ---
 
-# Overview
+# Kubernetes Integration
 
 You can integrate your Kubernetes Services and Pods in your mmesh topology without adding a single line of code or configuration.
 

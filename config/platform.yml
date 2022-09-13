@@ -15,7 +15,7 @@ nav:
     - Integrations: getting-started/integrations.md
   - Installation:
     - Overview: installation/overview.md
-    - CLI: installation/cli.md
+    - Command Line Tool: installation/cli.md
     - Nodes: installation/nodes.md
   - Concepts:
     - Overview: concepts/overview.md
@@ -71,7 +71,7 @@ nav:
     - Account Administration: administration/account.md
   - Reference:
     - 'Node Configuration Reference': reference/mmesh-node.yml.md
-    - 'CLI Configuration Reference': reference/mmeshctl.yml.md
+    - 'Command Line Tool Configuration Reference': reference/mmeshctl.yml.md
     - 'Workflow Configuration Reference': reference/workflow.yml.md
   - FAQ: faq.md
   - Tags: tags.md

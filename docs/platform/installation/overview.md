@@ -1,9 +1,9 @@
 ---
-title: Installation overview
+title: Installation
 description: Install mmeshctl and learn how to start adding nodes to your mmesh virtual private topology. Available for x86 and ARM on Linux, Windows and macOS.
 ---
 
-# Overview
+# Installation
 
 In these sections you will find detailed information on how to begin using mmesh.
 
