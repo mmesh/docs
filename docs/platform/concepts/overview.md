@@ -1,3 +1,8 @@
+---
+title: Concepts overview
+description: Learn about the concepts, components and abstractions of mmesh to get a high-level understanding of the platform.
+---
+
 # Overview
 
 This documentation section helps you learn about the concepts, components and abstractions of mmesh to get a high-level understanding of the platform.
