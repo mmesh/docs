@@ -1,4 +1,6 @@
 ---
+title: Network security
+description: The mmesh platform enforces end-to-end encryption and security policies out of the box. Just add the nodes to your virtual private topology.
 tags:
   - networking
   - security
@@ -6,7 +8,7 @@ tags:
 
 # Network Security
 
-The platform supports different features out-of-the-box to enhance your infrastructure security just by adding your nodes to your mmesh.
+The mmesh platform supports different features out-of-the-box to enhance your infrastructure security just by adding your nodes to your mmesh.
 
 mmesh automatically enforces most of these features without any configuration required. Other are optional, but recommended, and require a minimum configuration.
 
@@ -34,4 +36,4 @@ You can manage and configure your security policies in three different ways:
 
 mmesh has an always-on crypto engine based on TLS 1.3+ that automatically enforces end-to-end encryption for all network traffic and user interactions.
 
-Low-level connectivity layer is built on the excellent libp2p from IPFS project, ensuring nobody can eavesdrop the traffic between your nodes once they are connected to your mmesh.
+Low-level connectivity layer is built on the excellent libp2p from IPFS project, ensuring nobody can eavesdrop traffic between your nodes once they are connected to your mmesh.

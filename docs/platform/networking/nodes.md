@@ -1,4 +1,6 @@
 ---
+title: Nodes
+description: A node is any system connected to a mmesh subnet. It can be a VM, a Kubernetes Pod, a bare-metal server, a docker container, a laptop, a workstation...
 tags:
   - networking
   - security
