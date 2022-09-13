@@ -1,6 +1,9 @@
-# Overview
+---
+title: Getting started
+description: mmesh is an innovative network, automation, monitoring and management platform that lets you integrate your on-prem and multi-cloud environments in minutes.
+---
 
-Welcome to the mmesh documentation.
+# Overview
 
 mmesh is an all-in-one, hybrid cloud integration platform that allows you to work seamlessly with on-prem and multi-cloud infrastructure.
 

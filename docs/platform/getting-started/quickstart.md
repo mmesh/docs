@@ -1,7 +1,6 @@
 ---
-title: Quick Start
-description: mmesh is an innovative network, automation, monitoring and management platform that lets you integrate your on-prem and multi-cloud environments in minutes.
-status: new
+title: Integrate your multi-cloud infrastructure in minutes
+description: Follow this guide to build your own multi-cloud virtual private topology and integrate your on-prem and multi-cloud environments in minutes.
 ---
 
 # Quick Start

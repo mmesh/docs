@@ -1,3 +1,8 @@
+---
+title: Integrations
+description: mmesh supports different integrations with well-known products and services to enrich the user experience and achieve higher levels of automation.
+---
+
 # Integrations
 
 mmesh is better when working with others.

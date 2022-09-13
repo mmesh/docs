@@ -1,3 +1,8 @@
+---
+title: Features
+description: Leverage mmesh to take full advantage of the cloud technologies, modernize your infrastructure and get higher levels of automation.
+---
+
 # Features
 
 This section summarizes some of the features you will find in mmesh. Take full advantage of the cloud technologies with them to modernize your infrastructure and get higher levels of automation.

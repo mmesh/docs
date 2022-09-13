@@ -1,6 +1,6 @@
 ---
-title: Official Documentation
-description: Need help? Browse the documentation to learn about the mmesh platform and services.
+title: Documentation
+description: Need help? Browse the official documentation to learn about the mmesh multi-cloud integration platform and services.
 status: new
 ---
 

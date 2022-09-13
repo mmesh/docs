@@ -1,12 +1,11 @@
 ---
-title: Introduction
-description: mmesh is an all-in-one, hybrid cloud integration platform that allows you to work seamlessly with on-prem and multi-cloud infrastructure.
-status: new
+title: Platform overview
+description: mmesh is a hybrid cloud integration platform that allows you to build your own virtual topology to work seamlessly with on-prem and multi-cloud infrastructure.
 ---
 
 # Introduction
 
-Welcome to the mmesh documentation.
+Welcome to the mmesh platform documentation.
 
 mmesh is an all-in-one, hybrid cloud integration platform that allows you to work seamlessly with on-prem and multi-cloud infrastructure.
 
