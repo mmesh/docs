@@ -2,6 +2,12 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+    {% if config.meta_theme_color %}
+        <meta name="theme-color" content="{{ config.meta_theme_color }}" />
+    {% else %}
+        <meta name="theme-color" content="#fff" />
+    {% endif %}
+
     {% if page and page.meta and page.meta.robots %}
         <meta name="robots" content="{{ page.meta.robots }}" />
     {% else %}

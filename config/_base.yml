@@ -7,6 +7,7 @@ repo_name: mmesh/docs
 repo_url: https://github.com/mmesh/docs
 edit_uri: ""
 
+meta_theme_color: "#16222a"
 twitter_id: "@mmesh_io"
 # social image/png: 1200x630
 social_image_url: "https://mmesh.imgix.net/images/social/mmesh_card_v5_twitter-1200x630.png"
