@@ -14,6 +14,13 @@
         <meta name="robots" content="index, follow" />
     {% endif %}
 
+    {% if page and page.meta and page.meta.keywords %}
+        {% set keywords = page.meta.keywords %}
+    {% else %}
+        {% set keywords = config.meta_site_keywords %}
+    {% endif %}
+    <meta name="keywords" content="{{ keywords }}" />
+
     {% set title = config.site_name %}
     {% if page and page.meta and page.meta.title %}
         {% set title = page.meta.title ~ " | " ~ title %}

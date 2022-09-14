@@ -8,6 +8,7 @@ repo_url: https://github.com/mmesh/docs
 edit_uri: ""
 
 meta_theme_color: "#16222a"
+meta_site_keywords: "hybrid cloud, mesh, multi-cloud, on-prem, integration, platform, networking, automation, kubernetes, cloud, micro-services, enterprise, multi-tenant, architecture, network, topology, ipam, quic, vpn, security, rbac, web3, overlays, infrastructure, devops, gitops, digital transformation, modernization"
 twitter_id: "@mmesh_io"
 # social image/png: 1200x630
 social_image_url: "https://mmesh.imgix.net/images/social/mmesh_card_v5_twitter-1200x630.png"
@@ -120,12 +121,12 @@ extra:
     feedback:
       title: Was this page helpful?
       ratings:
-        - icon: material/emoticon-happy-outline
+        - icon: material/thumb-up-outline
           name: This page was helpful
           data: 1
           note: >-
             Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
+        - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
           note: >-
