@@ -1,3 +1,8 @@
+---
+title: Nodes Administration
+description: A node is any system connected to a mmesh subnet. You can manage the nodes using mmeshctl or the mmesh webUI.
+---
+
 # Nodes
 
 A `node` is any system connected to a mmesh `subnet`.
@@ -6,7 +11,7 @@ A `node` is any system connected to a mmesh `subnet`.
 
 ## Quick Start
 
-Once you have at least one subnet created, use the mmesh CLI to generate a magic link to get a node connected to your mmesh in less than 30 seconds.
+Once you have at least one subnet created, use `mmeshctl` to generate a magic link to get a node connected to your mmesh in less than 60 seconds.
 
 Use the command to generate as many magic links as you need to quickly add your nodes to your mmesh.
 

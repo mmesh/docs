@@ -1,3 +1,8 @@
+---
+title: User Settings
+description: Learn how to manage your user settings, credentials and different authentication options using mmeshctl or the mmesh webUI.
+---
+
 # User Settings
 
 You can edit your user settings, credentials and different authentication options.
@@ -6,7 +11,7 @@ You can edit your user settings, credentials and different authentication option
 
 ## Operations
 
-You can edit your user settings and credentials using the mmesh webUI or the mmesh CLI.
+You can edit your user settings and credentials using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: User Settings
 

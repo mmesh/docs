@@ -1,3 +1,8 @@
+---
+title: [Support] Manage your Tickets
+description: Learn how to manage your tickets and interact with the mmesh Customer Success Team using mmeshctl or the mmesh webUI.
+---
+
 # Support
 
 mmesh aims to be a simple and enjoyable platform, not only by offering a reliable service to its clients but also by building a premium customer experience.
@@ -6,7 +11,7 @@ mmesh aims to be a simple and enjoyable platform, not only by offering a reliabl
 
 ## Operations
 
-You can interact with the mmesh Customer Success Team using the mmesh webUI or the mmesh CLI.
+You can interact with the mmesh Customer Success Team using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: Support
 

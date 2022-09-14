@@ -1,3 +1,8 @@
+---
+title: [Automation] Projects Administration
+description: An mmesh project is a logical component of mmesh that groups automation workflows. You can manage the projects using mmeshctl or the mmesh webUI.
+---
+
 # Ops: Projects
 
 An mmesh `project` is a logical component of mmesh that groups automation `workflows`.
@@ -21,7 +26,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage your projects using the mmesh webUI or the mmesh CLI.
+You can manage your projects using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: Projects
 

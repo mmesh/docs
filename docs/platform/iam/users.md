@@ -7,7 +7,7 @@ description: mmesh has two types of users, the account administrator and the nor
 
 mmesh has two types of users:
 
-- The account administrator which is considered the account owner.
+- The account administrator, which is considered the account owner.
 - Normal users.
 
 There is no limit to the number of normal users you can create.

@@ -1,3 +1,8 @@
+---
+title: [Topology] Subnets Administration
+description: A mmesh subnet is a logical component of mmesh that groups nodes. You can manage the subnets using mmeshctl or the mmesh webUI.
+---
+
 # Subnets
 
 A mmesh `subnet` is a logical component of mmesh that groups `nodes`.
@@ -22,7 +27,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage your subnets using the mmesh webUI or the mmesh CLI.
+You can manage your subnets using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: Subnets
 

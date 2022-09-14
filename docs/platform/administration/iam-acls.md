@@ -1,10 +1,15 @@
+---
+title: [IAM] ACLs Administration
+description: An ACL is defined as the set of nodes that a user will have access to. The administrator can manage the ACLs using mmeshctl or the mmesh webUI.
+---
+
 # IAM: ACLs
 
-An `ACL` controls the access to your nodes.
+An `ACL` controls access to your nodes.
 
-An ACL is defined with the set of nodes that the user will have access.
+An ACL is defined as the set of nodes that a user will have access to.
 
-The IAM subsystem of mmesh allows to manage the ACLs.
+The IAM subsystem of mmesh allows the management of the ACLs.
 
 > See [Identity and Access Management](/docs/platform/iam/authorization/#access-control-lists-acls) section to find more information about the mmesh authorization subsystem.
 
@@ -23,7 +28,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage the account ACLs using the mmesh webUI or the mmesh CLI.
+You can manage the account ACLs using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: IAM | ACLs
 

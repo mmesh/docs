@@ -1,10 +1,15 @@
+---
+title: [IAM] Roles Administration
+description: A role controls a user's access to the different mmesh subsystems, resources and commands. The administrator can manage the roles using mmeshctl or the mmesh webUI.
+---
+
 # IAM: Roles
 
-A `role` controls the user access to the different mmesh subsystems, resources and commands.
+A `role` controls a user's access to the different mmesh subsystems, resources and commands.
 
 A role is defined with a set of permissions. These permissions regulate what the user can do or not within your mmesh account.
 
-The IAM subsystem of mmesh allows to manage the roles.
+The IAM subsystem of mmesh allows the management of the roles.
 
 > See [Identity and Access Management](/docs/platform/iam/authorization/#user-roles) section to find more information about the mmesh authorization subsystem.
 
@@ -23,7 +28,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage the account roles using the mmesh webUI or the mmesh CLI.
+You can manage the account roles using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: IAM | Roles
 

@@ -1,3 +1,8 @@
+---
+title: Alerts Administration
+description: mmesh monitors your nodes and generates alerts when important events occur. Learn how to manage your alerts using mmeshctl or the webUI.
+---
+
 # Alerts
 
 mmesh monitors your nodes and generates alerts when important events occur.
@@ -6,7 +11,7 @@ mmesh monitors your nodes and generates alerts when important events occur.
 
 ## Operations
 
-You can manage your alerts using the mmesh webUI or the mmesh CLI.
+You can manage your alerts using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: Alerts
 

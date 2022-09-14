@@ -1,8 +1,13 @@
+---
+title: [IAM] Users Administration
+description: mmesh has two types of users, the account administrator and the normal users. The administrator can manage the users using mmeshctl or the mmesh webUI.
+---
+
 # IAM: Users
 
 mmesh has two types of users:
 
-- The account administrator, considered as the account owner.
+- The account administrator, which is considered the account owner.
 - Normal users.
 
 The IAM subsystem of mmesh allows the account administrator to manage the normal users.
@@ -28,7 +33,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage the account users using the mmesh webUI or the mmesh CLI.
+You can manage the account users using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: IAM | Users
 

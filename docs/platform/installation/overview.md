@@ -7,9 +7,9 @@ description: Install mmeshctl and learn how to start adding nodes to your mmesh 
 
 In these sections you will find detailed information on how to begin using mmesh.
 
-### [CLI](/docs/platform/installation/cli/)
+### [Command Line Tool](/docs/platform/installation/cli/)
 
-The mmesh CLI, `mmeshctl`, is a command-line interface that complements the functionality of the mmesh web UI to control and interact with the mmesh platform. In this section you will learn how to install `mmeshctl` locally on your machine.
+The mmesh CLI (Command Line Interface), `mmeshctl`, is a command-line interface that complements the functionality of the mmesh web UI to control and interact with the mmesh platform. In this section you will learn how to install `mmeshctl` locally on your machine.
 
 ### [Nodes](/docs/platform/installation/nodes/)
 

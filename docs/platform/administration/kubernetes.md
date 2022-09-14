@@ -1,6 +1,11 @@
+---
+title: Kubernetes Integration Administration
+description: You can connect your Kubernetes Services and Pods to your mmesh in seconds with mmeshctl without adding a single line of code or configuration.
+---
+
 # Kubernetes
 
-You can connect your Kubernetes Services and Pods to your mmesh in seconds with the mmesh CLI without adding a single line of code or configuration.
+You can connect your Kubernetes Services and Pods to your mmesh in seconds with `mmeshctl` without adding a single line of code or configuration.
 
 > See [Kubernetes](/docs/platform/kubernetes/overview/) section to find more information on how it works the Kubernetes integration in mmesh.
 
@@ -8,7 +13,7 @@ You can connect your Kubernetes Services and Pods to your mmesh in seconds with 
 
 ### CLI: Kubernetes
 
-The mmesh CLI will look for the `KUBECONFIG` env to be able to connect to your Kubernetes Cluster. No other configuration is required.
+`mmeshctl` will look for the `KUBECONFIG` env to be able to connect to your Kubernetes Cluster. No other configuration is required.
 
 #### List Kubernetes Services
 

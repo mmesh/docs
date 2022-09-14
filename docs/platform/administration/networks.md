@@ -1,3 +1,8 @@
+---
+title: [Topology] Networks Administration
+description: A mmesh network is a logical component of mmesh that groups subnets. You can manage the networks using mmeshctl or the mmesh webUI.
+---
+
 # Networks
 
 A mmesh `network` is a logical component of mmesh that groups `subnets`.
@@ -21,7 +26,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage your networks using the mmesh webUI or the mmesh CLI.
+You can manage your networks using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: Networks
 

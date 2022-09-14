@@ -1,10 +1,15 @@
+---
+title: [IAM] Security Groups Administration
+description: A security group controls access to the account's tenants. The administrator can manage the security groups using mmeshctl or the mmesh webUI.
+---
+
 # IAM: Security Groups
 
-A `security group` controls the access to your mmesh tenants.
+A `security group` controls access to the account's tenants.
 
-A security group is defined with the list of tenants that the user will have access.
+A security group is defined as the list of tenants that the user will have access to.
 
-The IAM subsystem of mmesh allows to manage the security groups.
+The IAM subsystem of mmesh allows the management of the security groups.
 
 > See [Identity and Access Management](/docs/platform/iam/authorization/#security-groups) section to find more information about the mmesh authorization subsystem.
 
@@ -23,7 +28,7 @@ The parameter can be modified once the entity is created.
 
 ## Operations
 
-You can manage the account security groups using the mmesh webUI or the mmesh CLI.
+You can manage the account security groups using `mmeshctl` or the mmesh webUI.
 
 ### WebUI: IAM | Security Groups
 
