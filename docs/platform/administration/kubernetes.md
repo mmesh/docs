@@ -22,7 +22,7 @@ List services on your Kubernetes cluster.
 You will see the mmesh connection status of all the services on your cluster.
 
 ```shell
-mmeshctl k8s svcs
+mmeshctl k8s svc list
 ```
 
 #### Connect Kubernetes Service
@@ -30,7 +30,7 @@ mmeshctl k8s svcs
 Connect a Kubernetes Service to your mmesh.
 
 ```shell
-mmeshctl k8s connect-svc
+mmeshctl k8s svc connect
 ```
 
 #### Disconnect Kubernetes Service
@@ -38,7 +38,7 @@ mmeshctl k8s connect-svc
 Disconnect a Kubernetes Service from your mmesh.
 
 ```shell
-mmeshctl k8s disconnect-svc
+mmeshctl k8s svc disconnect
 ```
 
 ***
@@ -50,7 +50,7 @@ List pods on your Kubernetes cluster.
 You will see the mmesh connection status of all the pods on your cluster.
 
 ```shell
-mmeshctl k8s pods
+mmeshctl k8s pod list
 ```
 
 #### Connect Kubernetes Pod
@@ -58,7 +58,7 @@ mmeshctl k8s pods
 Connect a Kubernetes Pod to your mmesh.
 
 ```shell
-mmeshctl k8s connect-pod
+mmeshctl k8s pod connect
 ```
 
 #### Disconnect Kubernetes Pod
@@ -66,5 +66,5 @@ mmeshctl k8s connect-pod
 Disconnect a Kubernetes Pod from your mmesh.
 
 ```shell
-mmeshctl k8s disconnect-pod
+mmeshctl k8s pod disconnect
 ```

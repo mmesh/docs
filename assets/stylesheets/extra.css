@@ -271,11 +271,11 @@
 .md-tag {
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
     font-family: monospace;
     font-weight: bold;
-    line-height: 0.85rem;
+    line-height: 0.85 !important;
     background-color: var(--md-default-bg-color) !important;
     color: var(--md-default-fg-color--lighter) !important;
     border: 2px solid var(--md-default-fg-color--lighter) !important;
