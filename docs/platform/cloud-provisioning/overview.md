@@ -1,6 +1,8 @@
 ---
 title: "Cloud Provisioning Overview"
 description: "Learn how to create new cloud VMs in seconds right from mmeshctl or mmesh webUI, connected out-of-the-box to your mmesh virtual private topology."
+tags:
+  - cloud providers
 ---
 
 # Cloud Provisioning

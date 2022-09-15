@@ -1,6 +1,13 @@
 ---
 title: "Quick Start"
 description: "Follow this guide to build your own multi-cloud virtual private topology and integrate your on-prem and multi-cloud environments in minutes."
+tags:
+  - getting started
+  - installation
+  - account
+  - configuration
+  - cli
+  - nodes
 ---
 
 # Quick Start

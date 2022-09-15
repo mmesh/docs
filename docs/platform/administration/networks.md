@@ -1,6 +1,12 @@
 ---
 title: "[Topology] Networks Administration"
 description: "A mmesh network is a logical component of mmesh that groups subnets. You can manage the networks using mmeshctl or the mmesh webUI."
+tags:
+  - admin
+  - networking
+  - topology
+  - routing
+  - security
 ---
 
 # Networks

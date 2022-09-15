@@ -1,6 +1,9 @@
 ---
 title: "Workflow Configuration Reference"
 description: "Learn how to configure a mmesh workflow using a declarative YAML file. This is the complete reference of the configuration options supported."
+tags:
+  - configuration
+  - ops
 ---
 
 # Workflow Configuration Reference

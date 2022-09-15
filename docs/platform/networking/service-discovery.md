@@ -3,6 +3,7 @@ title: "Service Discovery"
 description: "The mmesh platform implements a service discovery system that publishes every endpoint on an internal DNS subsystem with the '.mmesh.local' domain suffix."
 tags:
   - networking
+  - dns
 ---
 
 # Service Discovery

@@ -1,6 +1,9 @@
 ---
 title: "Integrations"
 description: "mmesh supports different integrations with well-known products and services to enrich the user experience and achieve higher levels of automation."
+tags:
+  - getting started
+  - integrations
 ---
 
 # Integrations

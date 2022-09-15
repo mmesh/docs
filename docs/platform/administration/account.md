@@ -1,6 +1,13 @@
 ---
 title: "Account Settings"
 description: "Learn how to manage your mmesh account and configure third-party integrations."
+tags:
+  - admin
+  - account
+  - configuration
+  - integrations
+  - pagerduty
+  - slack
 ---
 
 # Account Administration
@@ -39,3 +46,5 @@ mmesh will use **two different channels**: one for **general notifications and a
      - Using the mmeshctl CLI, with `mmeshctl account settings`.
 
 ## Subscription Management
+
+[TBD]

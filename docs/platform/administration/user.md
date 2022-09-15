@@ -1,6 +1,11 @@
 ---
 title: "User Settings"
 description: "Learn how to manage your user settings, credentials and different authentication options using mmeshctl or the mmesh webUI."
+tags:
+  - admin
+  - users
+  - settings
+  - security
 ---
 
 # User Settings

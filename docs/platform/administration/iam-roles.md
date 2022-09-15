@@ -1,6 +1,11 @@
 ---
 title: "[IAM] Roles Administration"
 description: "A role controls a user's access to the different mmesh subsystems, resources and commands. The administrator can manage the roles using mmeshctl or the mmesh webUI."
+tags:
+  - admin
+  - users
+  - rbac
+  - security
 ---
 
 # IAM: Roles

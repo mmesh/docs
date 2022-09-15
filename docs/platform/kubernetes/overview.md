@@ -1,6 +1,11 @@
 ---
 title: "Kubernetes Integration Overview"
 description: "Learn how to connect your Kubernetes Services and Pods to your mmesh virtual private topology without adding a single line of code or configuration."
+tags:
+  - networking
+  - topology
+  - routing
+  - kubernetes
 ---
 
 # Kubernetes Integration

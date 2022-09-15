@@ -4,9 +4,11 @@ description: "A node is any system connected to a mmesh subnet. It can be a VM, 
 tags:
   - networking
   - topology
+  - routing
+  - nodes
   - kubernetes
+  - dns
   - security
-  - management
 ---
 
 # Nodes

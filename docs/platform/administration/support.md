@@ -1,6 +1,9 @@
 ---
 title: "[Support] Manage your Tickets"
 description: "Learn how to manage your tickets and interact with the mmesh Customer Success Team using mmeshctl or the mmesh webUI."
+tags:
+  - admin
+  - support
 ---
 
 # Support

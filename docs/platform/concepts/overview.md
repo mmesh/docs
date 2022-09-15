@@ -1,6 +1,8 @@
 ---
 title: "Concepts"
 description: "Learn about the concepts, components and abstractions of mmesh to get a high-level understanding of the platform."
+tags:
+  - concepts
 ---
 
 # Concepts

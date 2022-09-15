@@ -1,6 +1,11 @@
 ---
 title: "[IAM] Security Groups Administration"
 description: "A security group controls access to the account's tenants. The administrator can manage the security groups using mmeshctl or the mmesh webUI."
+tags:
+  - admin
+  - users
+  - rbac
+  - security
 ---
 
 # IAM: Security Groups

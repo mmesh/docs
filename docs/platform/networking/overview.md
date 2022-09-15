@@ -3,6 +3,7 @@ title: "Networking"
 description: "You don't need to be a network expert to take full advantage of mmesh. This section will help you learn about the platform networking concepts and features."
 tags:
   - networking
+  - topology
   - security
 ---
 

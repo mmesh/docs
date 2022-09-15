@@ -2,7 +2,7 @@
 title: "[Automation] Workflows"
 description: "Workflows are YAML files where you define the jobs you want to automate, the triggers and schedule configuration to launch them, and the target nodes."
 tags:
-  - automation
+  - ops
 ---
 
 # Workflows

@@ -1,6 +1,9 @@
 ---
 title: "Set Up Your Nodes"
 description: "Learn how to form your mmesh virtual private topology and start adding your nodes. Supported x86 and ARM on Linux, Windows and macOS."
+tags:
+  - installation
+  - configuration
 ---
 
 # Set Up Your Nodes

@@ -1,6 +1,8 @@
 ---
 title: "Monitoring"
 description: "mmesh has been designed to be simple, enjoyable and easy-to-use, and monitors the nodes out-of-the-box, with no configuration required."
+tags:
+  - metrics
 ---
 
 # Monitoring

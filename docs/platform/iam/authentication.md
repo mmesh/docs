@@ -1,6 +1,9 @@
 ---
 title: "[IAM] Authentication"
 description: "Learn about the different authentication methods supported by mmesh."
+tags:
+  - users
+  - security
 ---
 
 # Authentication

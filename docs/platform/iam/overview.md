@@ -1,6 +1,9 @@
 ---
 title: "Identity and Access Management (IAM)"
 description: "This documentation section provides information about user management, authentication and authorization in mmesh."
+tags:
+  - users
+  - security
 ---
 
 # Identity and Access Management (IAM)

@@ -1,6 +1,10 @@
 ---
 title: "Install mmeshctl"
 description: "The mmesh CLI, mmeshctl, is an open-source tool to manage your mmesh virtual private topology from the command line. Available for Linux, Windows and macOS."
+tags:
+  - installation
+  - configuration
+  - cli
 ---
 
 # Install mmeshctl

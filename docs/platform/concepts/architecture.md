@@ -1,6 +1,8 @@
 ---
 title: "Architecture"
 description: "Aimed to reduce complexity and costs, the mmesh platform is a hybrid cloud integration platform designed to be simple, scalable, secure and easy-to-use."
+tags:
+  - concepts
 ---
 
 # Architecture

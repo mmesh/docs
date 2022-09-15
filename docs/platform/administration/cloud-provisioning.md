@@ -1,6 +1,9 @@
 ---
 title: "Cloud Provisioning Administration"
 description: "Learn how to take advantage of the extended features that mmesh supports via integrations with some popular cloud providers."
+tags:
+  - admin
+  - cloud providers
 ---
 
 # Cloud Provisioning
