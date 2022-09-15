@@ -1,6 +1,6 @@
 ---
-title: Digital Ocean
-description: The Digital Ocean integration supports cloud direct provisioning right from mmeshctl or webUI.
+title: "Digital Ocean"
+description: "The Digital Ocean integration supports cloud direct provisioning right from mmeshctl or webUI."
 ---
 
 # Digital Ocean

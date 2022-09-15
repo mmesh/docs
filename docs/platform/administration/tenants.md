@@ -1,6 +1,6 @@
 ---
-title: [Topology] Tenants Administration
-description: A mmesh tenant is a logical component of mmesh that groups networks. You can manage the tenants using mmeshctl or the mmesh webUI.
+title: "[Topology] Tenants Administration"
+description: "A mmesh tenant is a logical component of mmesh that groups networks. You can manage the tenants using mmeshctl or the mmesh webUI."
 ---
 
 # Tenants

@@ -1,6 +1,8 @@
 ---
-title: Acceptable Use Policy
-description: mmesh Acceptable Use Policy was last updated on February 20, 2022.
+title: "Acceptable Use Policy"
+description: "mmesh Acceptable Use Policy was last updated on February 20, 2022."
+tags:
+  - legal
 ---
 
 # Acceptable Use Policy

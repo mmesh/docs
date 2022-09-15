@@ -1,6 +1,6 @@
 ---
-title: [Monitoring] Analytics
-description: Learn how mmesh monitors your nodes and provides some useful insights out-of-the-box. No configuration is required.
+title: "[Monitoring] Analytics"
+description: "Learn how mmesh monitors your nodes and provides some useful insights out-of-the-box. No configuration is required."
 ---
 
 # Analytics

@@ -1,6 +1,6 @@
 ---
-title: [Monitoring] Alerts
-description: mmesh monitors the nodes and generates alerts when it detects a node is unhealthy. Integrations with PagerDuty and Slack are supported.
+title: "[Monitoring] Alerts"
+description: "mmesh monitors the nodes and generates alerts when it detects a node is unhealthy. Integrations with PagerDuty and Slack are supported."
 ---
 
 # Alerts

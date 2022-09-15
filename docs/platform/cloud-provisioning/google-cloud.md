@@ -1,6 +1,6 @@
 ---
-title: Google Cloud Platform (GCP)
-description: The Google Cloud Platform (GCP) integration supports cloud direct provisioning right from mmeshctl or webUI.
+title: "Google Cloud Platform (GCP)"
+description: "The Google Cloud Platform (GCP) integration supports cloud direct provisioning right from mmeshctl or webUI."
 ---
 
 # Google Cloud Platform

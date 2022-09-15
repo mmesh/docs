@@ -1,6 +1,8 @@
 ---
-title: Cookies Policy
-description: mmesh Cookies Policy was last updated on February 19, 2022.
+title: "Cookies Policy"
+description: "mmesh Cookies Policy was last updated on February 19, 2022."
+tags:
+  - legal
 ---
 
 # Cookies Policy

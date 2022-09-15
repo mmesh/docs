@@ -1,6 +1,8 @@
 ---
-title: Privacy Policy
-description: mmesh Privacy Policy was last updated on February 19, 2022.
+title: "Privacy Policy"
+description: "mmesh Privacy Policy was last updated on February 19, 2022."
+tags:
+  - legal
 ---
 
 # Privacy Policy

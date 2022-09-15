@@ -1,6 +1,6 @@
 ---
-title: Node Configuration Reference
-description: The file mmesh-node.yml is used to configure a node. This is the complete reference of the configuration options supported.
+title: "Node Configuration Reference"
+description: "The file mmesh-node.yml is used to configure a node. This is the complete reference of the configuration options supported."
 ---
 
 # Node Configuration Reference

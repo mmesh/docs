@@ -1,6 +1,6 @@
 ---
-title: [IAM] Authentication
-description: Learn about the different authentication methods supported by mmesh.
+title: "[IAM] Authentication"
+description: "Learn about the different authentication methods supported by mmesh."
 ---
 
 # Authentication

@@ -1,6 +1,8 @@
 ---
-title: Terms and Conditions ("Terms")
-description: mmesh Terms and Conditions were last updated on February 19, 2022.
+title: "Terms and Conditions"
+description: "mmesh Terms and Conditions were last updated on February 19, 2022."
+tags:
+  - legal
 ---
 
 # Terms and Conditions ("Terms")

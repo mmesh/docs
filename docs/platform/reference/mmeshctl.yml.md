@@ -1,6 +1,6 @@
 ---
-title: Command Line Tool (mmeshctl) Configuration Reference
-description: The file mmeshctl.yml is used to configure mmeshctl. This is the complete reference of the configuration options supported.
+title: "Command Line Tool (mmeshctl) Configuration Reference"
+description: "The file mmeshctl.yml is used to configure mmeshctl. This is the complete reference of the configuration options supported."
 ---
 
 # Command Line Tool Configuration Reference

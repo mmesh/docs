@@ -1,6 +1,6 @@
 ---
-title: Getting started
-description: mmesh is an innovative network, automation, monitoring and management platform that lets you integrate your on-prem and multi-cloud environments in minutes.
+title: "Getting started"
+description: "mmesh is an innovative network, automation, monitoring and management platform that lets you integrate your on-prem and multi-cloud environments in minutes."
 ---
 
 # Getting started

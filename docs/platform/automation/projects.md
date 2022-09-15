@@ -1,6 +1,8 @@
 ---
-title: [Automation] Projects
-description: A project is a logical group of workflows where you define common policies to be enforced on all the workflows belonging to the project.
+title: "[Automation] Projects"
+description: "A project is a logical group of workflows where you define common policies to be enforced on all the workflows belonging to the project."
+tags:
+  - automation
 ---
 
 # Projects

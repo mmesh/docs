@@ -1,6 +1,6 @@
 ---
-title: Site Policy
-description: In this section, you will find legal texts related to privacy and service terms of the mmesh multi-cloud integration platform.
+title: "Site Policy"
+description: "In this section, you will find legal texts related to privacy and service terms of the mmesh multi-cloud integration platform."
 ---
 
 # Site Policy

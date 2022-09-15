@@ -1,6 +1,6 @@
 ---
-title: Kubernetes Services Integration
-description: Learn how to connect your Kubernetes Services to your mmesh virtual private topology without adding a single line of code or configuration.
+title: "Kubernetes Services Integration"
+description: "Learn how to connect your Kubernetes Services to your mmesh virtual private topology without adding a single line of code or configuration."
 ---
 
 # Kubernetes Services

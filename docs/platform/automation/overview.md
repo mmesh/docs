@@ -1,6 +1,8 @@
 ---
-title: Automation Overview
-description: Learn how to use mmesh as your automation engine and scheduler for your infrastructure.
+title: "Automation Overview"
+description: "Learn how to use mmesh as your automation engine and scheduler for your infrastructure."
+tags:
+  - automation
 ---
 
 # Automation

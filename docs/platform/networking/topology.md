@@ -1,8 +1,9 @@
 ---
-title: Virtual Topology
-description: Learn how to design your own virtual private topology and segment your multi-cloud infrastructure environments to meet your security requirements.
+title: "Virtual Topology"
+description: "Learn how to design your own virtual private topology and segment your multi-cloud infrastructure environments to meet your security requirements."
 tags:
   - networking
+  - topology
 ---
 
 # Virtual Topology

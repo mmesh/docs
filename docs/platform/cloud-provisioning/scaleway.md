@@ -1,6 +1,6 @@
 ---
-title: Scaleway Cloud
-description: The Scaleway Cloud integration supports cloud direct provisioning right from mmeshctl or webUI.
+title: "Scaleway Cloud"
+description: "The Scaleway Cloud integration supports cloud direct provisioning right from mmeshctl or webUI."
 ---
 
 # Scaleway Cloud

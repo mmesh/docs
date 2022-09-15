@@ -1,6 +1,6 @@
 ---
-title: Account Settings
-description: Learn how to manage your mmesh account and configure third-party integrations.
+title: "Account Settings"
+description: "Learn how to manage your mmesh account and configure third-party integrations."
 ---
 
 # Account Administration
