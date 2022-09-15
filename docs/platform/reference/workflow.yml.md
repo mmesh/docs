@@ -1,6 +1,6 @@
 ---
 title: Workflow Configuration Reference
-description: You can configure a mmesh workflow using a declarative YAML file. This is the complete reference of the configuration options supported.
+description: Learn how to configure a mmesh workflow using a declarative YAML file. This is the complete reference of the configuration options supported.
 ---
 
 # Workflow Configuration Reference

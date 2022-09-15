@@ -1,6 +1,6 @@
 ---
 title: Cloud Provisioning Administration
-description: In this section, you will learn how to take advantage of some extended features that mmesh supports via integrations with some popular cloud providers.
+description: Learn how to take advantage of the extended features that mmesh supports via integrations with some popular cloud providers.
 ---
 
 # Cloud Provisioning

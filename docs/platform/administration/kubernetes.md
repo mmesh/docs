@@ -1,6 +1,6 @@
 ---
 title: Kubernetes Integration Administration
-description: You can connect your Kubernetes Services and Pods to your mmesh in seconds with mmeshctl without adding a single line of code or configuration.
+description: Connect your Kubernetes Services and Pods to your mmesh in seconds with mmeshctl without adding a single line of code or configuration.
 ---
 
 # Kubernetes
