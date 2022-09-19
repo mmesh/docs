@@ -70,7 +70,7 @@
     /* --md-code-bg-color:                hsla(187, 22%, 70%, 0.07); */
     --md-code-bg-color:                hsla(200, 19%, 70%, 0.07);
     --md-pre-fg-color:                   var(--md-default-fg-color--lightest);
-    --md-pre-bg-color:                 hsla(200, 19%, 27%, 0.9);
+    --md-pre-bg-color:                 hsla(200, 19%, 20%, 0.95);
 
     --md-header__custom-menu: var(--md-primary-bg-color);
 

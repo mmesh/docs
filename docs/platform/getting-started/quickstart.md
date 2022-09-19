@@ -21,12 +21,12 @@ Get started with the following steps:
 - [Sign up here](https://mmesh.io/signup/) or
 - if you already have the mmesh CLI installed, use the command `mmeshctl account create`.
 
-## 2. Install and configure mmesh CLI
+## 2. Install and configure mmeshctl
 
 1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
 2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default in the `$HOME/.mmesh` directory.
 
-Find more details in the [mmesh-cli installation guide](/docs/platform/installation/cli/).
+Find more details in the [mmeshctl installation guide](/docs/platform/installation/cli/).
 
 ## 3. Create your first network
 
