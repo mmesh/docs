@@ -86,7 +86,7 @@ agent:
 
   # Remote management features and permissions
   management:
-    # See: https://docs.mmesh.io/platform/networking/nodes/
+    # See: https://mmesh.io/docs/platform/networking/nodes/
     auth:
       psk: "<your_auth_preshared_key>"            # env: MM_AGENT_MANAGEMENT_AUTH_PSK
       securityToken: "<your_auth_security_token>" # env: MM_AGENT_MANAGEMENT_AUTH_SECURITYTOKEN
