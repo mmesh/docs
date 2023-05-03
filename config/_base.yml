@@ -1,8 +1,8 @@
 site_name: mmesh
 site_url: https://mmesh.io/docs/
-site_description: Multi-cloud integration made simple
+site_description: Multi-cloud networking made simple
 site_author: mmesh team
-copyright: Copyright &copy; 2022 mmesh
+copyright: Copyright &copy; 2023 mmesh
 repo_name: mmesh/docs
 repo_url: https://github.com/mmesh/docs
 edit_uri: ""
@@ -11,14 +11,19 @@ meta_theme_color: "#16222a"
 meta_site_keywords: "hybrid cloud, mesh, multi-cloud, on-prem, integration, platform, networking, automation, kubernetes, cloud, micro-services, enterprise, multi-tenant, architecture, network, topology, ipam, quic, vpn, security, rbac, web3, overlays, infrastructure, devops, gitops, digital transformation, modernization"
 twitter_id: "@mmesh_io"
 # social image/png: 1200x630
-social_image_url: "https://mmesh.imgix.net/images/social/mmesh_card_v5_twitter-1200x630.png"
+social_image_url: "https://mmesh.cdn.bubble.io/f1682045514720x353516752851134000/mmesh_card_twitter-1200x630.png"
 
 theme:
   name: material
   custom_dir: ../overrides
   language: en
-  logo: "assets/images/logo/mmesh_logo_v5_146x30_transparent.png"
-  favicon: "assets/images/logo/mmesh_logo_v5_symbol_512x512.png"
+  # logo: "assets/images/logo/mmesh_logo_v5_146x30_transparent.png"
+  logo: "https://mmesh.cdn.bubble.io/f1682046834381x285348054847376800/mmesh_logo_152x30_transparent.png"
+  favicon_dark: "assets/images/logo/mmesh_logo_favicon_white_381x333.png"
+  favicon_light: "assets/images/logo/mmesh_logo_favicon_black_381x333.png"
+  # favicon: "assets/images/logo/mmesh_logo_favicon_512x512.png"
+  favicon: "assets/images/logo/mmesh_logo_v6_symbol_512x512.png"
+  pinned_icon: "assets/images/logo/pinned_mmesh_logo_500x500.svg"
   include_search_page: false
   search_index_only: true
   features:

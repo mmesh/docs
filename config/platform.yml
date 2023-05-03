@@ -32,11 +32,6 @@ nav:
     - Overview: kubernetes/overview.md
     - Services: kubernetes/services.md
     - Pods: kubernetes/pods.md
-  - Cloud Provisioning:
-    - Overview: cloud-provisioning/overview.md
-    - Google Cloud: cloud-provisioning/google-cloud.md
-    - Digital Ocean: cloud-provisioning/digital-ocean.md
-    - Scaleway Cloud: cloud-provisioning/scaleway.md
   - Automation (Ops):
     - Overview: automation/overview.md
     - Workflows: automation/workflows.md
@@ -58,7 +53,6 @@ nav:
     - Subnets: administration/subnets.md
     - Nodes: administration/nodes.md
     - Kubernetes: administration/kubernetes.md
-    - Cloud Provisioning: administration/cloud-provisioning.md
     - 'Ops: Projects': administration/ops-projects.md
     - 'Ops: Workflows': administration/ops-workflows.md
     - Alerts: administration/alerts.md
