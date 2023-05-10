@@ -10,7 +10,7 @@ tags:
 
 The file `mmesh-node.yml` is used to configure the _mmesh-node_.
 
-> See the [Node Installation Guide](/docs/platform/installation/nodes/) for detailed information about the _mmesh-node_ installation on different platforms.
+> See the [Node Installation Guide](/platform/installation/nodes/) for detailed information about the _mmesh-node_ installation on different platforms.
 
 ## mmesh-node.yml
 
@@ -86,7 +86,7 @@ agent:
 
   # Remote management features and permissions
   management:
-    # See: https://mmesh.io/docs/platform/networking/nodes/
+    # See: https://mmesh.io/platform/networking/nodes/
     auth:
       psk: "<your_auth_preshared_key>"            # env: MM_AGENT_MANAGEMENT_AUTH_PSK
       securityToken: "<your_auth_security_token>" # env: MM_AGENT_MANAGEMENT_AUTH_SECURITYTOKEN

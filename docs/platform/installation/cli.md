@@ -292,7 +292,7 @@ COSIGN_EXPERIMENTAL=1 cosign verify mmeshdev/mmeshctl
 
 The first time you run `mmeshctl`, you will be assisted to generate your `mmeshctl.yml`. This config file will be located by default at the `$HOME/.mmesh` directory.
 
-See the [mmeshctl configuration reference](/docs/platform/reference/mmeshctl.yml/) to find all the configuration options.
+See the [mmeshctl configuration reference](/platform/reference/mmeshctl.yml/) to find all the configuration options.
 
 ## Usage
 

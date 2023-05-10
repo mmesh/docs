@@ -19,4 +19,4 @@ There is no limit to the number of normal users you can create.
 
 You can manage the users using the mmesh webUI or `mmeshctl`.
 
-Browse the [IAM: Users Administration](/docs/platform/administration/iam-users/) section to learn how to manage the users.
+Browse the [IAM: Users Administration](/platform/administration/iam-users/) section to learn how to manage the users.

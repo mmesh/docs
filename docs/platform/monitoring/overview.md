@@ -13,10 +13,10 @@ mmesh is not intended to be a full-fledged monitoring or observability suite as 
 
 mmesh includes performance & capacity monitoring features and an alerting system.
 
-### [Performance & Capacity Analytics](/docs/platform/monitoring/analytics/)
+### [Performance & Capacity Analytics](/platform/monitoring/analytics/)
 
 Learn how mmesh monitors your nodes and provides some useful analytics features.
 
-### [Alerts](/docs/platform/monitoring/alerts/)
+### [Alerts](/platform/monitoring/alerts/)
 
 mmesh implements an alert system that supports integrations with with PagerDuty and Slack.

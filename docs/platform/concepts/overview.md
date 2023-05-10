@@ -11,6 +11,6 @@ This documentation section helps you learn about the concepts, components and ab
 
 Browse the topics below to learn more.
 
-### [Architecture](/docs/platform/concepts/architecture/)
+### [Architecture](/platform/concepts/architecture/)
 
 The architectural concepts and design foundations behind mmesh.

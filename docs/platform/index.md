@@ -13,4 +13,4 @@ mmesh implements a unified network abstraction layer and allows users to design 
 
 This documentation is a reference for all features of mmesh.
 
-Browse the [Quick Start](/docs/platform/getting-started/quickstart/) guide to get started.
+Browse the [Quick Start](/platform/getting-started/quickstart/) guide to get started.

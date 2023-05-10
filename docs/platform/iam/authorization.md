@@ -41,7 +41,7 @@ In order to configure the access to your tenants, you will need to:
 
 You can manage the security groups using the mmesh webUI or the mmesh CLI.
 
-Browse the [IAM: Security Groups Administration](/docs/platform/administration/iam-security-groups/) section to learn how to manage the security groups.
+Browse the [IAM: Security Groups Administration](/platform/administration/iam-security-groups/) section to learn how to manage the security groups.
 
 ## User Roles
 
@@ -66,7 +66,7 @@ To control the access level of your users in your mmesh, you will need to:
 
 You can manage the roles using the mmesh webUI or the mmesh CLI.
 
-Browse the [IAM: Roles Administration](/docs/platform/administration/iam-roles/) section to learn how to manage the roles.
+Browse the [IAM: Roles Administration](/platform/administration/iam-roles/) section to learn how to manage the roles.
 
 ## Access Control Lists (ACLs)
 
@@ -92,4 +92,4 @@ To control the access to your nodes, you will need to:
 
 You can manage the ACLs using the mmesh webUI or the mmesh CLI.
 
-Browse the [IAM: ACLs Administration](/docs/platform/administration/iam-acls/) section to learn how to manage the ACLs.
+Browse the [IAM: ACLs Administration](/platform/administration/iam-acls/) section to learn how to manage the ACLs.

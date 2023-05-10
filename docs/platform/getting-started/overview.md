@@ -15,10 +15,10 @@ This documentation is a reference for all features of mmesh.
 
 Browse the sections below to get started:
 
-### [Quick Start](/docs/platform/getting-started/quickstart/)
+### [Quick Start](/platform/getting-started/quickstart/)
 
-### [Features](/docs/platform/getting-started/features/)
+### [Features](/platform/getting-started/features/)
 
-### [Installation](/docs/platform/installation/overview/)
+### [Installation](/platform/installation/overview/)
 
-### [Integrations](/docs/platform/getting-started/integrations/)
+### [Integrations](/platform/getting-started/integrations/)
