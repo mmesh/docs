@@ -26,5 +26,5 @@ The process injects a mmesh sidecar container into the Kubernetes Pod and does n
 
 You can connect your Kubernetes Pods to your mmesh in seconds with the mmesh CLI.
 
-Browse the [Kubernetes Administration](/platform/administration/kubernetes/) section
+Browse the [Kubernetes Administration](/docs/platform/administration/kubernetes/) section
 to learn how to manage your Kubernetes Pods.

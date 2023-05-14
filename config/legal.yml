@@ -1,6 +1,6 @@
 INHERIT: ./_base.yml
 
-site_url: https://docs.mmesh.io/legal/
+site_url: https://mmesh.io/docs/legal/
 use_directory_urls: true
 
 docs_dir: ../docs/legal
@@ -11,7 +11,7 @@ theme:
     - navigation.expand
 
 nav:
-  - 🡠 Back: /
+  - 🡠 Back: /docs/
   - Terms:
     - terms/terms-and-conditions.md
     - terms/acceptable-use-policy.md

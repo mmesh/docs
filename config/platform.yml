@@ -1,13 +1,13 @@
 INHERIT: ./_base.yml
 
-site_url: https://docs.mmesh.io/platform/
+site_url: https://mmesh.io/docs/platform/
 use_directory_urls: true
 
 docs_dir: ../docs/platform
 site_dir: ../site/platform
 
 nav:
-  - 🡠 Back: /
+  - 🡠 Back: /docs/
   - Getting Started:
     - Overview: getting-started/overview.md
     - Quick start: getting-started/quickstart.md

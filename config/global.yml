@@ -1,6 +1,6 @@
 INHERIT: ./_base.yml
 
-site_url: https://docs.mmesh.io/
+site_url: https://mmesh.io/docs/
 use_directory_urls: true
 
 docs_dir: ../docs/global
@@ -8,5 +8,5 @@ site_dir: ../site
 
 nav:
   - Home: index.md
-  - Platform: /platform/
-  - Site Policy: /legal/
+  - Platform: /docs/platform/
+  - Site Policy: /docs/legal/

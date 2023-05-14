@@ -16,7 +16,7 @@ A role is defined with a set of permissions. These permissions regulate what the
 
 The IAM subsystem of mmesh allows the management of the roles.
 
-> See [Identity and Access Management](/platform/iam/authorization/#user-roles) section to find more information about the mmesh authorization subsystem.
+> See [Identity and Access Management](/docs/platform/iam/authorization/#user-roles) section to find more information about the mmesh authorization subsystem.
 
 ## Attributes
 

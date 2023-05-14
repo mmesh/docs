@@ -11,10 +11,10 @@ You can use mmesh as your automation engine and scheduler for your infrastructur
 
 Browse the topics below to learn more.
 
-### [Workflows](/platform/automation/workflows/)
+### [Workflows](/docs/platform/automation/workflows/)
 
-The automation subsystem of mmesh is based on [workflows](/platform/automation/workflows/), which are declarative YAML files that you can easily manage via GitOps.
+The automation subsystem of mmesh is based on [workflows](/docs/platform/automation/workflows/), which are declarative YAML files that you can easily manage via GitOps.
 
-### [Projects](/platform/automation/projects/)
+### [Projects](/docs/platform/automation/projects/)
 
-The workflows are organized in [projects](/platform/automation/projects/).
+The workflows are organized in [projects](/docs/platform/automation/projects/).

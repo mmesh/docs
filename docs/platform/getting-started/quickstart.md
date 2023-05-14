@@ -18,7 +18,7 @@ Get started with the following steps:
 
 ## 1. Create your account
 
-- [Sign up here](https://mmesh.io/login/)
+- [Sign up here](https://mmesh.io/login)
 
 ## 2. Add your nodes
 
@@ -29,7 +29,7 @@ Use the `Add Node` button on the app webUI to connect nodes to your default subn
 1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
 2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default in the `$HOME/.mmesh` directory.
 
-Find more details in the [mmeshctl installation guide](/platform/installation/cli/).
+Find more details in the [mmeshctl installation guide](/docs/platform/installation/cli/).
 
 ## Next Steps
 

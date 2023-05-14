@@ -16,7 +16,7 @@ The mmesh internal DNS uses the `.mmesh.local` suffix.
 
 You can query this DNS on the port `UDP/5353` (by default) of every mmesh node.
 
-> See [Node Configuration Reference](/platform/reference/mmesh-node.yml/) section for more information about the `mmesh-node.yml` file.
+> See [Node Configuration Reference](/docs/platform/reference/mmesh-node.yml/) section for more information about the `mmesh-node.yml` file.
 
 You can easily integrate the `.mmesh.local` domain into your DNS infrastructure by configuring the `mmesh.local` domain as a _forward_ zone.
 

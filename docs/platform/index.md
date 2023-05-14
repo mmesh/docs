@@ -1,16 +1,16 @@
 ---
 title: "Platform Overview"
-description: "mmesh is a hybrid cloud networking platform that allows users to build their virtual topology to work seamlessly with on-premises and multi-cloud infrastructure."
+description: "mmesh is a hybrid cloud integration platform that allows you to build your own virtual topology to work seamlessly with on-prem and multi-cloud infrastructure."
 ---
 
 # Introduction
 
 Welcome to the mmesh platform documentation.
 
-mmesh is a cloud networking platform that allows users to build their zero-trust, virtual network architecture on top of cloud providers and on-premises environments.
+mmesh is an all-in-one, hybrid cloud integration platform that allows you to work seamlessly with on-prem and multi-cloud infrastructure.
 
-mmesh implements a unified network abstraction layer and allows users to design their virtual topology to work seamlessly with their cloud and traditional infrastructure.
+mmesh builds an abstraction layer on top of the underlying infrastructure, letting you design your own virtual topology to standardize how you work with your cloud and traditional infrastructure.
 
 This documentation is a reference for all features of mmesh.
 
-Browse the [Quick Start](/platform/getting-started/quickstart/) guide to get started.
+Browse the [Quick Start](/docs/platform/getting-started/quickstart/) guide to get started.
