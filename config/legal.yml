@@ -1,6 +1,6 @@
 INHERIT: ./_base.yml
 
-site_url: https://mmesh.io/docs/legal/
+site_url: https://mmesh.cloud/docs/legal/
 use_directory_urls: true
 
 docs_dir: ../docs/legal
