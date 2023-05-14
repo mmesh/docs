@@ -45,8 +45,6 @@ nav:
     - Users: iam/users.md
     - Authentication: iam/authentication.md
     - Authorization: iam/authorization.md
-  - Support:
-    - Overview: support/overview.md
   - Administration:
     - Tenants: administration/tenants.md
     - Networks: administration/networks.md
@@ -60,7 +58,6 @@ nav:
     - 'IAM: Security Groups': administration/iam-security-groups.md
     - 'IAM: Roles': administration/iam-roles.md
     - 'IAM: ACLs': administration/iam-acls.md
-    - Support: administration/support.md
     - User Settings: administration/user.md
     - Account Administration: administration/account.md
   - Reference:
