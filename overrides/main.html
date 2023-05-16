@@ -123,8 +123,11 @@
 {% endblock %}
 
 {% block libs %}
-<link rel="stylesheet" type="text/css" href="https://docs.mmesh.io/assets/stylesheets/main.85bb2934.min.css">
-<link rel="stylesheet" type="text/css" href="https://docs.mmesh.io/assets/stylesheets/palette.a6bdf11c.min.css">
+<link rel="preload" href="https://docs.mmesh.io/assets/stylesheets/main.85bb2934.min.css" as="style" />
+<link rel="stylesheet" href="https://docs.mmesh.io/assets/stylesheets/main.85bb2934.min.css" />
+
+<link rel="preload" href="https://docs.mmesh.io/assets/stylesheets/palette.a6bdf11c.min.css" as="style" />
+<link rel="stylesheet" href="https://docs.mmesh.io/assets/stylesheets/palette.a6bdf11c.min.css">
 
 <!-- Google Tag Manager -->
 <script type="text/javascript">(function (w, d, s, l, i) {
