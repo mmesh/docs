@@ -20,14 +20,14 @@ theme:
   # logo: "assets/images/logo/mmesh_logo_v5_146x30_transparent.png"
   logo: "https://mmesh.cdn.bubble.io/f1682046834381x285348054847376800/mmesh_logo_152x30_transparent.png"
   # favicon_dark: "assets/images/logo/mmesh_logo_favicon_white_381x333.png"
-  favicon_dark: "https://docs.mmesh.io/assets/images/logo/mmesh_logo_favicon_white_381x333.png"
+  favicon_dark: "https://mmesh.cloud/docs/assets/images/logo/mmesh_logo_favicon_white_381x333.png"
   # favicon_light: "assets/images/logo/mmesh_logo_favicon_black_381x333.png"
-  favicon_light: "https://docs.mmesh.io/assets/images/logo/mmesh_logo_favicon_black_381x333.png"
+  favicon_light: "https://mmesh.cloud/docs/assets/images/logo/mmesh_logo_favicon_black_381x333.png"
   # favicon: "assets/images/logo/mmesh_logo_favicon_512x512.png"
   # favicon: "assets/images/logo/mmesh_logo_v6_symbol_512x512.png"
-  favicon: "https://docs.mmesh.io/assets/images/logo/mmesh_logo_v6_symbol_512x512.png"
+  favicon: "https://mmesh.cloud/docs/assets/images/logo/mmesh_logo_v6_symbol_512x512.png"
   # pinned_icon: "assets/images/logo/pinned_mmesh_logo_500x500.svg"
-  pinned_icon: "https://docs.mmesh.io/assets/images/logo/pinned_mmesh_logo_500x500.svg"
+  pinned_icon: "https://mmesh.cloud/docs/assets/images/logo/pinned_mmesh_logo_500x500.svg"
   include_search_page: false
   search_index_only: true
   features:
@@ -106,12 +106,12 @@ markdown_extensions:
 
 extra_css:
   # - assets/stylesheets/extra.css
-  - https://docs.mmesh.io/assets/stylesheets/extra.css
+  - https://mmesh.cloud/docs/assets/stylesheets/extra.css
   # - css/hint_min.css
 
 extra_javascript:
   # - assets/javascripts/extra.js
-  - https://docs.mmesh.io/assets/javascripts/extra.js
+  - https://mmesh.cloud/docs/assets/javascripts/extra.js
 
 extra:
   homepage: https://mmesh.io
