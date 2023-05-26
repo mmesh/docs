@@ -22,7 +22,7 @@ Get started with the following steps:
 
 ## 2. Add your nodes
 
-Use the `Add Node` button on the app webUI to connect nodes to your default subnet.
+Use the `Add Node` button on the app webUI to connect nodes to your default subnet. Go to your node and follow instructions to install mmesh on it.
 
 ## 3. Install and configure mmeshctl
 
