@@ -50,7 +50,7 @@ Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
 1. Download the latest release.
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/linux/amd64/mmesh-node"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmesh-node"
     ```
 
 2. Validate the binary (optional).
@@ -58,7 +58,7 @@ Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
     Download the mmesh-node checksum file:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/linux/amd64/mmesh-node_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmesh-node_checksum.sha256"
     ```
 
     Validate the mmesh-node binary against the checksum file:
@@ -188,13 +188,13 @@ sudo yum install mmesh-node
     **Intel**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/amd64/mmesh-node"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmesh-node"
     ```
 
     **Apple Silicon**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/arm64/mmesh-node"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmesh-node"
     ```
 
 2. Validate the binary (optional).
@@ -204,13 +204,13 @@ sudo yum install mmesh-node
     **Intel**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/amd64/mmesh-node_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmesh-node_checksum.sha256"
     ```
 
     **Apple Silicon**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/arm64/mmesh-node_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmesh-node_checksum.sha256"
     ```
 
     Validate the mmesh-node binary against the checksum file:
@@ -337,7 +337,7 @@ sudo rmdir /etc/mmesh
 2. Download the latest release into the mmesh folder.
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/windows/amd64/mmesh-node.exe"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmesh-node.exe"
     ```
 
 3. Validate the binary (optional).
@@ -345,7 +345,7 @@ sudo rmdir /etc/mmesh
     Download the mmesh-node.exe checksum file:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/windows/amd64/mmesh-node.exe_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmesh-node.exe_checksum.sha256"
     ```
 
     Validate the mmesh-node.exe binary against the checksum file:

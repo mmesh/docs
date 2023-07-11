@@ -37,7 +37,7 @@ You can download the pre-compiled binaries and install them with the appropriate
 1. Download the latest release.
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/linux/amd64/mmeshctl"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmeshctl"
     ```
 
 2. Validate the binary (optional).
@@ -45,7 +45,7 @@ You can download the pre-compiled binaries and install them with the appropriate
     Download the mmeshctl checksum file:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/linux/amd64/mmeshctl_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmeshctl_checksum.sha256"
     ```
 
     Validate the mmeshctl binary against the checksum file:
@@ -133,13 +133,13 @@ If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
     **Intel**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/amd64/mmeshctl"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl"
     ```
 
     **Apple Silicon**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/arm64/mmeshctl"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmeshctl"
     ```
 
 2. Validate the binary (optional).
@@ -149,13 +149,13 @@ If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
     **Intel**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/amd64/mmeshctl_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl_checksum.sha256"
     ```
 
     **Apple Silicon**:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/darwin/arm64/mmeshctl_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmeshctl_checksum.sha256"
     ```
 
     Validate the mmeshctl binary against the checksum file:
@@ -222,7 +222,7 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
 2. Download the latest release into the mmesh folder.
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/windows/amd64/mmeshctl.exe"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmeshctl.exe"
     ```
 
 3. Validate the binary (optional).
@@ -230,7 +230,7 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
     Download the mmeshctl.exe checksum file:
 
     ```shell
-    curl -LO "https://mmesh.s3.nl-ams.scw.cloud/binaries/stable/latest/windows/amd64/mmeshctl.exe_checksum.sha256"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmeshctl.exe_checksum.sha256"
     ```
 
     Validate the mmeshctl.exe binary against the checksum file:
