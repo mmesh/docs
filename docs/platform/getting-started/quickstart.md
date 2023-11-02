@@ -18,7 +18,7 @@ Get started with the following steps:
 
 ## 1. Create your account
 
-- [Sign up here](https://mmesh.io/login)
+You can find the guide [here](/docs/platform/administration/account/) 
 
 ## 2. Add your nodes
 
