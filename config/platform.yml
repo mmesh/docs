@@ -15,8 +15,8 @@ nav:
     - Integrations: getting-started/integrations.md
   - Installation:
     - Overview: installation/overview.md
-    - Command Line Tool: installation/cli.md
     - Nodes: installation/nodes.md
+    - Command Line Tool: installation/cli.md
   - Concepts:
     - Overview: concepts/overview.md
     - Architecture: concepts/architecture.md
@@ -28,6 +28,22 @@ nav:
     - Service Discovery: networking/service-discovery.md
     - Advanced Features: networking/advanced-features.md
     - Best Practices: networking/best-practices.md
+  - mmeshctl (CLI):
+    - Overview: mmeshctl/overview.md
+    - Help: mmeshctl/help.md
+    - Authorization: mmeshctl/authorization.md
+    - Account: mmeshctl/account.md
+    - Alerts: mmeshctl/alerts.md
+    - Tenants: mmeshctl/tenants.md
+    - Networks: mmeshctl/networks.md
+    - Subnets: mmeshctl/subnets.md
+    - Nodes: mmeshctl/nodes.md
+    - Virtual Severs: mmeshctl/vs.md
+    - Policies: mmeshctl/policies.md
+    - Kubernetes: mmeshctl/k8s.md
+    - Automation: mmeshctl/automation.md
+    - Version: mmeshctl/version.md
+    - Completion: mmeshctl/completion.md
   - Kubernetes:
     - Overview: kubernetes/overview.md
     - Services: kubernetes/services.md
