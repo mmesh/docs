@@ -39,9 +39,9 @@ You can create unlimited networks per tenant. A network can have 255 subnets.
 
 A network needs to be configured with a **/16** IPv4 prefix. You will configure this prefix according to your own preferences, so it will usually be an RFC1918 private range of your choice.
 
-From routing point of view, **networks are totally isolated from each other**, so **you could safely have duplicated addressing in different networks**.
+From routing point of view, **networks are totally isolated from each other**.
 
-As example, you could replicate development and production environments in different networks while keeping them totally isolated.
+As an example, you can create separate networks for development and production environments while keeping them totally isolated.
 
 #### Routed Subnets
 
