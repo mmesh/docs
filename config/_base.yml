@@ -1,5 +1,5 @@
 site_name: mmesh
-site_url: https://mmesh.io/docs/
+site_url: https://mmesh.local/docs/
 site_description: Multi-cloud networking made simple
 site_author: mmesh team
 copyright: Copyright &copy; 2023 mmesh
@@ -89,7 +89,7 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite

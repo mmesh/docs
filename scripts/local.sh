@@ -8,14 +8,14 @@ if [[ "$1" == "test" ]]; then
   case "$2" in
   "global")
     docker run --rm \
-      -p 8000:8000 \
+      -p 8001:8000 \
       -v "${PWD}":/docs \
       -u "$(id -u)":"$(id -g)" \
       squidfunk/mkdocs-material serve -f ./config/global.yml --dev-addr 0.0.0.0:8000
   ;;
   "legal")
     docker run --rm \
-      -p 8000:8000 \
+      -p 8002:8000 \
       -v "${PWD}":/docs \
       -u "$(id -u)":"$(id -g)" \
       squidfunk/mkdocs-material serve -f ./config/legal.yml --dev-addr 0.0.0.0:8000
