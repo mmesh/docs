@@ -15,7 +15,7 @@ This section summarizes some of the features you will find in mmesh. Take full a
 mmesh implements an abstraction layer built on top of **any** physical or virtual environment, creating a seamless encrypted fabric where you define your own topology and security policies. Linux, Windows and macOS are supported.
 
 - Define your own virtual topology.
-- [Multi-Cloud](/docs/platform/cloud-provisioning/overview/) & on-prem.
+- [Multi-Cloud](/docs/platform/concepts/multicloud/) & on-prem.
 - [Multi-Tenancy](/docs/platform/networking/topology/).
 - [Advanced Networking](/docs/platform/networking/advanced-features/) features: IPv4 / IPv6, support of address overlapping, dynamic routing, high availability.
 - [Kubernetes Integration](/docs/platform/kubernetes/overview/).

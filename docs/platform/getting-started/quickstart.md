@@ -18,13 +18,25 @@ Get started with the following steps:
 
 ## 1. Create your account
 
-You can find the guide [here](/docs/platform/administration/account/) 
+Follow this [link](https://mmesh.io/login) to create your account.
 
 ## 2. Add your nodes
 
-Use the `Add Node` button on the app webUI to connect nodes to your default subnet. Go to your node and follow instructions to install mmesh on it.
+A first node will be automatically created as part of the account creation process. Once a node is created on the webUI, follow the provided instructions to install mmesh on it.
+
+To create more nodes, select the subnet where you want to add them and click on the `Add Node` button.
+
+For additional details on how to install mmesh on your nodes, check these detailed how-tos:
+
+- [Node install on Linux](/docs/platform/howtos/NodeSetupLinuxV2/)
+
+- [Node install on Windows](https://github.com/mmesh/m-cli)
+- ....
+
 
 ## 3. Install and configure mmeshctl
+
+To work using mmesh command line interface (CLI), follow these instructions.
 
 1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
 2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default in the `$HOME/.mmesh` directory.
