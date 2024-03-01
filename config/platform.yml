@@ -52,8 +52,8 @@ nav:
     - Pods: kubernetes/pods.md
   - Automation (Ops):
     - Overview: automation/overview.md
-    - Workflows: automation/workflows.md
     - Projects: automation/projects.md
+    - Workflows: automation/workflows.md
   - Monitoring:
     - Overview: monitoring/overview.md
     - Analytics: monitoring/analytics.md
