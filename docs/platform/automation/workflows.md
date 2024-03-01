@@ -1,28 +1,19 @@
 ---
 title: "[Automation] Workflows"
-description: "Workflows are YAML files where you define the jobs you want to automate, the triggers and schedule configuration to launch them, and the target nodes."
+description: "A workflow defines a set of tasks to be executed on a node with a given schedule."
 tags:
   - ops
+  - workflows
 ---
 
 # Workflows
 
-The automation subsystem of mmesh is based on `workflows`.
+The automation subsystem of mmesh is based on `workflows`. A workflow defines a set of tasks to be executed on a node with a given schedule.
 
-They are declarative YAML files where you define the jobs or processes you want to automate, the triggers and schedule configuration to launch them, the target nodes and other parameters like notification recipients and reviewers/approvers.
+Workflows are configured using a declarative YAML file where you define the jobs or processes (tasks) you want to automate, their schedule configuration, the target node and other parameters like notification recipients and reviewers/approvers.
 
-You can easily manage your mmesh workflows via GitOps by enabling the GitHub integration.
+Check this how-to [guide](/docs/platform/howtos/workflow-basics/) for a step-by-step example that will guide you in creating your first workflow.
 
-## Triggers
+For a list of actions you can perform with workflows, see this administration [guide](/docs/platform/administration/ops-workflows/). Or review the mmeshctl CLI [ops](/docs/platform/mmeshctl/automation/) commands to manage projects and workflows.
 
-- GitHub push events
-- Webhooks
-- Schedules
-
-## Jobs
-
-[TBD]
-
-## Notifications
-
-[TBD]
+YAML workflow configuration file reference details can be found [here](/docs/platform/reference/workflow/).

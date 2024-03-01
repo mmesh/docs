@@ -80,8 +80,8 @@ mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
 Project Information
 ═══════════════════
 
-Tenant ID  	bee3809d-fb18-4e5d-903e-900e8b40924f	
-Project ID 	6625b63a-dc3c-4504-8dc7-c7bc272fa98e	
+Tenant ID  	<Tenant_ID_removed>	
+Project ID 	<Project_ID_removed>	
 Name       	demo                                	
 Description	Demo project.                       	
 

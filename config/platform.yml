@@ -21,7 +21,8 @@ nav:
     - Overview: concepts/overview.md
     - Architecture: concepts/architecture.md
   - How-Tos:
-    - howtos/NodeSetupLinuxV2.md
+    - Node Linux setup: howtos/node-linux-setup.md
+    - Workflow basics: howtos/workflow-basics.md
   - Networking:
     - Overview: networking/overview.md
     - Topology: networking/topology.md
