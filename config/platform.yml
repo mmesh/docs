@@ -20,6 +20,8 @@ nav:
   - Concepts:
     - Overview: concepts/overview.md
     - Architecture: concepts/architecture.md
+  - How-Tos:
+    - howtos/NodeSetupLinuxV2.md
   - Networking:
     - Overview: networking/overview.md
     - Topology: networking/topology.md
