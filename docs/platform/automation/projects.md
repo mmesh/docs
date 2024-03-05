@@ -1,5 +1,5 @@
 ---
-title: "[Automation] Projects"
+title: "Projects"
 description: "A project is a logical group of workflows where you define common policies to be enforced on all the workflows belonging to the project."
 tags:
   - ops

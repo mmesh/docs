@@ -1,0 +1,14 @@
+nav:
+  - 🡠 Back: /docs/
+  - getting-started
+  - installation
+  - concepts
+  - networking
+  - kubernetes
+  - automation
+  - monitoring
+  - iam
+  - administration
+  - reference
+  - FAQ: faq.md
+  - Tags: tags.md

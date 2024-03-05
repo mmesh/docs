@@ -1,5 +1,5 @@
 ---
-title: "[Automation] Workflows"
+title: "Workflows"
 description: "A workflow defines a set of tasks to be executed on a node with a given schedule."
 tags:
   - ops
