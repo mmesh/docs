@@ -14,18 +14,18 @@ The **mmesh** internal DNS generates a fully qualified domain name for every nod
 
 The fully qualified domain name is made up of two parts:
 
-![mmesh-node-fqdn](./assets/images/mmesh-dns/mmesh-node-fqdn.png)
+![mmesh-node FQDN](../assets/images/mmesh-node-fqdn.png)
 
 In the case of Kubernetes integration, the fully qualified domain name is made up of three parts:
 
-![mmesh-k8s-fqdn](./assets/images/mmesh-k8s-fqdn.png)
+![mmesh-node K8s FQDN](../assets/images/mmesh-k8s-fqdn.png)
 
 You can query this internal DNS service by default on the port `UDP/53535` of every mmesh node:
 
 ```
 dig @<NODE-IP> -p 53535 A <FQDN>
 ```
-![dig-dns-request](./assets/images/dig-dns-request.png)
+![dig DNS request](../assets/images/dig-dns-request.png)
 
 !!! Information
 
@@ -60,7 +60,7 @@ If you want to resolve the `.mmesh.local` domain from your network, you need to 
 
 2. Restarting dnsmasq service:
     
-    ```bash
+    ``` bash
     sudo systemctl restart dnsmasq
     ```
 
@@ -88,32 +88,92 @@ If you want to resolve the `.mmesh.local` domain from your infrastructure, you n
     
         If you have errors like `no valid RRSIG resolving` and `broken trust chain resolving` you should change the param `dnssec-validation` in `/etc/bind/named.conf.options` from `auto` to `yes`.
 
-  ```
-
 2. Run the following command to check the syntax of the `named.conf*` files:
-    ```bash    sudo named-checkconf    ```
+
+    ``` bash
+    sudo named-checkconf
+    ```
+
 3. Restarting BIND:
-    ```bash    sudo systemctl restart bind9    ```
+   
+    ``` bash
+    sudo systemctl restart bind9
+    ```
 
 ### Kubernetes DNS
 
 [CoreDNS](https://coredns.io/) is a flexible and extensible DNS server that is used as the default DNS provider in Kubernetes clusters. It handles DNS resolution for services and pods within the cluster. CoreDNS can configure stub domains and upstream nameservers using the [forward plugin](https://coredns.io/plugins/forward/).
+
 If you want to resolve `.mmesh.local` domain inside the pods, you need to customize CoreDNS:
+
 1. Get CoreDNS current configuration:
-    ```bash    kubectl -n kube-system get cm coredns -o yaml > coredns.yaml    ```
+
+    ```bash
+    kubectl -n kube-system get cm coredns -o yaml > coredns.yaml
+    ```
+
 2. Customize CoreDNS configuration and add the `.mmesh.local` zone to `coredns.yaml`:
-```yamldata:  Corefile: |
-    .:53 {        errors        health {           lameduck 5s        }        ready        kubernetes cluster.local in-addr.arpa ip6.arpa {           pods insecure           fallthrough in-addr.arpa ip6.arpa           ttl 30        }        prometheus :9153        forward . /etc/resolv.conf {           max_concurrent 1000        }        cache 30        loop        reload        loadbalance    }
-    ## Add .mmesh.local zone    mmesh.local {      forward . <NODE1-IP>:53535 <NODE1-IP>:53535 {        policy sequential      }    }```
-> **WARNING**: Replace `<NODE1-IP>` and `<NODE2-IP>` variables with the IP Addresses assigned by IPAM of mmesh to the nodes.
+
+    ``` yaml
+    data:
+      Corefile: |
+
+        .:53 {
+            errors
+            health {
+               lameduck 5s
+            }
+            ready
+            kubernetes cluster.local in-addr.arpa ip6.arpa {
+               pods insecure
+               fallthrough in-addr.arpa ip6.arpa
+               ttl 30
+            }
+            prometheus :9153
+            forward . /etc/resolv.conf {
+               max_concurrent 1000
+            }
+            cache 30
+            loop
+            reload
+            loadbalance
+        }
+
+        ## Add .mmesh.local zone
+        mmesh.local {
+          forward . <NODE1-IP>:53535 <NODE1-IP>:53535 {
+            policy sequential
+          }
+        }
+    ```
+
+    !!! Warning 
+  
+        Replace `<NODE1-IP>` and `<NODE2-IP>` variables with the IP Addresses assigned by IPAM of mmesh to the nodes.
+
 3. Apply the new changes in the cluster:
-    ```bash    kubectl rollout restart -n kube-system deployment/coredns    ```
+
+    ```bash
+    kubectl rollout restart -n kube-system deployment/coredns
+    ```
+
 4. Reload CoreDNS config:
-    ```bash    kubectl rollout restart -n kube-system deployment/coredns    ```
+
+    ```bash
+    kubectl rollout restart -n kube-system deployment/coredns
+    ```
+
 5. Finally, we need to connect `coredns` workload to the mmesh virtual private network:
-    ```bash    mmeshctl k8s workload connect    ```
-    ![coredns-connected](./images/mmesh-dns/coredns-connected.png)
-> **Info**: You should select the `tenant`, `network` and `subnet` previously defined in your mmesh private virtual topology.
+
+    ```bash
+    mmeshctl k8s workload connect
+    ```
+
+    !!! Information
+        
+        You should select the `tenant`, `network` and `subnet` previously defined in your mmesh private virtual topology.
+
+  ![coredns-workload-connected](../assets/images/coredns-connected.png)
+
+
 Now we can access the [mmesh dashboard](https://mmesh.io/app) to verify that the nodes are correctly connected to the subnet. 
-
-
