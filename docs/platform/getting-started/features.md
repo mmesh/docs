@@ -28,6 +28,3 @@ mmesh implements an abstraction layer built on top of **any** physical or virtua
 - CLI and webUI.
 - Centralized management.
 
-#### Customer Experience
-
-[TBD]

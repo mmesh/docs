@@ -12,6 +12,8 @@ tags:
 
 ## Kubernetes Services Forwarding
 
+![kubernetes services](../assets/images/mmesh-k8s-svc.png)
+
 A mmesh node with the feature `Kubernetes Gateway` enabled, if running on a Kubernetes Cluster, can expose ClusterIP Services as its own endpoints in the mmesh subnet.
 
 This allows ClusterIP Services to have their own IPv4, IPv6 and DNS name within a mmesh subnet and be published in the mmesh internal DNS.

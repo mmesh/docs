@@ -39,7 +39,3 @@ Then you need to add the content of the public key (`id_rsa.pub`) to the list of
 ```shell
 mmeshctl user set-ssh-keys
 ```
-
-## 2-Factor Authentication
-
-[TBD]

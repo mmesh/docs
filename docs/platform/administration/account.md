@@ -83,6 +83,3 @@ mmesh will use **two different channels**: one for **general notifications and a
      - Using the webUI, in `Account > Settings > Integrations > Slack`.
      - Using the mmeshctl CLI, with `mmeshctl account settings`.
 
-## Subscription Management
-
-[TBD]

@@ -1,2 +1,4 @@
 nav:
+    - What is mmesh?: what-is-mmesh.md
+    - Quick Start: quickstart.md
     - ...

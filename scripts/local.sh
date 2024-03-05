@@ -2,7 +2,7 @@
 #
 set -e
 
-docker pull jsantisteban/mkdocs-material:latest
+sudo docker pull jsantisteban/mkdocs-material:latest
 
 if [[ "$1" == "test" ]]; then
   case "$2" in
@@ -21,7 +21,7 @@ if [[ "$1" == "test" ]]; then
       jsantisteban/mkdocs-material serve -f ./config/legal.yml --dev-addr 0.0.0.0:8000
   ;;
   "platform")
-    docker run --rm \
+    sudo docker run --rm \
       -p 8000:8000 \
       -v "${PWD}":/docs \
       -u "$(id -u)":"$(id -g)" \

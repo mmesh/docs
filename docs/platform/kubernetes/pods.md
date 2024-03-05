@@ -12,9 +12,11 @@ tags:
 
 ## Kubernetes Pods Routing
 
+![kubernetes pods](../assets/images/mmesh-k8s-pod.png)
+
 This method connects your Kubernetes Pods as mmesh nodes to a mmesh subnet.
 
-Each Kubernetes Pod becomes a full-featured mmesh node with two-way communication to the mmesh subnet
+Each Kubernetes Pod becomes a full-featured mmesh node with two-way communication to the mmesh subnet.
 
 This way allows you to work with your Kubernetes Pods basically as if they were regular VMs or servers from the network perspective.
 
