@@ -5,6 +5,7 @@ nav:
   - concepts
   - networking
   - kubernetes
+  - mmeshctl
   - automation
   - monitoring
   - iam
