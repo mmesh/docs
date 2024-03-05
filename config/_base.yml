@@ -37,9 +37,10 @@ theme:
     # - navigation.tabs.sticky
     # - navigation.sections
     # - navigation.expand
-    # - navigation.indexes
+    - navigation.indexes
     - navigation.top
     # - toc.integrate
+    - content.code.copy
     - search.suggest
     - search.highlight
     - search.share
@@ -64,6 +65,8 @@ plugins:
   - tags:
       tags_file: tags.md
   - search
+  - img2fig
+  - awesome-pages
   # - git-revision-date-localized:
   #     enable_creation_date: true
   #     type: datetime

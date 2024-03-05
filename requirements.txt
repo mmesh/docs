@@ -5,3 +5,5 @@ mkdocs-minify-plugin
 mkdocs-redirects
 mkdocs-tooltips
 mkdocs-git-revision-date-localized-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-img2fig-plugin
