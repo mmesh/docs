@@ -14,35 +14,27 @@ tags:
 
 ## Manage Accounts
 
-### Create a new Account
+### Create a new account
 
-1. Please navigate to our [Sign up page](https://mmesh.io/login)
+1. Please navigate to our [Sign up](https://mmesh.io/login) page.
 
-2. You can sign up using your **Google**, **Microsoft**, or any other **email account**, and pick the option that best fits you.
+2. You can sign up using your **Google**, **Microsoft**, or any other **email account**, and pick the option that best fits you. 
 
-    In this example we will use a Google account. So you should click on the `Continue with Google` button and sign in with your credentials.
+  ![Login Page](../assets/images/login-page.png)
 
-    <figure markdown>
-      ![GoogleSignIp](/docs/platform/administration/assets/images/GoogleSignIn.png){ width="400" }
-      <figcaption>Sign in with Google</figcaption>
-    </figure>
+3. After a sucessfull login you will be redirected to **Account Setup** screen:
 
-    Then you will automatically be redirected back into **mmesh** and can continue with your account setup process.
-
-3. Please, provide the required information in the following sections:
-
-    <figure markdown>
-      ![AccountSetup](/docs/platform/administration/assets/images/AccountSetup.png)
-      <figcaption>Account Setup</figcaption>
-    </figure>
+    Please, provide the required information in the following sections:
 
     - **Billing Information**.
-    - **Account Configuration**
+    - **Account Configuration**:
         - For `Control Plane Location` field, we suggest picking up a zone from the list that is geographically near to your network devices. 
         - For `Connectivity Zone` field, the same suggestion made for Control Plane Location apply. 
-    - **Admin credentials**
-    - **Initial Topology**
+    - **Admin credentials**.
+    - **Initial Topology**:
         - An initial or default network and subnet will be also created, so just provide the CIDR for your default network and define the first subnet of your election or just accept the defaults provided.
+
+    ![Account Setup](../assets/images/account-setup.png)
 
 4. Finally, click on the `start` button and you will be logged into the **mmesh** dashboard.
 
