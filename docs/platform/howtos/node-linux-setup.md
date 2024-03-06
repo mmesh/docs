@@ -6,6 +6,9 @@ tags:
   - linux
   - installation
 ---
+
+[//]: # (AWS-UserData.png Dashboard-1Node.png GCP-StartupScript.png NodeSetup.png Azure-CustomData.png Dashboard-M.png NewNodeForm.png Topology-1Node.png)
+
 # Node install on Linux
 
 Follow this step by step guide to install **mmesh-node** on Linux.
