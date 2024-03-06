@@ -20,10 +20,10 @@ The **account** command shows account, subscription or billing details. Addition
 
 ## Available Commands
 
-- *show*         Show account details
-- *subscription show* Show subscription details 
-- *subscription cancel* Cancel service subscription
-- *billing portal* Opens a session to the billing portal in your browser.
+- `show`         Show account details
+- `subscription show` Show subscription details 
+- `subscription cancel` Cancel service subscription
+- `billing portal` Opens a session to the billing portal in your browser.
 
 ## Example
 
