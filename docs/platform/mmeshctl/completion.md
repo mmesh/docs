@@ -19,13 +19,13 @@ Generate completion scripts for bash, zsh, fish or powershell.
 
 ## Available Commands
 
-- *bash*        Generate the autocompletion script for bash
+- `bash`        Generate the autocompletion script for bash
 
-- *zsh*         Generate the autocompletion script for zsh
+- `zsh`         Generate the autocompletion script for zsh
 
-- *fish*        Generate the autocompletion script for fish
+- `fish`        Generate the autocompletion script for fish
 
-- *powershell*  Generate the autocompletion script for powershell
+- `powershell`  Generate the autocompletion script for powershell
 
 ## Example
 

@@ -19,9 +19,9 @@ The command **alert** can be used to list alerts, show details of an alert, or d
 
 ## Available Commands
 
-- *list*      List your alerts
-- *show*      Show alert
-- *delete*    Delete alert
+- `list`      List your alerts
+- `show`      Show alert
+- `delete`    Delete alert
 
 
 ## Example

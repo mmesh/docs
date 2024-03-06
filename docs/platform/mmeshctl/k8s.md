@@ -19,23 +19,23 @@ Manage **kubernetes** workloads, services and mmesh gateways for Kubernetes clus
 
 ## Available Commands
 
-- *svc*         Connect kubernetes services to your mmesh
+- `svc`         Connect kubernetes services to your mmesh
 
-    - *list*        List kubernetes services connected via mmesh ingress gateway
+    - `list`        List kubernetes services connected via mmesh ingress gateway
 
-    - *connect*     Connect kubernetes services via mmesh ingress gateway
+    - `connect`     Connect kubernetes services via mmesh ingress gateway
 
-    - *disconnect*  Disconnect kubernetes services from mmesh ingress gateway
+    - `disconnect`  Disconnect kubernetes services from mmesh ingress gateway
 
-- *workload*    Connect kubernetes workloads to your mmesh
+- `workload`    Connect kubernetes workloads to your mmesh
 
-    - *list*        List kubernetes workloads connected via mmesh sidecar
+    - `list`        List kubernetes workloads connected via mmesh sidecar
 
-    - *connect*     Add mmesh sidecar to your kubernetes workloads
+    - `connect`     Add mmesh sidecar to your kubernetes workloads
 
-    - *disconnect*  Remove mmesh sidecar from your kubernetes workloads
+    - `disconnect`  Remove mmesh sidecar from your kubernetes workloads
 
-- *delete-gw*   Remove mmesh gateway from your kubernetes cluster
+- `delete-gw`   Remove mmesh gateway from your kubernetes cluster
 
 ## Example
 

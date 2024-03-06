@@ -24,41 +24,41 @@ Check the workflow file reference guide [here](/docs/platform/reference/workflow
 
 ## Available Commands
 
-- *project*     Workflow projects administration
+- `project`     Workflow projects administration
 
-    - *list*        List projects
+    - `list`        List projects
 
-    - *show*        Show project
+    - `show`        Show project
 
-    - *create*      Create a project
+    - `create`      Create a project
 
-    - *update*      Update a project
+    - `update`      Update a project
 
-    - *delete*      Remove project
+    - `delete`      Remove project
 
-- *tasklog*     Workflow tasklog administration
+- `tasklog`     Workflow tasklog administration
 
-    - *list*        List tasklogs
+    - `list`        List tasklogs
 
-    - *show*        Show log
+    - `show`        Show log
 
-    - *delete*      Delete log
+    - `delete`      Delete log
 
-- *workflow*    Automation workflows administration
+- `workflow`    Automation workflows administration
 
-    - *list*        List workflows
+    - `list`        List workflows
 
-    - *show*        Show workflow
+    - `show`        Show workflow
 
-    - *create*      Create workflow from YAML file
+    - `create`      Create workflow from YAML file
 
-    - *update*      Update workflow from YAML file
+    - `update`      Update workflow from YAML file
 
-    - *delete*      Remove workflow
+    - `delete`      Remove workflow
 
-    - *enable*      Enable workflow
+    - `enable`      Enable workflow
 
-    - *disable*     Disable workflow
+    - `disable`     Disable workflow
 
 ## Example
 

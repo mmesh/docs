@@ -19,11 +19,11 @@ Use the **network** command to list, show details, create, update or delete netw
 
 ## Available Commands
 
-- *list*        List networks
-- *show*        Show network
-- *create*      Create a network
-- *update*      Update a network
-- *delete*      Remove network
+- `list`        List networks
+- `show`        Show network
+- `create`      Create a network
+- `update`      Update a network
+- `delete`      Remove network
 
 ## Example
 

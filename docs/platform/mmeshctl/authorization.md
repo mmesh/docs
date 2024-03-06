@@ -22,9 +22,9 @@ The **authorization** command opens a session for mmeshctl or removes it, by usi
 
 ## Available Commands
 
-- *login*       Log in
+- `login`       Log in
 
-- *logout*      Log out
+- `logout`      Log out
 
 ## Example
 

@@ -23,25 +23,25 @@ Each node, upon the first connection to the network, will create an endpoint. Th
 
 ## Available Commands
 
-- *add*                Add a new node
+- `add`                Add a new node
 
-- *list --by-tenant*               List nodes by tenant
+- `list --by-tenant`               List nodes by tenant
 
-- *list --by-subnet*               List nodes by subnet
+- `list --by-subnet`               List nodes by subnet
 
-- *show*               Show node
+- `show`               Show node
 
-- *connect*            Connect (move) node to a subnet
+- `connect`            Connect (move) node to a subnet
 
-- *disable-networking* Disable mmesh networking and disconnect node from a subnet
+- `disable-networking` Disable mmesh networking and disconnect node from a subnet
 
-- *delete*             Remove node from database
+- `delete`             Remove node from database
 
-- *metrics*            Show detailed metrics
+- `metrics`            Show detailed metrics
 
-- *show-endpoint*      Show network endpoint details
+- `show-endpoint`      Show network endpoint details
 
-- *delete-endpoint*    Delete network endpoint
+- `delete-endpoint`    Delete network endpoint
 
 ## Example
 

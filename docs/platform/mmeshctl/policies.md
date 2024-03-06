@@ -19,17 +19,17 @@ Manage subnet default policy or add, edit or remove rules.
 
 ## Available Commands
 
-- *show*        Show security policy
+- `show`        Show security policy
 
-- *set-default* Set default policy
+- `set-default` Set default policy
 
-- *add-rule*    Add security policy rule
+- `add-rule`    Add security policy rule
 
-- *edit-rule*   Edit security policy rule
+- `edit-rule`   Edit security policy rule
 
-- *delete-rule* Delete security policy rule
+- `delete-rule` Delete security policy rule
 
-- *delete*      Delete security policy (all rules)
+- `delete`      Delete security policy (all rules)
 
 ## Example
 
