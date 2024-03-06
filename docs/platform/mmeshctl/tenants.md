@@ -18,15 +18,15 @@ Manage **tenants**: you can create, update or delete tenants, as well as list th
 
 ## Available Commands
 
-- **list**        List tenants
+- `list`        List tenants
 
-- **show**        Show tenant
+- `show`        Show tenant
 
-- **create**      Create tenant
+- `create`      Create tenant
 
-- **update**      Update tenant details
+- `update`      Update tenant details
 
-- **delete**      Remove tenant
+- `delete`      Remove tenant
 
 ## Example
 

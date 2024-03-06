@@ -20,19 +20,19 @@ Manage **virtual servers** and their services in high-availability groups.
 
 ## Available Commands
 
-- *list*            List virtual servers
+- `list`            List virtual servers
 
-- *show*            Show virtual server
+- `show`            Show virtual server
 
-- *create*          Create virtual server
+- `create`          Create virtual server
 
-- *update*          Update virtual server
+- `update`          Update virtual server
 
-- *add-node-svc*    Add node app service to VS high-availability group
+- `add-node-svc`    Add node app service to VS high-availability group
 
-- *remove-node-svc* Remove node app service from VS high-availability group
+- `remove-node-svc` Remove node app service from VS high-availability group
 
-- *delete*          Remove virtual server
+- `delete`          Remove virtual server
 
 ## Example
 

@@ -19,12 +19,12 @@ Use the **subnet** command to list, show details, create, update or delete subne
 
 ## Available Commands
 
-- *list*              List subnets
-- *show*              Show subnet
-- *create*            Create a new subnet
-- *update*            Update a subnet
-- *delete*            Remove subnet
-- *delete-ipam-entry* Delete IPAM entry manually
+- `list`              List subnets
+- `show`              Show subnet
+- `create`            Create a new subnet
+- `update`            Update a subnet
+- `delete`            Remove subnet
+- `delete-ipam-entry` Delete IPAM entry manually
 
 
 ## Example

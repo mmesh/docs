@@ -3,6 +3,7 @@ nav:
   - getting-started
   - installation
   - concepts
+  - howtos
   - networking
   - kubernetes
   - mmeshctl

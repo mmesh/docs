@@ -20,9 +20,9 @@ tags:
 
 ## Available Commands
 
-- *show*        Show mmeshctl version information
+- `show`        Show mmeshctl version information
 
-- *update*      Update mmeshctl to the latest version
+- `update`      Update mmeshctl to the latest version
 
 ## Example
 
