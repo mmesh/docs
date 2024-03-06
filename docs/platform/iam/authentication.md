@@ -1,41 +1,33 @@
 ---
-title: "[IAM] Authentication"
+title: "Authentication"
 description: "Learn about the different authentication methods supported by mmesh."
 tags:
   - users
   - security
+  - auth
 ---
 
 # Authentication
 
-You can interact with your mmesh using the webUI or `mmeshctl`. Both apps support user/password authentication.
+### Passwordless
 
-Authentication by RSA key is also supported (and recommended) by `mmeshctl`.
+mmesh use a **Passwordless** method of authentication that allows users to access webUI or `mmeshctl` without the need for traditional passwords. This method allows us to provide a more user-friendly and secure way of access.
 
-## User Credentials
+**Passwordless authentication** is to enhance security by reducing the reliance on easily compromised passwords, which are susceptible to various attacks like phishing, brute force, and credential stuffing. 
 
-You can edit your user credentials and SSH keys using the mmesh webUI or the mmesh CLI.
+mmesh authentication is based in **One-time passwords** (OTPs). The users receive a temporary code on their registered device through email, which can be used for a single login session. This code has an expiration of 10 minutes.
 
-Browse the [User Settings](/docs/platform/administration/user/) section to learn how to manage your mmesh credentials.
+### User Access Token
 
-## RSA Authentication
+**User Access Token** is an alternative to using passwordless authentication which provide secure and limited access to mmesh platfom API on behalf of a user.
 
-The mmesh CLI supports authentication by RSA key.
+**User Access Token** was created to provide flexibility and reduce friction in your authentication processes, without needing to sign in with a user.
 
-This is the recommended method of authentication when using the CLI.
+Common use cases include:
 
-It works the same way as SSH does when you enable SSH authentication by public key.
+  - Automating tasks or background processes.
 
-This method can be more convenient, since once enabled, you won't need to enter your credentials manually.
+  - Integrating your tool or external service with mmesh platform.
 
-You will need to generate a RSA Key using `ssh-keygen` and put the resulting files in the `${HOME}/.mmesh` directory.
 
-```shell
-ssh-keygen
-```
-
-Then you need to add the content of the public key (`id_rsa.pub`) to the list of your SSH keys using `mmeshctl user set-ssh-keys` or the mmesh webUI.
-
-```shell
-mmeshctl user set-ssh-keys
-```
+You can regenerate your **User Access Token** whenever you need it from webUI in `User Setting` section. 

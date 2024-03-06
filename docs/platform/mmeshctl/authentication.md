@@ -1,16 +1,16 @@
 ---
-title: "Authorization"
+title: "Authentication"
 description: "Login or logout session for mmeshctl."
 tags:
   - cli
-  - authorization
+  - Authentication
 ---
 
-# Authorization
+# Authentication
 
 ## Actions
 
-The **authorization** command opens a session for mmeshctl or removes it, by using 2 commands:
+The **authentication** command opens a session for mmeshctl or removes it, by using 2 commands:
 
 - **login**: opens a session.
 

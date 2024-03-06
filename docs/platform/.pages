@@ -9,7 +9,7 @@ nav:
   - mmeshctl
   - automation
   - monitoring
-  - iam
+  - IAM: iam
   - administration
   - reference
   - FAQ: faq.md

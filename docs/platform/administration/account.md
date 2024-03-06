@@ -22,8 +22,6 @@ tags:
 
   ![Login Page](../assets/images/login-page.png)
 
-3. 
-
 3. After a sucessfull login you will be redirected to **Account Setup** screen:
 
     Please, provide the required information in the following sections:

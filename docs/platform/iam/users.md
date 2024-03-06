@@ -1,6 +1,6 @@
 ---
-title: "[IAM] Users"
-description: "mmesh has two types of users, the account administrator and the normal users. There is no limit to the number of normal users you can create."
+title: "Users"
+description: "mmesh has three types of users, the account administrator, admin users and proxy users."
 tags:
   - users
   - security
@@ -8,12 +8,14 @@ tags:
 
 # Users
 
-mmesh has two types of users:
+mmesh has three types of users:
 
-- The account administrator, which is considered the account owner.
-- Normal users.
+- **Account administrator**, who is considered the account owner. This user has full access to the account (via webUI or `mmeshctl`) and will be associated with the billing system. There can only be one per account.
 
-There is no limit to the number of normal users you can create.
+- **Admin Users** are adminitrators users of the tenant. These users haver full access to the tenant/s (via webUI or `mmeshctl`) by the Security Groups assigned. Each new such user added has an additional fee.
+
+- **Proxy Users** are only allowed to access resources assigned through ACLs and that are exposed through Virtual Services. These users are not allowed to access the webUI or use `mmeshctl` to interact with the API. Each new such user added has an additional fee.
+
 
 ### Administration
 

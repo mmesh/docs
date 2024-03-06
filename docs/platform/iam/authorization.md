@@ -1,21 +1,21 @@
 ---
-title: "[IAM] Authorization"
+title: "Authorization"
 description: "mmesh implements an authorization system based on an extended RBAC model with three levels of control for the individual users."
 tags:
   - users
-  - rbac
   - security
+  - auth
+  - rbac
 ---
 
 # Authorization
 
-mmesh implements an authorization system based on an extended RBAC model with three levels of control for the individual users:
+mmesh implements an authorization system based on an extended RBAC model with two levels of control for the individual users:
 
 - Security Groups
-- User Roles
 - Access Control Lists (ACLs)
 
-Role-Based Access Control (RBAC) is a method to define authorization levels to regulate access to functions (write, read...) and resources (tenants, networks, subnets, nodes) based on the roles and groups you assign to the individual users within your mmesh account.
+Role-Based Access Control (RBAC) is a method to define authorization levels to regulate access to resources (tenants, networks, subnets, nodes) based on the roles and groups that you assign to the individual users within your mmesh account.
 
 ## Security Groups
 
@@ -43,36 +43,11 @@ You can manage the security groups using the mmesh webUI or the mmesh CLI.
 
 Browse the [IAM: Security Groups Administration](/docs/platform/administration/iam-security-groups/) section to learn how to manage the security groups.
 
-## User Roles
-
-A `role` controls the user access to the different mmesh subsystems, resources and commands.
-
-A role is defined with a set of permissions. These permissions regulate what the user can do or not within your mmesh account.
-
-A role can be assigned to one or multiple users.
-
-One user can have assigned one or multiple roles.
-
-There is no limit in the number of roles you can create.
-
-By default, when you create a mmesh account, you will find a role called `admin` assigned to the mmesh admin. This role grants access to all subsystems, resources and commands within your mmesh account.
-
-To control the access level of your users in your mmesh, you will need to:
-
-1. Create or configure the roles with the set of permissions.
-2. Assign the roles to your users.
-
-### Administration
-
-You can manage the roles using the mmesh webUI or the mmesh CLI.
-
-Browse the [IAM: Roles Administration](/docs/platform/administration/iam-roles/) section to learn how to manage the roles.
-
 ## Access Control Lists (ACLs)
 
-An `ACL` controls the access to your nodes.
+An `ACL` controls the access to your resources based in tags.
 
-An ACL is defined with the set of nodes that the user will have access.
+An ACL is defined with the set of resources (tags) that the user will have access.
 
 An ACL can be assigned to one or multiple users.
 
@@ -80,13 +55,17 @@ One user can have assigned one or multiple ACLs.
 
 There is no limit in the number of ACLs you can create.
 
-By default, when you create a mmesh account, you will find an ACL called `all-nodes` assigned to the mmesh admin. This ACL grants access to all your nodes in your mmesh topology.
+By default, when you create a mmesh account, you will find an ACL called `all-tags` assigned to the mmesh admin. This ACL grants access to all your resources in your mmesh topology.
 
-To control the access to your nodes, you will need to:
+To control the access to your resoruces, you will need to:
 
-1. Add nodes to your mmesh topology.
-2. Create or configure your ACLs with the set of nodes.
+1. Add a new resource and assign it a tag.
+2. Create or configure your ACLs with the set of tags.
 3. Assign the ACL to your users.
+
+!!! Information
+
+    The tags don't need to be created manually, they are discovered automatically and will be available once there is a resource that has them assigned.
 
 ### Administration
 
