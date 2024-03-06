@@ -28,3 +28,12 @@ mmesh implements an abstraction layer built on top of **any** physical or virtua
 - CLI and webUI.
 - Centralized management.
 
+
+<div class="grid cards" markdown>
+
+- :octicons-globe-16: Define your own __Virtual Topology__
+- :simple-googlecloud: :simple-amazonaws: :material-microsoft-azure: __Multi-Cloud__ and :material-server: __On-prem__  Support
+- :simple-kubernetes: __Kubernetes__ integration
+- :material-dns: __Service Discovery__
+
+</div>
