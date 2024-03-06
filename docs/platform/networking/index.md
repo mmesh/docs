@@ -49,15 +49,6 @@ You can easily integrate the `.mmesh.local` domain into your DNS infrastructure 
 
 See [DNS Integration](/docs/platform/networking/service-discovery/#dns-integration) for more details.
 
-## Advanced Features
-
-mmesh supports [advanced features](/docs/platform/networking/advanced-features/) designed to meet service provider requirements in scenarios with complex network environments.
-
-- [Dynamic Routing](/docs/platform/networking/advanced-features/#dynamic-routing)
-- [Address Overlapping](/docs/platform/networking/advanced-features/#address-overlapping)
-- [mmesh64](/docs/platform/networking/advanced-features/#mmesh64)
-- [High Availability](/docs/platform/networking/advanced-features/#high-availability)
-
 ## Best Practices
 
 Learn some tricks and recommended configurations [here](/docs/platform/networking/best-practices/).
