@@ -1,12 +1,12 @@
 ---
-title: "Set Up Your Nodes"
+title: "Nodes"
 description: "Learn how to form your mmesh virtual private network and start adding your nodes. Supported x86 and ARM on Linux, Windows and macOS."
 tags:
   - installation
   - configuration
 ---
 
-# Set Up Your Nodes
+# Nodes Installation
 
 The `mmesh-node` agent is an open-source app that runs on the machines you want to connect to your [mmesh](https://mmesh.io/) virtual private network.
 

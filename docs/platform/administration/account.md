@@ -1,5 +1,5 @@
 ---
-title: "Account Settings"
+title: "Account"
 description: "Learn how to manage your mmesh account and configure third-party integrations."
 tags:
   - admin
@@ -16,11 +16,13 @@ tags:
 
 ### Create a new account
 
-1. Please navigate to our [Sign up](https://mmesh.io/login) page.
+1. Please navigate to our [Sign up](https://mmesh.io/signin) page.
 
 2. You can sign up using your **Google**, **Microsoft**, or any other **email account**, and pick the option that best fits you. 
 
   ![Login Page](../assets/images/login-page.png)
+
+3. 
 
 3. After a sucessfull login you will be redirected to **Account Setup** screen:
 
@@ -36,7 +38,7 @@ tags:
 
     ![Account Setup](../assets/images/account-setup.png)
 
-4. Finally, click on the `start` button and you will be logged into the **mmesh** dashboard.
+4. Finally, click on the `START` button and you will be logged into the **mmesh** dashboard.
 
 !!! success
 
