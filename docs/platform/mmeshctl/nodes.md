@@ -3,7 +3,7 @@ title: "Nodes"
 description: "Manage nodes, endpoints and node disconnect from network or subnet changes."
 tags:
   - cli
-  - node
+  - nodes
 ---
 
 # Nodes
