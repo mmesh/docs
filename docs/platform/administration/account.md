@@ -16,27 +16,43 @@ tags:
 
 ### Create a new account
 
-1. Please navigate to our [Sign up](https://mmesh.io/signin) page.
+1. To sign up you just need an **email account**. Please navigate to our sign-up page at: https://mmesh.io/signin and insert your email address.
 
-2. You can sign up using your **Google**, **Microsoft**, or any other **email account**, and pick the option that best fits you. 
+    ![Sign up.](../assets/images/account/mmesh-signup.png)
 
-  ![Login Page](../assets/images/account/login-page.png)
+2. Push the `Continue with Email` button and you will get a confirmation message:
 
-3. After a sucessfull login you will be redirected to **Account Setup** screen:
+    ![Mail sent confirmation.](../assets/images/account/mail-sent-confirmation.png)
 
-    Please, provide the required information in the following sections:
+3. Press the `Continue` button and open your email to get your one-time code similar to this:
 
-    - **Billing Information**.
-    - **Account Configuration**:
-        - For `Control Plane Location` field, we suggest picking up a zone from the list that is geographically near to your network devices. 
-        - For `Connectivity Zone` field, the same suggestion made for Control Plane Location apply. 
-    - **Admin credentials**.
-    - **Initial Topology**:
-        - An initial or default network and subnet will be also created, so just provide the CIDR for your default network and define the first subnet of your election or just accept the defaults provided.
+    ![Sample code email.](../assets/images/account/stytch-code.png)
 
-    ![Account Setup](../assets/images/account/account-setup.png)
+!!! Warning
 
-4. Finally, click on the `START` button and you will be logged into the **mmesh** dashboard.
+    If you can not find it in your inbox, check either the Social tab or the spam folder, just in case.
+    
+4. Insert your code and press `Sign In` to continue with the sign in process:
+
+    ![Code verification.](../assets/images/account/code-verification.png)
+
+5. Then you will automatically be redirected back into **mmesh** and can continue with your account setup process.
+
+    ![Account Setup.](../assets/images/account/account-setup.png)
+
+  Please, provide the required information in the following sections:
+
+  - **Billing Information**
+  - **Account Configuration**
+    - For `Control Plane Location` field, we suggest picking up a zone from the list that is geographically near to your network devices.
+    - For `Connectivity Zone` field, the same suggestion made for `Control Plane Location` apply.
+  - **Admin credentials**
+  - **Initial Topology**
+    - An initial or default network and subnet will be also created, so just provide the CIDR for your `default network` and define the first `subnet` of your election or just accept the defaults provided.
+
+6. Finally, push the `start` button and you will be logged into the **mmesh** dashboard.
+
+    ![Initial Dashboard.](../assets/images/account/initial-dashboard.png)
 
 !!! success
 
@@ -58,6 +74,13 @@ You will be able to keep your automation workflows and network policies YAML fil
 
 The PagerDuty integration allows forwarding all the alerts of your mmesh to your PagerDuty account.
 
+To configure it, on the **Account Setup** screen, select `Settings`and `Integrations`. Open the `PagerDuty` section.
+
+![PagerDuty Setup](../assets/images/pagerduty-setup.png)
+
+Add your PagerDuty integration key, enable it, and press `Save`. Your PagerDuty integration is complete.
+
+
 ### Notifications
 
 #### Slack
@@ -68,10 +91,10 @@ mmesh will use **two different channels**: one for **general notifications and a
 
 ##### Configuration
 
-1. [Create the Incoming Webhooks](https://api.slack.com/messaging/webhooks) for the two channels in your Slack organization.
+First, create the [Incoming Webhooks](https://api.slack.com/messaging/webhooks) for the two channels in your Slack organization.
 
-2. Configure the mmesh integration:
+Next, using the webUI, select `Account > Settings > Integrations`. Open the `Slack`section:
 
-     - Using the webUI, in `Account > Settings > Integrations > Slack`.
-     - Using the mmeshctl CLI, with `mmeshctl account settings`.
+![Slack Setup](../assets/images/slack-setup.png)
 
+Add your Slack Alerts and Workflows webhooks, enable it, and press `Save`. Your Slack integration is complete.
