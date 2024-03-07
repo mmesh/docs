@@ -45,11 +45,3 @@ Remove an alert from the database.
 ```shell
 mmeshctl alert delete
 ```
-
-#### Add Note to Alert
-
-Add a note or comment to an alert.
-
-```shell
-mmeshctl alert comment
-```

@@ -1,8 +1,11 @@
 ---
 title: "Monitoring"
-description: "mmesh has been designed to be simple, enjoyable and easy-to-use, and monitors the nodes out-of-the-box, with no configuration required."
+description: "mmesh monitors the nodes out-of-the-box, providing cpu, memory, disk and network usage statistics. We also provide alerts and integrate with PagerDuty and Slack."
 tags:
   - metrics
+  - integrations
+  - pagerduty
+  - slack
 ---
 
 # Monitoring
@@ -11,15 +14,18 @@ mmesh has been designed to be simple, enjoyable and easy-to-use, and monitors th
 
 mmesh is not intended to be a full-fledged monitoring or observability suite as Prometheus or others, but it has some interesting monitoring capabilities that, in many cases, could meet your requirements.
 
-mmesh includes performance & capacity monitoring features and an alerting system.
+mmesh monitors your nodes, providing visual graphs for:
 
-### [Performance & Capacity Analytics](/docs/platform/monitoring/analytics/)
+- Network: bandwith usage (on the mmesh interface)
+- CPU: core utilization %
+- Memory: RAM Utilization %
+- Disk: main disk partition utilization %
 
-Learn how mmesh monitors your nodes and provides some useful analytics features, and check some examples.
+These can be accessed by selecting each node on the `Metrics` tab.
 
 # Alerts
 
-mmesh monitors the nodes and generates alerts when it detects the following events:
+Based on the previous monitors, mmesh generates alerts when it detects the following events:
 
 - Node offline (disconnected from mmesh)
 - Node rebooted
@@ -29,12 +35,26 @@ mmesh monitors the nodes and generates alerts when it detects the following even
 
 ## Administration
 
-You can manage your alerts using the mmesh webUI or `mmeshctl`.
+You can manage your alerts using the mmesh webUI on the `Alerts` tab, or using `mmeshctl`.
 
-Browse the [Alerts Administration](/docs/platform/administration/alerts/) section
-to learn how to manage your alerts.
+Browse the [Alerts Administration](alerts.md) section to learn how to manage your alerts.
 
 
-## [Alerts Integration](/docs/platform/monitoring/alerts/)
+## Alerts Integration
 
-mmesh implements an alert system that supports integrations with with PagerDuty and Slack.
+The mmesh alert system supports integrations with with PagerDuty and Slack.
+
+### PagerDuty
+
+The PagerDuty integration allows you to forward all the alerts of your mmesh to your PagerDuty account.
+
+mmesh highly recommends the PagerDuty service and configuring this integration to take full advantage of the mmesh alert system.
+
+[PagerDuty Integration Configuration >](account.md#pagerduty)
+
+
+### Slack
+
+You can configure a Slack webhooks for mmesh to notify you when an alert has been triggered.
+
+[Slack Integration Configuration >](account.md#slack)
