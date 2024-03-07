@@ -4,7 +4,7 @@ description: "Description."
 tags:
   - cli
   - project
-  - workflow
+  - workflows
   - tasklog
   - automation
 ---
