@@ -10,7 +10,7 @@ tags:
 
 The file `mmesh-node.yml` is used to configure the _mmesh-node_.
 
-> See the [Node Installation Guide](nodes.md) for detailed information about the _mmesh-node_ installation on different platforms.
+> See the [Node Installation Guide](nodes-adm.md) for detailed information about the _mmesh-node_ installation on different platforms.
 
 ## mmesh-node.yml
 

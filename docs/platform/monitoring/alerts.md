@@ -17,7 +17,10 @@ The PagerDuty integration allows you to forward all the alerts of your mmesh to 
 
 mmesh highly recommends the PagerDuty service and configuring this integration to take full advantage of the mmesh alert system.
 
+[PagerDuty Integration Configuration >](account.md#pagerduty)
+
 [PagerDuty Integration Configuration >](/docs/platform/administration/account/#pagerduty)
+
 
 ### Slack
 

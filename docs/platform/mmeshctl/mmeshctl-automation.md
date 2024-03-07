@@ -16,7 +16,7 @@ tags:
 
 Use the **ops** menu options to manage *projects*, *workflows* and *tasklogs*.
 
-Check the workflow file reference guide [here](/docs/platform/reference/workflow.yml/).
+Check the workflow file reference guide [here](workflow.yml.md).
 
 ## Usage
 
