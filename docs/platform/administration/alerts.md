@@ -1,5 +1,5 @@
 ---
-title: "Alerts"
+title: "Alerts Administration"
 description: "mmesh monitors your nodes and generates alerts when important events occur. Learn how to manage your alerts using mmeshctl or the webUI."
 tags:
   - admin

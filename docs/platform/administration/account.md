@@ -1,5 +1,5 @@
 ---
-title: "Account"
+title: "Account Administration"
 description: "Learn how to manage your mmesh account and configure third-party integrations."
 tags:
   - admin

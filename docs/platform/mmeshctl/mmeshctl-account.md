@@ -1,5 +1,5 @@
 ---
-title: "Accont"
+title: "Account"
 description: "Show account, subscription or billing details."
 tags:
   - cli
