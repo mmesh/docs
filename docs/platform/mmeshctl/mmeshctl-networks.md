@@ -3,7 +3,7 @@ title: "Networks"
 description: "Description."
 tags:
   - cli
-  - networks
+  - networking
 ---
 
 # Networks

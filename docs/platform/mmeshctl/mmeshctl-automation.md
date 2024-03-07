@@ -3,7 +3,7 @@ title: "Automation"
 description: "Description."
 tags:
   - cli
-  - project
+  - projects
   - workflows
   - tasklog
   - automation

@@ -3,7 +3,7 @@ title: "Authentication"
 description: "Login or logout session for mmeshctl."
 tags:
   - cli
-  - Authentication
+  - auth
 ---
 
 # Authentication
