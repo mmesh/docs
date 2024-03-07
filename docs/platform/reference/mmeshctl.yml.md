@@ -12,7 +12,7 @@ If you run `mmeshctl` for the first time or the file `mmeshctl.yml` is not found
 
 The generated file does not include the `agent` section (see below) where you can specify the extended security credentials to get access to your nodes. Although they are recommended, this section is optional.
 
-> See [Nodes Remote Management Features](/docs/platform/networking/nodes/#remote-management-features) for more information about mmesh remote management and extended security credentials.
+> See [Nodes Remote Management Features](nodes.md#remote-management-features) for more information about mmesh remote management and extended security credentials.
 
 ## mmeshctl.yml
 

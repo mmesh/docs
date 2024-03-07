@@ -1,5 +1,5 @@
 ---
-title: "[Documentation] Tags"
+title: "Tags"
 description: "In this section, you can browse the mmesh documentation content grouped by the relevant tags."
 ---
 

@@ -76,7 +76,7 @@ The PagerDuty integration allows forwarding all the alerts of your mmesh to your
 
 To configure it, on the **Account Setup** screen, select `Settings`and `Integrations`. Open the `PagerDuty` section.
 
-![PagerDuty Setup](../assets/images/pagerduty-setup.png)
+![PagerDuty Setup](../assets/images/account/pagerduty-setup.png)
 
 Add your PagerDuty integration key, enable it, and press `Save`. Your PagerDuty integration is complete.
 
@@ -95,6 +95,6 @@ First, create the [Incoming Webhooks](https://api.slack.com/messaging/webhooks) 
 
 Next, using the webUI, select `Account > Settings > Integrations`. Open the `Slack`section:
 
-![Slack Setup](../assets/images/slack-setup.png)
+![Slack Setup](../assets/images/account/slack-setup.png)
 
 Add your Slack Alerts and Workflows webhooks, enable it, and press `Save`. Your Slack integration is complete.
