@@ -1,5 +1,5 @@
 ---
-title: "Completion"
+title: "Completion Command"
 description: "Generate completion scripts for bash, zsh, fish or powershell."
 tags:
   - cli

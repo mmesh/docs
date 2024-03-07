@@ -3,7 +3,6 @@ title: "Overview"
 description: "Description."
 tags:
   - cli
-  - mmeshctl
 ---
 
 # Overview

@@ -1,5 +1,5 @@
 ---
-title: "Authentication"
+title: "Authentication Command"
 description: "Login or logout session for mmeshctl."
 tags:
   - cli

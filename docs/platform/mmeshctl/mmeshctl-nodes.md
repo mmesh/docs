@@ -1,5 +1,5 @@
 ---
-title: "Nodes"
+title: "Nodes Command"
 description: "Manage nodes, endpoints and node disconnect from network or subnet changes."
 tags:
   - cli

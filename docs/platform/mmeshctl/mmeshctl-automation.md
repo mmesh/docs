@@ -1,5 +1,5 @@
 ---
-title: "Automation"
+title: "Automation Command"
 description: "Description."
 tags:
   - cli

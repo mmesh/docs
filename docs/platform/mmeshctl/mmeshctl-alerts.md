@@ -1,5 +1,5 @@
 ---
-title: "Alerts"
+title: "Alerts Command"
 description: "List, show or delete alerts."
 tags:
   - cli

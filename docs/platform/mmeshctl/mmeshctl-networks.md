@@ -1,5 +1,5 @@
 ---
-title: "Networks"
+title: "Networks Command"
 description: "Description."
 tags:
   - cli

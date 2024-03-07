@@ -1,5 +1,5 @@
 ---
-title: "Virtual Servers"
+title: "Virtual Servers Command"
 description: "Manage virtual servers and their services in high-availability groups."
 tags:
   - cli

@@ -1,5 +1,5 @@
 ---
-title: "Version"
+title: "Version Command"
 description: "Check or update mmeshctl version."
 tags:
   - cli

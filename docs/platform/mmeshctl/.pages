@@ -1,2 +1,16 @@
 nav:
-    - ...
+    - ...index.md
+    - Account: mmeshctl-account.md
+    - Alerts: mmeshctl-alerts.md
+    - Authentication: mmeshctl-authentication.md
+    - Automation: mmeshctl-automation.md
+    - Completion: mmeshctl-completion.md
+    - Help: mmeshctl-help.md
+    - Kubernetes: mmeshctl-k8s.md
+    - Networks: mmeshctl-networks.md
+    - Nodes: mmeshctl-nodes.md
+    - Policies: mmeshctl-policies.md
+    - Subnets: mmeshctl-subnets.md
+    - Tenants: mmeshctl-tenants.md
+    - Version: mmeshctl-version.md
+    - Virtual Servers: mmeshctl-vs.md

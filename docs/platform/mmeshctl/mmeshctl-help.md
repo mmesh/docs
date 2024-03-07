@@ -1,5 +1,5 @@
 ---
-title: "Help"
+title: "Help Command"
 description: "Show mmeshctl help."
 tags:
   - cli

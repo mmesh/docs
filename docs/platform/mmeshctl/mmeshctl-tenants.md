@@ -1,5 +1,5 @@
 ---
-title: "Tenants"
+title: "Tenants Command"
 description: "Manage tenants: list, show details, create, update or delete."
 tags:
   - cli

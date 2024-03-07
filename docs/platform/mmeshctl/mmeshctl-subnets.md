@@ -1,6 +1,6 @@
 ---
-title: "Subnets"
-description: "Description."
+title: "Subnets Command"
+description: "Manage subnets, list, show, create, update or delete. Additionally you can remove IPAM entries manually."
 tags:
   - cli
   - subnet

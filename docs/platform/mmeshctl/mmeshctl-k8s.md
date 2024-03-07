@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes"
+title: "Kubernetes Command"
 description: "Manage Kubernetes services, workloads and mmesh gateways for Kubernetes clusters."
 tags:
   - cli

@@ -1,5 +1,5 @@
 ---
-title: "Policies"
+title: "Policies Command"
 description: "Manage policies and add, modify or remove rules."
 tags:
   - cli
