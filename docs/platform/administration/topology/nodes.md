@@ -1,5 +1,5 @@
 ---
-title: "Nodes Administration"
+title: "Nodes"
 description: "A node is any system connected to a mmesh subnet. You can manage the nodes using mmeshctl or the mmesh webUI."
 tags:
   - admin
@@ -9,7 +9,7 @@ tags:
   - metrics
 ---
 
-# Nodes
+# Nodes Administration
 
 A `node` is any system connected to a mmesh `subnet`.
 

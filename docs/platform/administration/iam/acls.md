@@ -1,5 +1,5 @@
 ---
-title: "[IAM] ACLs Administration"
+title: "ACLs"
 description: "An ACL is defined as the set of nodes that a user will have access to. The administrator can manage the ACLs using mmeshctl or the mmesh webUI."
 tags:
   - admin
@@ -8,7 +8,7 @@ tags:
   - security
 ---
 
-# IAM: ACLs
+# ACLs Administration
 
 An `ACL` controls access to your nodes.
 

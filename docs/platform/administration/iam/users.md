@@ -1,5 +1,5 @@
 ---
-title: "[IAM] Users Administration"
+title: "Users"
 description: "mmesh has two types of users, the account administrator and the normal users. The administrator can manage the users using mmeshctl or the mmesh webUI."
 tags:
   - admin
@@ -8,7 +8,7 @@ tags:
   - security
 ---
 
-# IAM: Users
+# Users Administration
 
 mmesh has two types of users:
 

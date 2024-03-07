@@ -20,7 +20,7 @@ tags:
 
 2. You can sign up using your **Google**, **Microsoft**, or any other **email account**, and pick the option that best fits you. 
 
-  ![Login Page](../assets/images/login-page.png)
+  ![Login Page](../assets/images/account/login-page.png)
 
 3. After a sucessfull login you will be redirected to **Account Setup** screen:
 
@@ -34,7 +34,7 @@ tags:
     - **Initial Topology**:
         - An initial or default network and subnet will be also created, so just provide the CIDR for your default network and define the first subnet of your election or just accept the defaults provided.
 
-    ![Account Setup](../assets/images/account-setup.png)
+    ![Account Setup](../assets/images/account/account-setup.png)
 
 4. Finally, click on the `START` button and you will be logged into the **mmesh** dashboard.
 
