@@ -1,1 +1,0 @@
-../installation/nodes/node-linux-setup.md

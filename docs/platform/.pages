@@ -2,11 +2,10 @@ nav:
   - 🡠 Back: /docs/
   - getting-started
   - installation
-  - concepts
+  - architecture
   - howtos
   - networking
   - kubernetes
-  - mmeshctl
   - automation
   - monitoring
   - IAM: iam

@@ -18,10 +18,10 @@ All Kubernetes implementations and derivatives in on-prem or public cloud are su
 
 There are two ways of connecting the applications you have running on Kubernetes to your mmesh topology. You can connect them at Service-level or at Pod-level.
 
-### [Kubernetes Services Forwarding](/docs/platform/kubernetes/services/)
+### [Kubernetes Services Forwarding](k8s-services.md)
 
 A mmesh node with the feature `Kubernetes Gateway` enabled, if running on a Kubernetes Cluster, can expose ClusterIP Services as its own endpoints in the mmesh subnet.
 
-### [Kubernetes Pods Routing](/docs/platform/kubernetes/pods/)
+### [Kubernetes Pods Routing](k8s-pods.md)
 
 This method connects your Kubernetes Pods as full-featured mmesh nodes to a mmesh subnet.

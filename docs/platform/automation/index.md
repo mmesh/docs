@@ -13,10 +13,10 @@ In mmesh we have the capability to execute your workflows automatically on any m
 
 Browse the topics below to learn more.
 
-### [Projects](/docs/platform/automation/projects/)
+### [Projects](projects.md)
 
-Use [projects](/docs/platform/automation/projects/) to organize workflows. Create different projects depending on your organization, either by department, environment, or any organizative unit that requires to control their automations.
+Use [projects](projects.md) to organize workflows. Create different projects depending on your organization, either by department, environment, or any organizative unit that requires to control their automations.
 
-### [Workflows](/docs/platform/automation/workflows/)
+### [Workflows](workflows.md)
 
-The automation subsystem of mmesh is based on [workflows](/docs/platform/automation/workflows/). Any workflow contains a set of tasks with a defined schedule. Workflows are configured using declarative YAML files that you can easily manage via GitOps to define and schedule tasks.
+The automation subsystem of mmesh is based on [workflows](workflows.md). Any workflow contains a set of tasks with a defined schedule. Workflows are configured using declarative YAML files that you can easily manage via GitOps to define and schedule tasks.

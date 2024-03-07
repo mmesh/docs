@@ -21,4 +21,4 @@ mmesh has three types of users:
 
 You can manage the users using the mmesh webUI or `mmeshctl`.
 
-Browse the [IAM: Users Administration](/docs/platform/administration/iam-users/) section to learn how to manage the users.
+Browse the [Users Administration](iam-users.md) section to learn how to manage the users.

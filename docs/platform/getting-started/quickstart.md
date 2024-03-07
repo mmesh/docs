@@ -28,10 +28,7 @@ To create more nodes, select the subnet where you want to add them and click on 
 
 For additional details on how to install mmesh on your nodes, check these detailed how-tos:
 
-- [Node install on Linux](/docs/platform/howtos/NodeSetupLinuxV2/)
-
-- [Node install on Windows](https://github.com/mmesh/m-cli)
-- ....
+- [Node install on Linux](node-linux-setup.md)
 
 
 ## 3. Install and configure mmeshctl
@@ -41,7 +38,7 @@ To work using mmesh command line interface (CLI), follow these instructions.
 1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
 2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default in the `$HOME/.mmesh` directory.
 
-Find more details in the [mmeshctl installation guide](/docs/platform/installation/cli/).
+Find more details in the [mmeshctl installation guide](../installation/cli.md).
 
 ## Next Steps
 

@@ -13,14 +13,14 @@ This documentation section provides information about user management, authentic
 
 Browse the topics below to learn more.
 
-### [Users](/docs/platform/iam/users/)
+### [Users](users.md)
 
 Manage the users of your mmesh.
 
-### [Authentication](/docs/platform/iam/authentication/)
+### [Authentication](authentication.md)
 
 Learn about the authentication methods supported by mmesh.
 
-### [Authorization](/docs/platform/iam/authorization/)
+### [Authorization](authorization.md)
 
 Manage the mmesh authorization system. It is based on RBAC.

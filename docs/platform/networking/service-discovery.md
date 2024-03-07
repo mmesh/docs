@@ -29,7 +29,7 @@ dig @<NODE-IP> -p 53535 A <FQDN>
 
 !!! Information
 
-    See [Node Configuration Reference](/docs/platform/reference/mmesh-node.yml/) section for more information about the `mmesh-node.yml` file.
+    See [Node Configuration Reference](mmesh-node.yml.md) section for more information about the `mmesh-node.yml` file.
 
 ## DNS Integrations
 

@@ -21,11 +21,11 @@ At maximum, you can have 255 nodes connected to a mmesh subnet.
 
 A node will be assigned at least one IP address from the subnet range where it's connected. This IP can be manually or dynamically assigned.
 
-> See [IP Address Management](/docs/platform/networking/topology/#subnet) section for more information about addressing.
+> See [IP Address Management](topology.md#subnet) section for more information about addressing.
 
 A node will also have a DNS name which can be also manually configured in the `mmesh-node.yml` file. In case it is not specified, the node ID will be used.
 
-> See [Node Configuration Reference](/docs/platform/reference/mmesh-node.yml/) section for more information about the `mmesh-node.yml` file.
+> See [Node Configuration Reference](mmesh-node.yml.md) section for more information about the `mmesh-node.yml` file.
 
 ## Endpoints
 
@@ -41,7 +41,7 @@ With this option enabled, a node can **forward traffic from the mmesh subnet to 
 
 With this configuration each of these ClusterIP Services will become an endpoint with its own IP and internal DNS name.
 
-Learn more about mmesh nodes acting as Kubernetes gateways [here](/docs/platform/kubernetes/services/).
+Learn more about mmesh nodes acting as Kubernetes gateways [here](k8s-services.md).
 
 ## Service Discovery
 
@@ -49,7 +49,7 @@ mmesh has a service discovery system that publishes every node endpoint in an in
 
 You can query this internal DNS service by default on the port `UDP/5353`.
 
-> See [DNS Integration](/docs/platform/networking/service-discovery/) section for more information on how to integrate the mmesh service discovery system with your DNS infrastructure.
+> See [DNS Integration](service-discovery.md) section for more information on how to integrate the mmesh service discovery system with your DNS infrastructure.
 
 ## Remote Management Features
 
@@ -75,11 +75,11 @@ The mmesh CLI commands, inspired by the ones in [Kubernetes kubectl](https://kub
 - `mmeshctl cp`: Transfer file and directories between nodes.
 - `mmeshctl port-fwd`: Forward local TCP port to target node.
 
-Browse the [Nodes Administration](/docs/platform/administration/nodes/#remote-management-features) section to learn more on this topic.
+Browse the [Nodes Administration](nodes.md#remote-management-features) section to learn more on this topic.
 
 ### Extended Security Credentials
 
-In addition to other [authentication](/docs/platform/iam/authentication/), [authorization](/docs/platform/iam/authorization/) and [admission control](/docs/platform/networking/topology/#admission-control) features, mmesh supports an extended mechanism to further increase the security and the level of control you have over your nodes.
+In addition to other [authentication](authentication.md), [authorization](authorization.md) and [admission control](topology.md#admission-control) features, mmesh supports an extended mechanism to further increase the security and the level of control you have over your nodes.
 
 In the `management` section of the `mmesh-node.yml` you can add two additional credentials to authenticate users executing the commands described above.
 
@@ -95,7 +95,7 @@ management:
     # [...]
 ```
 
-> See [Node Configuration Reference](/docs/platform/reference/mmesh-node.yml/) section for more information about the `mmesh-node.yml` file.
+> See [Node Configuration Reference](mmesh-node.yml.md) section for more information about the `mmesh-node.yml` file.
 
 If a mmesh node is configured with those extended auth credentials under `agent.management.auth`, then it will be necessary for the users to include those credentials too in their `mmeshctl.yml` file in order to get access to the node with the commands `mmeshctl exec`, `mmeshctl cp` and `mmeshctl port-fwd`.
 
@@ -111,10 +111,10 @@ agent:
       securityToken: "<your-secret-security-token>"
 ```
 
-> See [CLI Configuration Reference](/docs/platform/reference/mmeshctl.yml/) section for more information about the `mmeshctl.yml` file.
+> See [CLI Configuration Reference](mmeshctl.yml.md) section for more information about the `mmeshctl.yml` file.
 
 ## Administration
 
 ### Nodes Management
 
-Browse the [Nodes Administration](/docs/platform/administration/nodes/) section to learn how to manage your nodes.
+Browse the [Nodes Administration](nodes.md) section to learn how to manage your nodes.

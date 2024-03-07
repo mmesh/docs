@@ -26,7 +26,7 @@ First we need to create a Project. Go to the Workflows section on the [mmesh.io]
 
 Provide a name and a description for your project and press `Add new project`. Do not select any workflow policy yet, we will explain them later.
 
-Alternatively, a project can be created using [mmeshctl](/docs/platform/installation/cli/) CLI command `mmeshctl ops project create`. Example:
+Alternatively, a project can be created using [mmeshctl](../installation/cli.md) CLI command `mmeshctl ops project create`. Example:
 
 ```bash
 # mmeshctl ops project create

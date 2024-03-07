@@ -12,8 +12,8 @@ The automation subsystem of mmesh is based on `workflows`. A workflow defines a 
 
 Workflows are configured using a declarative YAML file where you define the jobs or processes (tasks) you want to automate, their schedule configuration, the target node and other parameters like notification recipients and reviewers/approvers.
 
-Check this how-to [guide](/docs/platform/howtos/workflow-basics/) for a step-by-step example that will guide you in creating your first workflow.
+Check this how-to [guide](workflow-basics.md) for a step-by-step example that will guide you in creating your first workflow.
 
-For a list of actions you can perform with workflows, see this administration [guide](/docs/platform/administration/ops-workflows/). Or review the mmeshctl CLI [ops](/docs/platform/mmeshctl/automation/) commands to manage projects and workflows.
+For a list of actions you can perform with workflows, see this administration [guide](workflows.md). Or review the mmeshctl CLI [ops](mmeshctl-automation.md) commands to manage projects and workflows.
 
-YAML workflow configuration file reference details can be found [here](/docs/platform/reference/workflow/).
+YAML workflow configuration file reference details can be found [here](workflow.yml.md).

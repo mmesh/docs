@@ -36,4 +36,4 @@ approvers:
 
 ## Configuration
 
-Projects can be easily created using the mmesh webUI Workflows page and pressing `Add Project` or using the meshctl CLI as described [here](/docs/platform/mmeshctl/automation/).
+Projects can be easily created using the mmesh webUI Workflows page and pressing `Add Project` or using the meshctl CLI as described [here](mmeshctl-automation.md).

@@ -15,16 +15,16 @@ This section summarizes some of the features you will find in mmesh. Take full a
 mmesh implements an abstraction layer built on top of **any** physical or virtual environment, creating a seamless encrypted fabric where you define your own topology and security policies. Linux, Windows and macOS are supported.
 
 - Define your own virtual topology.
-- [Multi-Cloud](/docs/platform/concepts/multicloud/) & on-prem.
-- [Multi-Tenancy](/docs/platform/networking/topology/).
-- [Advanced Networking](/docs/platform/networking/advanced-features/) features: IPv4 / IPv6, support of address overlapping, dynamic routing, high availability.
-- [Kubernetes Integration](/docs/platform/kubernetes/overview/).
-- [Security Policies](/docs/platform/networking/network-security/).
-- [Service Discovery](/docs/platform/networking/service-discovery/).
-- [Automation Workflows](/docs/platform/automation/overview/).
-- [Third-party Integrations](/docs/platform/administration/account/#integrations): GitHub, PagerDuty, Slack, Discord, Webhooks.
-- [Monitoring and Alerts](/docs/platform/monitoring/overview/), with analytics.
-- [IAM](/docs/platform/iam/overview/) with RBAC-based authorization.
+- [Multi-Cloud](concepts.md#multicloud/) & on-prem.
+- [Multi-Tenancy](topology.md).
+- [Advanced Networking]() features: IPv4 / IPv6, support of address overlapping, dynamic routing, high availability.
+- [Kubernetes Integration](../kubernetes/index.md).
+- [Security Policies](network-security.md).
+- [Service Discovery](service-discovery.md).
+- [Automation Workflows](../automation/index.md).
+- [Third-party Integrations](account.md#integrations): GitHub, PagerDuty, Slack, Discord, Webhooks.
+- [Monitoring and Alerts](../monitoring/index.md), with analytics.
+- [IAM](../iam/index.md) with RBAC-based authorization.
 - CLI and webUI.
 - Centralized management.
 

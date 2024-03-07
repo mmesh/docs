@@ -2,4 +2,4 @@ nav:
     - Tenants: tenants.md
     - Networks: networks.md
     - Subnets: subnets.md
-    - Nodes: nodes.md
+    - Nodes: adm-nodes.md

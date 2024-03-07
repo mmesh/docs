@@ -17,38 +17,34 @@ Browse the topics below to learn more.
 
 ## Network Abstraction
 
-mmesh acts as a compatibility layer on top of your cloud and traditional environments, allowing you to create a seamless [virtual topology](/docs/platform/networking/topology/) where you can define your [security policies](/docs/platform/networking/network-security/#security-policies) and access controls ([RBAC](/docs/platform/iam/authorization/)) to operate and [automate](/docs/platform/automation/overview/) your [nodes](/docs/platform/networking/nodes/) in a simpler and unified way.
+mmesh acts as a compatibility layer on top of your cloud and traditional environments, allowing you to create a seamless [virtual topology](topology.md) where you can define your [security policies](network-security.md#security-policies) and access controls ([RBAC](authorization.md)) to operate and [automate](../automation/index.md) your [nodes](nodes.md) in a simpler and unified way.
 
-### [Topology](/docs/platform/networking/topology/)
+### [Topology](topology.md)
 
-Learn how to build your mmesh [topology](/docs/platform/networking/topology/).
+Learn how to build your mmesh [topology](topology.md).
 
-### [Nodes](/docs/platform/networking/nodes/)
+### [Nodes](nodes.md)
 
 A `node` is any system connected to your mmesh topology.
 
-Find more information and learn how to manage them in the [Nodes](/docs/platform/networking/nodes/) section.
+Find more information and learn how to manage them in the [Nodes](nodes.md) section.
 
 ## Network Security
 
 One of the main goals of mmesh is to help you enhance your infrastructure security in hybrid cloud environments. Easily, without requiring complex tools often difficult to configure, or expensive deployments of legacy equipment.
 
-### [Security Policies](/docs/platform/networking/network-security/#security-policies)
+### [Security Policies](network-security.md#security-policies)
 
-[Security policies](/docs/platform/networking/network-security/#security-policies) act as distributed firewalls and protect the [nodes](/docs/platform/networking/nodes/) connected to mmesh.
+[Security policies](network-security.md#security-policies) act as distributed firewalls and protect the [nodes](nodes.md) connected to mmesh.
 
-### [End-to-End Encryption](/docs/platform/networking/network-security/#end-to-end-encryption)
+### [End-to-End Encryption](network-security.md#end-to-end-encryption)
 
-mmesh automatically enforces [end-to-end encryption](/docs/platform/networking/network-security/#end-to-end-encryption) on all network traffic and user interactions. No configuration required.
+mmesh automatically enforces [end-to-end encryption](network-security.md#end-to-end-encryption) on all network traffic and user interactions. No configuration required.
 
 ## Service Discovery
 
-mmesh implements a [service discovery](/docs/platform/networking/service-discovery/) system where every node connected to mmesh is published on an internal DNS subsystem with the `.mmesh.local` suffix.
+mmesh implements a [service discovery](service-discovery.md) system where every node connected to mmesh is published on an internal DNS subsystem with the `.mmesh.local` suffix.
 
 You can easily integrate the `.mmesh.local` domain into your DNS infrastructure by configuring the `mmesh.local` domain as a _forward_ zone.
 
-See [DNS Integration](/docs/platform/networking/service-discovery/#dns-integration) for more details.
-
-## Best Practices
-
-Learn some tricks and recommended configurations [here](/docs/platform/networking/best-practices/).
+See [DNS Integration](service-discovery.md#dns-integration) for more details.
