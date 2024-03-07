@@ -12,30 +12,30 @@ tags:
 
 Check the next sections for details on each command available:
 
-- *[account](/docs/platform/mmeshctl/account/)*     Account administration
+- *[account](mmeshctl-account.md)*     Account administration
 
-- *[auth](/docs/platform/mmeshctl/authorization/)*        Authentication commands
+- *[alert](mmeshctl-alerts.md)*       Alert system
 
-- *[alert](/docs/platform/mmeshctl/alerts/)*       Alert system
+- *[auth](mmeshctl-authentication.md)*        Authentication commands
 
-- *[tenant](/docs/platform/mmeshctl/tenants/)*      Tenants administration
+- *[completion](mmeshctl-completion.md)*  Generate completion script
 
-- *[network](/docs/platform/mmeshctl/networks/)*     Networks administration
+- *[help](mmeshctl-help.md)*        Help about any command
 
-- *[subnet](/docs/platform/mmeshctl/subnets/)*      Subnets administration
+- *[k8s](mmeshctl-k8s.md)*         Connect kubernetes clusters to your mmesh
 
-- *[node](/docs/platform/mmeshctl/nodes/)*        Network node operations
+- *[network](mmeshctl-networks.md)*     Network administration
 
-- *[vs](/docs/platform/mmeshctl/vs/)*          Virtual Servers (lb/ha services)
+- *[node](mmeshctl-nodes.md)*        Network node operations
 
-- *[policy](/docs/platform/mmeshctl/policies/)*      Security policies administration
+- *[ops](mmeshctl-automation.md)*         Automation: projects / workflows / logs
 
-- *[k8s](/docs/platform/mmeshctl/k8s/)*         Connect kubernetes clusters to your mmesh
+- *[policy](mmeshctl-policies.md)*      Security policies administration
 
-- *[ops](/docs/platform/mmeshctl/automation/)*         Automation and GitOps: projects / workflows / logs
+- *[subnet](mmeshctl-subnets.md)*      Subnets administration
 
-- *[version](/docs/platform/mmeshctl/version/)*     Update client and show version information
+- *[tenant](mmeshctl-tenants.md)*      Tenant administration
 
-- *[completion](/docs/platform/mmeshctl/completion/)*  Generate completion script
+- *[version](mmeshctl-version.md)*     Update client and show version information
 
-- *[help](/docs/platform/mmeshctl/help/)*        Help about any command
+- *[vs](mmeshctl-vs.md)*          Virtual Servers (lb/ha services)

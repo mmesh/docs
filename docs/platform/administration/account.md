@@ -16,7 +16,7 @@ tags:
 
 ### Create a new account
 
-1. To sign up you just need an **email account**. Please navigate to our sign-up page at: https://mmesh.io/signin and insert your email address.
+1. To sign up you just need an **email account**. Please navigate to our sign-up page at: [https://mmesh.io/signin](https://mmesh.io/signin) and insert your email address.
 
     ![Sign up.](../assets/images/account/mmesh-signup.png)
 

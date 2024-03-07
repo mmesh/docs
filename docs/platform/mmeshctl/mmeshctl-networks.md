@@ -2,8 +2,8 @@
 title: "Networks"
 description: "Description."
 tags:
-  - tag1
-  - tag2
+  - cli
+  - networks
 ---
 
 # Networks
