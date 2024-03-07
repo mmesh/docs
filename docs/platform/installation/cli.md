@@ -310,7 +310,7 @@ docker run --rm -ti -v $HOME/.mmesh:/root/.mmesh:ro mmeshdev/mmeshctl help
 
 The first time you run `mmeshctl`, you will be assisted to generate your `mmeshctl.yml`. This config file will be located by default at the `$HOME/.mmesh` directory.
 
-See the [mmeshctl configuration reference](/docs/platform/reference/mmeshctl.yml/) to find all the configuration options.
+See the [mmeshctl configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
 ## Usage
 
