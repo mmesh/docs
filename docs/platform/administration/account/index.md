@@ -9,22 +9,24 @@ tags:
 
 # Account Administration
 
-- [:material-page-next: Manage Account](account.md) 
+In these sections you will find detailed information on how to manage mmesh.
 
-    Learn how to manage your mmesh account.
+### :material-page-next: [Manage Account](account.md) 
 
-- [:material-page-next: Tenant](tenants.md)
+Learn how to manage your mmesh account.
 
-    Learn how to manage your tenants.
+### :material-page-next: [Tenant](tenants.md)
 
-- [:material-page-next: Identity and Access Management (IAM)](./iam/)
+Learn how to manage your tenants.
 
-    Learn how to manage users, security groups and ACLs.
+### :material-page-next: [Identity and Access Management (IAM)](./iam/)
 
-- [:material-page-next: Account Setting](settings.md)
+Learn how to manage users, security groups and ACLs.
 
-    Learn how to configure mmesh account settings and configure third-party integrations.
+### :material-page-next: [Account Setting](settings.md)
 
-- [:material-page-next: Billing Portal](settings.md)
+Learn how to configure mmesh account settings and configure third-party integrations.
 
-    Learn how to configure mmesh billing portal.
+### :material-page-next: [Billing Portal](settings.md)
+
+Learn how to configure mmesh billing portal.

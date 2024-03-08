@@ -31,7 +31,8 @@ You can download the pre-compiled binaries and install them with the appropriate
 
 ## Linux Installation
 
-### Linux installation with a magic link
+/// tab | Magic Link
+    select: True
 
 The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
 
@@ -45,7 +46,9 @@ Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
 
 > See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
-### Linux binary installation with curl
+///
+
+/// tab | Binary
 
 1. Download the latest release.
 
@@ -55,13 +58,13 @@ Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
 
 2. Validate the binary (optional).
 
-    Download the mmesh-node checksum file:
+    Download the `mmesh-node` checksum file:
 
     ```shell
     curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmesh-node_checksum.sha256"
     ```
 
-    Validate the mmesh-node binary against the checksum file:
+    Validate the `mmesh-node` binary against the checksum file:
 
     ```bash
     sha256sum --check < mmesh-node_checksum.sha256
@@ -80,7 +83,7 @@ Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
     sha256sum: WARNING: 1 computed checksum did NOT match
     ```
 
-3. Install mmesh-node and create its configuration file according to your needs.
+3. Install `mmesh-node` and create its configuration file according to your needs.
 
     ```shell
     sudo install -o root -g root -m 0750 mmesh-node /usr/local/bin/mmesh-node
@@ -132,86 +135,121 @@ Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
     sudo modprobe tun
     ```
 
-6. Start the mmesh-node service.
+6. Start the `mmesh-node` service.
 
     ```shell
     sudo systemctl daemon-reload
     sudo systemctl enable mmesh-node
-    sudo systemctl restart mmesh-node
+    sudo systemctl start mmesh-node
     ```
 
-#### Uninstall Linux mmesh-node
+7. Check `mmesh-node` service status:
 
-To remove `mmesh-node` from the system, use the following commands:
+    ```shell
+    sudo systemctl status mmesh-node
+    ```
 
-```shell
-sudo systemctl stop mmesh-node
-sudo systemctl disable mmesh-node
-sudo rm /etc/systemd/system/mmesh-node.service
-sudo systemctl daemon-reload
-sudo rm /usr/local/bin/mmesh-node
-sudo rm /etc/mmesh/mmesh-node.yml
-sudo rmdir /etc/mmesh
-```
+///
 
-### Package Repository
+/// tab | Package Repository
 
 mmesh provides a package repository that contains both DEB and RPM downloads.
 
-For DEB-based platforms (e.g. Ubuntu and Debian) run the following to setup a new APT sources.list entry and install `mmesh-node`:
+//// tab | Ubuntu or Debian
+     select: True
 
-```shell
-echo 'deb [trusted=yes] https://repo.mmesh.io/apt/ /' | sudo tee /etc/apt/sources.list.d/mmesh.list
-sudo apt update
-sudo apt install mmesh-node
-```
+1. Run the following to setup a new APT `sources.list` entry and install `mmesh-node`:
 
-For RPM-based platforms (e.g. RHEL, CentOS) use the following to create a repo file and install `mmesh-node`:
+    ```shell
+    echo 'deb [trusted=yes] https://repo.mmesh.io/apt/ /' | sudo tee /etc/apt/sources.list.d/mmesh.list
+    sudo apt update
+    sudo apt install mmesh-node
+    ```
 
-```shell
-cat <<EOF | sudo tee /etc/yum.repos.d/mmesh.repo
-[mmesh]
-name=mmesh Repository - Stable
-baseurl=https://repo.mmesh.io/yum
-enabled=1
-gpgcheck=0
-EOF
-sudo yum install mmesh-node
-```
+2. Check `mmesh-node` service status:
+
+    ```shell
+    sudo systemctl status mmesh-node
+    ```
+
+////
+
+//// tab | RHEL or CentOS
+
+1. Run the following to create a `mmesh.repo` file and install `mmesh-node`:
+
+    ```shell
+    cat <<EOF | sudo tee /etc/yum.repos.d/mmesh.repo
+    [mmesh]
+    name=mmesh Repository - Stable
+    baseurl=https://repo.mmesh.io/yum
+    enabled=1
+    gpgcheck=0
+    EOF
+    sudo yum install mmesh-node
+    ```
+
+2. Check `mmesh-node` service status:
+
+    ```shell
+    sudo systemctl status mmesh-node
+    ```
+
+////
+
+///
 
 ## macOS Installation
 
-### macOS binary installation with curl
+/// tab | Magic Link
+    select: True
+
+The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
+
+```shell
+mmeshctl node add
+```
+
+///
+
+/// tab | Binary
 
 1. Download the latest release.
 
-    **Intel**:
+    /// tab | Intel
+        select: True
 
     ```shell
     curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmesh-node"
     ```
+    ///
 
-    **Apple Silicon**:
+    /// tab | Apple Silicon
 
     ```shell
     curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmesh-node"
     ```
+    ///
 
 2. Validate the binary (optional).
 
     Download the mmesh-node checksum file:
 
-    **Intel**:
+    /// tab | Intel
+        select: True
 
     ```shell
     curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmesh-node_checksum.sha256"
     ```
+    ///
 
-    **Apple Silicon**:
+    /// tab | Apple Silicon
 
     ```shell
     curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmesh-node_checksum.sha256"
     ```
+    ///
+
 
     Validate the mmesh-node binary against the checksum file:
 
@@ -244,9 +282,11 @@ sudo yum install mmesh-node
     sudo chmod 600 /etc/mmesh/mmesh-node.yml
     ```
 
-    > **IMPORTANT**: In macOS, `agent.iface` must be `utun[0-9]+` in the `mmesh-node.yml`, being `utun5` usually a good choice for that setting. Use the command `ifconfig -a` before launching the `mmesh-node` service and check that the interface is not in-use.
+    !!! Warning
+        
+        In macOS, `agent.iface` must be `utun[0-9]+` in the `mmesh-node.yml`, being `utun5` usually a good choice for that setting. Use the command `ifconfig -a` before launching the `mmesh-node` service and check that the interface is not in-use.
 
-    See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+        See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
 4. Install and start the mmesh-node agent as a system service.
 
@@ -312,21 +352,21 @@ sudo yum install mmesh-node
         properties = keepalive | runatload | inferred program
     }
     ```
-
-#### Uninstall macOS mmesh-node
-
-To remove `mmesh-node` from the system, use the following commands:
-
-```shell
-sudo /usr/local/libexec/mmesh-node service-uninstall
-sudo rm /usr/local/libexec/mmesh-node
-sudo rm /etc/mmesh/mmesh-node.yml
-sudo rmdir /etc/mmesh
-```
+///
 
 ## Windows Installation
 
-### Windows binary installation with curl
+/// tab | Magic Link
+    select: True
+
+The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
+
+```shell
+mmeshctl node add
+```
+///
+
+/// tab | Binary
 
 1. Open the Command Prompt as Administrator and create a folder for mmesh.
 
@@ -387,55 +427,7 @@ sudo rmdir /etc/mmesh
     net start "mmesh-node"
     ```
 
-#### Uninstall Windows mmesh-node
-
-To remove `mmesh-node` from the system, open the Command Prompt as Administrator and use the following commands:
-
-```shell
-net stop "mmesh-node"
-cd 'C:\Program Files\mmesh'
-.\mmesh-node.exe service-uninstall
-del *.*
-cd ..
-rmdir 'C:\Program Files\mmesh'
-```
-
-## Artifacts Verification
-
-### Binaries
-
-All artifacts are checksummed and the checksum file is signed with [cosign](https://github.com/sigstore/cosign).
-
-1. Download the files you want and the `checksums.txt`, `checksum.txt.pem` and `checksums.txt.sig` files from the [Releases](https://github.com/mmesh/m-node/releases) page:
-
-2. Verify the signature:
-
-    ```shell
-    cosign verify-blob \
-        --cert checksums.txt.pem \
-        --signature checksums.txt.sig \
-        checksums.txt
-    ```
-
-3. If the signature is valid, you can then verify the SHA256 sums match with the downloaded binary:
-
-    ```shell
-    sha256sum --ignore-missing -c checksums.txt
-    ```
-
-### Docker Images
-
-Our Docker images are signed with [cosign](https://github.com/sigstore/cosign).
-
-Verify the signatures:
-
-```console
-COSIGN_EXPERIMENTAL=1 cosign verify mmeshdev/mmesh-node
-```
-
-## Configuration
-
-See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+///
 
 ## Running with Docker
 
@@ -456,4 +448,82 @@ docker run -d --restart=always \
   --name mmesh-node \
   -v /etc/mmesh:/etc/mmesh:ro \
   mmeshdev/mmesh-node:latest start
+```
+
+## Artifacts Verification
+
+/// tab | Binaries
+
+All artifacts are checksummed and the checksum file is signed with [cosign](https://github.com/sigstore/cosign).
+
+1. Download the files you want and the `checksums.txt`, `checksum.txt.pem` and `checksums.txt.sig` files from the [Releases](https://github.com/mmesh/m-node/releases) page:
+
+2. Verify the signature:
+
+    ```shell
+    cosign verify-blob \
+        --cert checksums.txt.pem \
+        --signature checksums.txt.sig \
+        checksums.txt
+    ```
+
+3. If the signature is valid, you can then verify the SHA256 sums match with the downloaded binary:
+
+    ```shell
+    sha256sum --ignore-missing -c checksums.txt
+    ```
+///
+
+/// tab | Docker Images
+
+Our Docker images are signed with [cosign](https://github.com/sigstore/cosign).
+
+Verify the signatures:
+
+```console
+COSIGN_EXPERIMENTAL=1 cosign verify mmeshdev/mmesh-node
+```
+///
+
+## Configuration
+
+See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+
+
+## Uninstall Linux mmesh-node
+
+To remove `mmesh-node` from the system, use the following commands:
+
+```shell
+sudo systemctl stop mmesh-node
+sudo systemctl disable mmesh-node
+sudo rm /etc/systemd/system/mmesh-node.service
+sudo systemctl daemon-reload
+sudo rm /usr/local/bin/mmesh-node
+sudo rm /etc/mmesh/mmesh-node.yml
+sudo rmdir /etc/mmesh
+```
+
+## Uninstall macOS mmesh-node
+
+To remove `mmesh-node` from the system, use the following commands:
+
+```shell
+sudo /usr/local/libexec/mmesh-node service-uninstall
+sudo rm /usr/local/libexec/mmesh-node
+sudo rm /etc/mmesh/mmesh-node.yml
+sudo rmdir /etc/mmesh
+```
+
+## Uninstall Windows mmesh-node
+
+To remove `mmesh-node` from the system, open the Command Prompt as Administrator and use the following commands:
+
+```shell
+net stop "mmesh-node"
+cd 'C:\Program Files\mmesh'
+.\mmesh-node.exe service-uninstall
+del *.*
+cd ..
+rmdir 'C:\Program Files\mmesh'
 ```

@@ -7,7 +7,7 @@ tags:
   - cli
 ---
 
-# mmeshctl installation
+# CLI - mmeshctl Installation
 
 The mmesh CLI, `mmeshctl`, is an open-source tool that allows you to manage your mmesh from the command line.
 
@@ -83,32 +83,60 @@ You can download the pre-compiled binaries and install them with the appropriate
         mv ./mmeshctl ~/.local/bin/mmeshctl
         # and then append (or prepend) ~/.local/bin to $PATH
         ```
+
+4. Test to ensure the version of mmeshctl is the same as downloaded:
+
+    ```shell
+    mmeshctl version show
+    ```
+
 ///
 
 /// tab | Package Repository
 
 mmesh provides a package repository that contains both DEB and RPM downloads.
 
-For DEB-based platforms (e.g. Ubuntu and Debian) run the following to setup a new APT sources.list entry and install `mmesh-cli`:
+//// tab | Ubuntu or Debian
+     select: True
 
-```shell
-echo 'deb [trusted=yes] https://repo.mmesh.io/apt/ /' | sudo tee /etc/apt/sources.list.d/mmesh.list
-sudo apt update
-sudo apt install mmesh-cli
-```
+1. Run the following to setup a new APT sources.list entry and install `mmesh-cli`:
 
-For RPM-based platforms (e.g. RHEL, CentOS) use the following to create a repo file and install `mmesh-cli`:
+    ```shell
+    echo 'deb [trusted=yes] https://repo.mmesh.io/apt/ /' | sudo tee /etc/apt/sources.list.d/mmesh.list
+    sudo apt update
+    sudo apt install mmesh-cli
+    ```
 
-```shell
-cat <<EOF | sudo tee /etc/yum.repos.d/mmesh.repo
-[mmesh]
-name=mmesh Repository - Stable
-baseurl=https://repo.mmesh.io/yum
-enabled=1
-gpgcheck=0
-EOF
-sudo yum install mmesh-cli
-```
+2. Test to ensure the version you installed is up-to-date:
+
+    ```shell
+    mmeshctl version show
+    ```
+
+////
+
+//// tab | RHEL or CentOS
+
+1. Run the following to create a repo file and install `mmesh-cli`:
+
+    ```shell
+    cat <<EOF | sudo tee /etc/yum.repos.d/mmesh.repo
+    [mmesh]
+    name=mmesh Repository - Stable
+    baseurl=https://repo.mmesh.io/yum
+    enabled=1
+    gpgcheck=0
+    EOF
+    sudo yum install mmesh-cli
+    ```
+
+2. Test to ensure the version you installed is up-to-date:
+
+    ```shell
+    mmeshctl version show
+    ```
+////
+
 ///
 
 /// tab | Homebrew
@@ -138,7 +166,7 @@ If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
         select: True
 
     ```shell
-        curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl"
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl"
     ```
     ///
 
@@ -203,6 +231,12 @@ If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
 
     !!! Note
         Make sure `/usr/local/bin` is in your `PATH` environment variable.
+
+5. Test to ensure the version of mmeshctl is the same as downloaded:
+
+    ```shell
+    mmeshctl version show
+    ```
 ///
 
 /// tab | Homebrew
@@ -263,7 +297,7 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
 
 4. Append or prepend the folder `C:\Program Files\mmesh` to your `PATH` environment variable.
 
-5. Test to ensure the version of mmeshctl is the same as downloaded.
+5. Test to ensure the version of mmeshctl is the same as downloaded:
 
     ```shell
     mmeshctl version show
@@ -321,16 +355,18 @@ COSIGN_EXPERIMENTAL=1 cosign verify mmeshdev/mmeshctl
 ```
 ///
 
-## Configuration
-
-The first time you run `mmeshctl`, you will be assisted to generate your `mmeshctl.yml`. This config file will be located by default at the `$HOME/.mmesh` directory.
-
-See the [mmeshctl configuration reference](mmesh-node.yml.md) to find all the configuration options.
-
 ## Usage
 
-See usage with:
+You can run the following command to see the `mmeshctl` usage:
 
 ```shell
 mmeshctl help
 ```
+
+See more detail information about the `mmeshctl` command [here](../reference/mmeshctl/index.md).
+
+!!! Information
+
+    When you will run `mmeshctl login`, the account temporal credentials will be located by default at the `$HOME/.mmesh/apikey`. 
+
+    This file `$HOME/.mmesh/apikey` will be removed when you execute `mmeshctl logout`
