@@ -14,6 +14,6 @@ Workflows are configured using a declarative YAML file where you define the jobs
 
 Check this how-to [guide](workflow-basics.md) for a step-by-step example that will guide you in creating your first workflow.
 
-For a list of actions you can perform with workflows, see this administration [guide](workflows.md). Or review the mmeshctl CLI [ops](mmeshctl-automation.md) commands to manage projects and workflows.
+For a list of actions you can perform with workflows, see this administration [guide](adm-workflows.md). Or review the mmeshctl CLI [ops](mmeshctl-automation.md) commands to manage projects and workflows.
 
 YAML workflow configuration file reference details can be found [here](workflow.yml.md).

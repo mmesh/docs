@@ -1,5 +1,5 @@
 ---
-title: "Workflows"
+title: "Workflows Administration"
 description: "The automation subsystem of mmesh is based on workflows. They are configured using YAML files to define the jobs you want to automate."
 tags:
   - admin
