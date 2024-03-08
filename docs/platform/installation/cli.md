@@ -32,13 +32,15 @@ You can download the pre-compiled binaries and install them with the appropriate
 
 ## Linux Installation
 
-/// tab | "Binary"
+/// tab | Binary
     select: True
 
 1. Download the latest release.
+
     ```shell
-   curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmeshctl"
-   ```
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/linux/amd64/mmeshctl"
+    ```
+
 2. Validate the binary (optional).
 
     Download the mmeshctl checksum file:
@@ -83,7 +85,7 @@ You can download the pre-compiled binaries and install them with the appropriate
         ```
 ///
 
-/// tab | "Package Repository"
+/// tab | Package Repository
 
 mmesh provides a package repository that contains both DEB and RPM downloads.
 
@@ -109,7 +111,7 @@ sudo yum install mmesh-cli
 ```
 ///
 
-/// tab | "Homebrew"
+/// tab | Homebrew
 
 If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux) package manager, you can install the mmesh CLI with Homebrew.
 
@@ -128,62 +130,62 @@ If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
 
 ## macOS Installation
 
-"Binary"
+/// tab | Binary
 
 1. Download the latest release.
 
-/// tab | "Intel"
-    select: True
+    /// tab | Intel
+        select: True
 
-```shell
-curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl"
-```
-///
+    ```shell
+        curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl"
+    ```
+    ///
 
-/// tab | "Apple Silicon"
+    /// tab | Apple Silicon
 
-```shell
-curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmeshctl"
-```
-///
+    ```shell
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmeshctl"
+    ```
+    ///
 
 2. Validate the binary (optional).
 
     Download the mmeshctl checksum file:
 
-/// tab | "Intel"
-    select: True
+    /// tab | Intel
+        select: True
 
-```shell
-curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/amd64/mmeshctl_checksum.sha256"
-```
-///
+    ```shell
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/   darwin/amd64/mmeshctl_checksum.sha256"
+    ```
+    ///
 
-/// tab | "Apple Silicon"
+    /// tab | Apple Silicon
 
-```shell
-curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmeshctl_checksum.sha256"
-```
-///
+    ```shell
+    curl -LO "https://dl.mmesh.io/binaries/stable/latest/darwin/arm64/mmeshctl_checksum.sha256"
+    ```
+    ///
 
-Validate the mmeshctl binary against the checksum file:
+    Validate the mmeshctl binary against the checksum file:
 
-```shell
-shasum --algorithm 256 --check mmeshctl_checksum.sha256
-```
+    ```shell
+    shasum --algorithm 256 --check mmeshctl_checksum.sha256
+    ```
 
-If valid, the output must be:
+    If valid, the output must be:
 
-```shell
-meshctl: OK
-```
+    ```shell
+    meshctl: OK
+    ```
 
-If the check fails, sha256 exits with nonzero status and prints output similar to:
+    If the check fails, sha256 exits with nonzero status and prints output similar to:
 
-```shell
-mmeshctl: FAILED
-sha256sum: WARNING: 1 computed checksum did NOT match
-```
+    ```shell
+    mmeshctl: FAILED
+    sha256sum: WARNING: 1 computed checksum did NOT match
+    ```
 
 3. Make the mmeshctl binary executable.
 
@@ -201,9 +203,9 @@ sha256sum: WARNING: 1 computed checksum did NOT match
 
     !!! Note
         Make sure `/usr/local/bin` is in your `PATH` environment variable.
+///
 
-
-/// tab | "Homebrew"
+/// tab | Homebrew
 
 If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you can install the mmesh CLI with Homebrew.
 
@@ -222,7 +224,7 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
 
 ## Windows Installation
 
-/// tab | "Binary"
+/// tab | Binary
 
 1. Open the Command Prompt as Administrator and create a folder for mmesh.
 
@@ -285,7 +287,7 @@ docker run --rm -ti -v $HOME/.mmesh:/root/.mmesh:ro mmeshdev/mmeshctl help
 
 ## Artifacts Verification
 
-/// tab | "Binaries"
+/// tab | Binaries
     select: True
 
 All artifacts are checksummed and the checksum file is signed with [cosign](https://github.com/sigstore/cosign).
@@ -308,7 +310,7 @@ All artifacts are checksummed and the checksum file is signed with [cosign](http
     ```
 ///
 
-/// tab | "Docker Images"
+/// tab | Docker Images
 
 Our Docker images are signed with [cosign](https://github.com/sigstore/cosign).
 
