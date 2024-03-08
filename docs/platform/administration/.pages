@@ -1,5 +1,5 @@
 nav:
-    - Account: account.md
+    - Account: account
     - Alerts: alerts.md
     - Kubernetes Integration: kubernetes.md
     - ...
