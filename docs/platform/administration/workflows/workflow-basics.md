@@ -24,7 +24,7 @@ First we need to create a Project.
 
 Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and select `add project`.
 
-![mmesh new project form](../assets/images/workflows/NewProject.png)
+![mmesh new project form](../../assets/images/workflows/NewProject.png)
 
 Provide a name and a description for your project and press `Add new project`. Do not select any workflow policy yet, we will explain them later.
 
@@ -77,7 +77,7 @@ A workflow is executed on a node. To identify the node, select the node where yo
 
 On the webUI, select the `Topology` page and select the node where you want to execute your workflows. On the opened screen you'll be able to check the NodeID. Example:
 
-![NodeID code.](../assets/images/workflows/NodeId.png)
+![NodeID code.](../../assets/images/workflows/NodeId.png)
 
 ///
 
@@ -255,11 +255,11 @@ One a workflow is executed, its task log can be checked either using the webUI o
 
 On the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) application, check the task result under the workflow:
 
-![Workflow execution.](../assets/images/workflows/WorkflowExecution.png)
+![Workflow execution.](../../assets/images/workflows/WorkflowExecution.png)
 
 Select one of the executions and you will get all the information about it, plus the output of your task:
 
-![Task output.](../assets/images/workflows/TaskOutput.png)
+![Task output.](../../assets/images/workflows/TaskOutput.png)
 
 ///
 
@@ -326,7 +326,7 @@ You can remove workflow task execution logs either using the webUI or the mmesct
 
 On the `Workflows` section, presss the "bin" on the right on the tasklog that you want to delete:
 
-![Tasklog bin.](../assets/images/workflows/TasklogBin.png)
+![Tasklog bin.](../../assets/images/workflows/TasklogBin.png)
 
 Confirm the deletion when requested.
  
