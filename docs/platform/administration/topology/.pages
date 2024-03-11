@@ -1,4 +1,5 @@
 nav:
-    - Networks: networks.md
-    - Subnets: subnets.md
+    - index.md
+    - Networks: adm-networks.md
+    - Subnets: adm-subnets.md
     - Nodes: adm-nodes.md

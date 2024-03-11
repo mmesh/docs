@@ -34,17 +34,9 @@ You can download the pre-compiled binaries and install them with the appropriate
 /// tab | Magic Link
     select: True
 
-The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
+The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
 
-```shell
-mmeshctl node add
-```
-
-You will be able to use the magic link to install the `mmesh-node` agent in seconds with no additional configuration required.
-
-Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
-
-> See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+![Linux Setup](./assets/images/nodes-install/linux-setup.png)
 
 ///
 
@@ -204,11 +196,9 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
 /// tab | Magic Link
     select: True
 
-The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
+The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
 
-```shell
-mmeshctl node add
-```
+![macOs Setup](./assets/images/nodes-install/mac-setup.png)
 
 ///
 
@@ -359,11 +349,10 @@ mmeshctl node add
 /// tab | Magic Link
     select: True
 
-The easiest way to add nodes to your mmesh is by generating a magic link in the mmesh web UI, or with `mmeshctl`:
+The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
 
-```shell
-mmeshctl node add
-```
+![Windows Setup](./assets/images/nodes-install/windows-setup.png)
+
 ///
 
 /// tab | Binary
@@ -431,12 +420,23 @@ mmeshctl node add
 
 ## Running with Docker
 
-You can also run the `mmesh-node` agent as a Docker container. See examples below.
+You can also run the `mmesh-node` agent as a Docker container. 
 
 Registries:
 
 - `mmeshdev/mmesh-node`
 - `ghcr.io/mmesh/mmesh-node`
+
+/// tab | Magic Link
+    select: True
+
+The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
+
+![Docker Setup](./assets/images/nodes-install/docker-setup.png)
+
+///
+
+/// tab | Manual
 
 Example usage:
 
@@ -450,9 +450,12 @@ docker run -d --restart=always \
   mmeshdev/mmesh-node:latest start
 ```
 
+///
+
 ## Artifacts Verification
 
 /// tab | Binaries
+    select: True
 
 All artifacts are checksummed and the checksum file is signed with [cosign](https://github.com/sigstore/cosign).
 
@@ -487,12 +490,20 @@ COSIGN_EXPERIMENTAL=1 cosign verify mmeshdev/mmesh-node
 
 ## Configuration
 
+Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
+
 See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
 
-## Uninstall Linux mmesh-node
+## Uninstall
+
+/// tab | Linux
+    select: True
 
 To remove `mmesh-node` from the system, use the following commands:
+
+//// tab | Binary
+     select: True
 
 ```shell
 sudo systemctl stop mmesh-node
@@ -503,8 +514,36 @@ sudo rm /usr/local/bin/mmesh-node
 sudo rm /etc/mmesh/mmesh-node.yml
 sudo rmdir /etc/mmesh
 ```
+////
 
-## Uninstall macOS mmesh-node
+//// tab | Package Repository
+
+///// tab | Ubuntu or Debian
+      select: True
+
+```shell
+sudo systemctl stop mmesh-node
+sudo apt-get -y remove mmesh-node
+sudo rm /etc/mmesh/mmesh-node.yml
+sudo rmdir /etc/mmesh
+```
+/////
+
+///// tab | RHEL or CentOS
+
+```shell
+sudo systemctl stop mmesh-node
+sudo yum -y remove mmesh-node
+sudo rm /etc/mmesh/mmesh-node.yml
+sudo rmdir /etc/mmesh
+```
+/////
+
+////
+
+///
+
+/// tab | macOS
 
 To remove `mmesh-node` from the system, use the following commands:
 
@@ -515,7 +554,9 @@ sudo rm /etc/mmesh/mmesh-node.yml
 sudo rmdir /etc/mmesh
 ```
 
-## Uninstall Windows mmesh-node
+///
+
+/// tab | Windows
 
 To remove `mmesh-node` from the system, open the Command Prompt as Administrator and use the following commands:
 

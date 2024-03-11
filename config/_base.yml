@@ -67,7 +67,6 @@ plugins:
       tags_file: tags.md
   - search
   - autolinks
-  - img2fig
   # - git-revision-date-localized:
   #     enable_creation_date: true
   #     type: datetime
