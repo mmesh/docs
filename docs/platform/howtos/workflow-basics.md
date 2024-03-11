@@ -1,5 +1,5 @@
 ---
-title: "[How-To] Workflow basics"
+title: "Workflow basics"
 description: "Create your first workflow with this step-by-step guide."
 tags:
   - how-to
@@ -13,20 +13,26 @@ tags:
 
 A **workflow** defines a task or set of tasks to be executed on a node with a given schedule. Workflows are organized in **projects**.
 
-In this how-to we will provide you a step-by-step guide to configure, execute and review the logs of your first workflow.
+In this how-to we will provide you a step-by-step guide to configure and execute of your first workflow, plus how to review its logs.
 
 ## Project creation
 
-First we need to create a Project. Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and select `add project`.
+First we need to create a Project. 
 
-<figure markdown>
-  ![mmesh new project form](/docs/platform/howtos/assets/images/NewProject.png){ width="550" }
-  <figcaption>New Project form</figcaption>
-</figure>
+/// tab | webUI
+    select: true
+
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and select `add project`.
+
+![mmesh new project form](../assets/images/workflows/NewProject.png)
 
 Provide a name and a description for your project and press `Add new project`. Do not select any workflow policy yet, we will explain them later.
 
-Alternatively, a project can be created using [mmeshctl](../installation/cli.md) CLI command `mmeshctl ops project create`. Example:
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli.md) CLI command `mmeshctl ops project create` to create a project. Example:
 
 ```bash
 # mmeshctl ops project create
@@ -57,11 +63,82 @@ Review Required  	[no]
 Approval Required	[no]
 ```
 
-Take note of the TenantID and the ProjectID as both will be required to define the workflow.
+///
+
+!!! note "Keep the Tenant and Project IDs."
+    Take note of the TenantID and the ProjectID as both will be required to define the workflow.
 
 ## Workflow configuration
 
 A workflow is executed on a node. To identify the node, select the node where you want your workflow to be executed and take note of its **NodeID**.
+
+/// tab | webUI
+    select: true
+
+On the webUI, select the `Topology` page and select the node where you want to execute your workflows. On the opened screen you'll be able to check the NodeID. Example:
+
+![NodeID code.](../assets/images/workflows/NodeId.png)
+
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli.md) CLI command `mmeshctl node show` to check your node details. Example:
+
+```bash
+meshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+» Node: [nginx-depl-585b788df7-2fgzr] [k8s-pod] nginx-depl
+                                                          ───── Node Details ≡
+════════════════
+Node Information
+════════════════
+
+Tenant ID       <Tenant_ID_removed>
+Network ID      net-172-16                          
+Subnet ID       subnet-172-16-15                    
+Node ID    	<Node_ID_removed>	
+Node Name  	nginx-depl-585b788df7-2fgzr         	
+Description	[k8s-pod] nginx-depl                	
+Status     	[online]                            	
+
+-----NODE AUTHORIZATION TOKEN-----
+<Toked_Removed>
+-----NODE AUTHORIZATION TOKEN-----
+
+OS         	Linux                                                       	
+Uptime     	3 days, 5 hours, 41 minutes                                 	
+Maintenance	[auto-update] Scheduled [05:00]                             	
+Options    	[exec] [transfer] [portForward] [workflows]                 	
+External IP	n/a                                                         	
+Port       	57775                                                       	
+DNS Port   	udp/53535                                                   	
+Routing    	[priority-3]                                                	
+Resources  	Load 1.240000 | RAM [77%] ███████░░░ | Disk [67%] ██████░░░░	
+
+Routing: Advertised Routes
+──────────────────────────
+
+
+Routing: Imported Routes
+────────────────────────
+
+
+Node Endpoints
+──────────────
+
+Endpoint ID / FQDN                  	IPv4         	IPv6               
+------------------                  	----         	----               
+nginx-depl-585b788df7-2fgzr.default 
+nginx-depl-585b788df7-2fgzr...      	172.16.15.106	fd77:f:ac10:f6a:1::
+
+```
+
+///
 
 To configure a workflow, create a file named `workflow.yml` with this content:
 
@@ -158,36 +235,105 @@ Score              	0.00
 Resource Rating    	[n/a]  
 ```
 
-Take note of the provided workflow ID, as it is required if you want to modify the created workflow, by adding it just below your Project ID:
+!!! note "Keep the Project ID."
 
-```yaml
-projectID: <Replace with your ProjectID>
-workflowID: <Replace with your WorkflowID>
-```
+    Take note of the provided workflow ID, as it is required if you want to modify the created workflow. For this, add the workflow ID just below the Project ID on the `workflow.yml` file:
+
+    ```yaml
+    projectID: <Replace with your ProjectID>
+    workflowID: <Replace with your WorkflowID>
+    ```
 
 In a few minutes this workflow will be executed and we will be able to check its log and output.
 
 ## Check workflow logs
 
-Wait a few minutes and on the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) application the executions of your task will appear:
+One a workflow is executed, its task log can be checked either using the webUI or the CLI.
 
-<figure markdown>
-  ![mmesh workflow execution](/docs/platform/howtos/assets/images/WorkflowExecution.png){ width="1100" }
-  <figcaption>Workflow execution</figcaption>
-</figure>
+/// tab | webUI
+    select: true
+
+On the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) application, check the task result under the workflow:
+
+![Workflow execution.](../assets/images/workflows/WorkflowExecution.png)
 
 Select one of the executions and you will get all the information about it, plus the output of your task:
 
-<figure markdown>
-  ![mmesh task output](/docs/platform/howtos/assets/images/TaskOutput.png){ width="1100" }
-  <figcaption>Task output</figcaption>
-</figure>
+![Task output.](/docs/platform/howtos/assets/images/TaskOutput.png)
 
-At any time, you can disable a **workflow** and stop it to keep executing with the command `mmeshctl ops workflow disable` and selecting it through your tenant, project and workflow. Replace `disable` for `enable` at any time to re-enable it.
+///
+
+/// tab | CLI
+
+To check a workflow execution log (tasklog) using CLI, execute the command `mmeshctl ops tasklog show`and choose your tenant, project, workflow and tasklog. Example:
+
+```bash
+mmeshctl ops tasklog show
+mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+» Project: demo
+» Workflow: workflow
+» TaskLog:  [Use arrows to move, type to filter]
+🢂 Task: uptime | Timestamp: 2024-03-06 10:50:00.008 +0100 CET
+  Target: client-b
+
+  Task: uptime | Timestamp: 2024-03-06 10:55:00.011 +0100 CET
+  Target: client-b
+» TaskLog: Task: uptime | Timestamp: 2024-03-06 10:50:00.008 +0100 CET
+  Target: client-b
+
+                                                  ───── Ops: TaskLog Details ≡
+═══════════════════
+TaskLog Information
+═══════════════════
+
+Tenant ID               <Tenant_ID_removed>
+Project ID              <Project_ID_removed>
+Workflow ID             <Workflow_ID_removed>	
+TaskLog ID              <Tasklog_ID_removed>
+Task Name               uptime                              
+Task Description        uptime command                      
+Tenant                  demo                                
+Node                    client-b                            
+Result                  [EXECUTED]                          
+Timestamp               2024-03-06 10:50:00.008 +0100 CET   
+
+Activity Log
+────────────
+
+-----BEGIN OUTPUT-----
+ 10:50:00 up 22:52,  1 user,  load average: 0.72, 1.29, 1.68
+-----END OUTPUT-----
+
+```
+
+///
+
+## Disable or Enable workflows
+
+At any time, you can disable a **workflow** to stop it to keep executing with the command `mmeshctl ops workflow disable` and selecting it through your tenant, project and workflow. Replace `disable` for `enable` on the CLI command to re-enable it.
 
 ## Remove workflow logs
 
-You can remove workflow task execution logs either using by selecting the "bin" on the right on the mmesh web application, or using the command `mmeshctl ops tasklog delete`. Example:
+You can remove workflow task execution logs either using the webUI or the mmesctl CLI.
+
+///tab | webUI
+
+On the `Workflows` section, presss the "bin" on the right on the tasklog that you want to delete:
+
+
+ 
+ ///
+
+ /// tab | CLI
+ 
+Use the command `mmeshctl ops tasklog delete`, select the tenant, project, workflow and tasklog to delete it. 
+
+Example:
 
 ```bash
 # mmeshctl ops tasklog delete
@@ -208,6 +354,7 @@ mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
    Done
 
 ```
+///
 
 ## Update a workflow
 

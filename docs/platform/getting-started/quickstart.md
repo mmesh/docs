@@ -12,13 +12,13 @@ tags:
 
 # Quick Start
 
-mmesh is an innovative network, monitoring and automation platform that lets you easily create your virtual topology to integrate your on-prem and multi-cloud environments in minutes.
+mmesh is an innovative overlay network build for the cloud. It lets you easily create your virtual network to integrate your on-prem and multi-cloud environments in minutes.
 
 Get started with the following steps:
 
 ## 1. Create your account
 
-Follow this [instructions](../administration/account.md#create-a-new-account) to create your account.
+Follow these [instructions](account.md#create-a-new-account) to create your account.
 
 ## 2. Add your nodes
 
