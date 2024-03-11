@@ -14,7 +14,7 @@ In these sections you will find detailed information on how to begin using mmesh
 
 ### :material-page-next: [Nodes](nodes-install.md)
 
-Once your account is created, you will want to add nodes to your new network. In this section you will learn how to install our agent (`mmesh-node`) on the machines or applications you want to interconnect.
+Once your account is created, you will want to [add nodes](adm-nodes.md#add-node) to your new network. In this section you will learn how to install our agent (`mmesh-node`) on the machines or applications you want to interconnect.
 
 ### :material-page-next: [Command Line Tool](cli-install.md)
 
