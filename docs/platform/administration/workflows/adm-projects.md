@@ -9,77 +9,259 @@ tags:
 
 # Projects Administration
 
-An mmesh `project` is a logical component of mmesh that groups automation `workflows`.
+A `project` organizes `workflows` in a logical group. A `workflow` is a set of tasks that are executed on a node.
 
-> See [Automation](../../automation/index.md) section to find more information on mmesh projects.
+A `project` allows to define common policies to be enforced for all the `workflows` belonging to the project.
 
-## Attributes
+## Service Management Features
 
-The following table includes the attributes that define a mmesh `project`:
+Currently the options you can configure on a project are the following:
 
-| Name             | Type      | Default | Editable<sup>*</sup> | Description |
-| :--------------- | :-------: | :-----: | :------------------: | :---------- |
-| `projectID`      | `string`  |         | no  | project identifier |
-| `description`    | `string`  |         | yes | short descriptive text |
-| `review_required` | `boolean` | `false` | yes | require peer-reviews for the workflows before they can run on the target nodes |
-| `approval_required` | `boolean` | `false` | yes | require approvals for the workflows before they can run on the target nodes |
+- `Review Required`: [ yes | no ]
 
-<table-note>
-The parameter can be modified once the entity is created.
-</table-note>
+  Allows to enforce peer-reviews on the workflows before they can run on the target nodes.
 
-## Operations
+- `Approval Required`: [ yes | no ]
 
-You can manage your projects using `mmeshctl` or the mmesh webUI.
+  It allows for a service management policy to enforce approval before a workflow is scheduled on a node. The approval can be provided by a customer or service responsible, 
+  before workflows can run.
 
-### WebUI: Projects
+## Create Project
 
-1. In the navigation menu on the left, click `Automation` to browse your projects.
+Projects can be created using mmesh webUI or mmeshctl CLI:
 
-### CLI: Projects
+/// tab | webUI
+    select: true
 
-#### List Projects
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and select `Add project`.
 
-List all your projects.
+![mmesh new project form](../../assets/images/workflows/NewProject.png)
 
-```shell
-mmeshctl ops project list
+Provide a name and a description for your project and press `Add new project`. Select `Review Required`, `Approval Required`, or both, if required by your organization service management policy.
+
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project create` to create a project. 
+
+Example:
+
+```bash
+# mmeshctl ops project create
+mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+» Name: demo
+» Description: Demo Project.
+» Enable workflow-required reviews? No
+» Enable workflow-required approvals? No
+                                                  ───── Ops: Project Details ≡
+═══════════════════
+Project Information
+═══════════════════
+
+Tenant ID  	<Tenant_ID_removed>	
+Project ID 	<Project_ID_removed>	
+Name       	demo                                	
+Description	Demo Project.                       	
+
+ChatOps and Service Management Features
+───────────────────────────────────────
+
+Review Required  	[no]	
+Approval Required	[no]
 ```
 
-#### Create Project
+///
 
-Create a new project.
+!!! note "Keep the Tenant and Project IDs."
+    Take note of the TenantID and the ProjectID as both will be required to define the workflows.
 
-```shell
-mmeshctl ops project set
+
+## List Projects
+
+List all your projects either using the webUI or mmeshctl CLI:
+
+/// tab | webUI
+    select: true
+
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application to check your `Projects`.
+
+Example: 
+
+![Project list.](../../assets/images/workflows/ProjectList.png)
+
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project list` to list your projects. 
+
+Example:
+
+```bash
+# mmeshctl ops project list
+mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+                                                         ───── Ops: Projects ≡
+════════════
+Project List
+════════════
+
+PROJECT NAME            	DESCRIPTION                              
+----------------------------------------------------------------------
+project-2               	Second Project                          	
+demo                    	Demo project.                           	
+
 ```
 
-#### Show Project
+///
 
-Show all the details of a project.
 
-```shell
-mmeshctl project show
+## Show Project
+
+To show all the details of a project choose either webUI or CLI:
+
+/// tab | webUI
+    select: true
+
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select a `project` to show its details.
+
+Example:
+
+![Project show.](../../assets/images/workflows/ProjectShow.png)
+
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project show` to show details for a project.
+
+Example:
+
+```bash
+# mmeshctl ops project show
+mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+» Project: demo
+                                                  ───── Ops: Project Details ≡
+═══════════════════
+Project Information
+═══════════════════
+
+Tenant ID  	<Tenant_ID_removed>	
+Project ID 	<Project_ID_removed>	
+Name       	demo                                	
+Description	Demo project.                       	
+
+ChatOps and Service Management Features
+───────────────────────────────────────
+
+Review Required  	[no]	
+Approval Required	[no]	
+
 ```
 
-#### Update Project
+///
 
-Update a project.
+## Update Project
 
-The following parameters are *editable*:
+Update a project to modify its `name`, `description`, and `review` or `approval` requirements.
 
-- `description`
-- `review_required`
-- `approval_required`
 
-```shell
-mmeshctl project set
+/// tab | webUI
+    select: true
+
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select a `project` to show its details. Then press the `edit` button on the top-right, modify as required, and press `save`.
+
+Example:
+
+![Project update.](../../assets/images/workflows/ProjectUpdate.png)
+
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project update` to modify project parameters such as its `name`, `description`, and `review` or `approval` requirement.
+
+```bash
+# mmeshctl ops project update
+mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+» Project: project-2
+» Name: project-2
+» Description: Second demo project.
+» Enable workflow-required reviews? No
+» Enable workflow-required approvals? No
+                                                  ───── Ops: Project Details ≡
+═══════════════════
+Project Information
+═══════════════════
+
+Tenant ID  	<Tenant_ID_removed>	
+Project ID 	<Project_ID_removed>	
+Name       	project-2                           	
+Description	Second demo project.                	
+
+ChatOps and Service Management Features
+───────────────────────────────────────
+
+Review Required  	[no]	
+Approval Required	[no]	
 ```
 
-#### Delete Project
+///
+
+## Delete Project
 
 Delete a project with all its configuration and child entities (workflows).
 
-```shell
-mmeshctl project delete
+/// tab | webUI
+    select: true
+
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select the `bin` next to the `project` that you want to remove.
+
+Example:
+
+![Project delete.](../../assets/images/workflows/ProjectDelete.png)
+
+
+///
+
+/// tab | CLI
+
+Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project delete` to delete a project and all its child workflows.
+
+```bash
+# mmeshctl ops project delete
+mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
+  ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
+■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
+  ▀   ■  ▀ ▀ ▀ ▀ ▀ ▀ ▀▀▀▀ ▀▀▀▀ ▀  ▀ │ Documentation: https://mmesh.io/docs
+
+» Tenant: [demo] Demo tenant
+» Project: project-2
+
+» Confirm deletion? Yes
+
+   Done
+
 ```
+
+///
