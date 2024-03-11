@@ -1,13 +1,13 @@
 ---
-title: "Overview"
-description: "Description."
+title: "Command Line Tool (mmeshctl)"
+description: "mmeshctl is an open-source tool that allows you to manage your mmesh from the command line."
 tags:
   - cli
 ---
 
-# Overview
+# Command Line Tool (mmeshctl)
 
-**mmeshctl** is our command-line interface (CLI) to manage all mmesh resources from the command line.
+The mmesh CLI, `mmeshctl`, is an open-source tool that allows you to manage your mmesh from the command line.
 
 Check the next sections for details on each command available:
 

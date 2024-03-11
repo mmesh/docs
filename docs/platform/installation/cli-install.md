@@ -156,7 +156,7 @@ If you are on Linux and using [Homebrew](https://docs.brew.sh/Homebrew-on-Linux)
     ```
 ///
 
-## macOS Installation
+## MacOS Installation
 
 /// tab | Binary
 
@@ -269,7 +269,8 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
 2. Download the latest release into the mmesh folder.
 
     ```shell
-    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmeshctl.exe"
+    cd 'C:\Program Files\mmesh'
+    curl -Uri "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmeshctl.exe" -Outfile mmeshctl.exe
     ```
 
 3. Validate the binary (optional).
@@ -277,7 +278,7 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
     Download the mmeshctl.exe checksum file:
 
     ```shell
-    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmeshctl.exe_checksum.sha256"
+    curl -Uri "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmeshctl.exe_checksum.sha256" -Outfile mmeshctl.exe_checksum.sha256
     ```
 
     Validate the mmeshctl.exe binary against the checksum file:
@@ -297,9 +298,13 @@ If you are on macOS and using [Homebrew](https://brew.sh/) package manager, you 
 
 4. Append or prepend the folder `C:\Program Files\mmesh` to your `PATH` environment variable.
 
+    ```powershell
+    $ENV:PATH="$ENV:PATH;C:\Program Files\mmesh"
+    ```
+
 5. Test to ensure the version of mmeshctl is the same as downloaded:
 
-    ```shell
+    ```powershell
     mmeshctl version show
     ```
 ///
@@ -370,3 +375,61 @@ See more detail information about the `mmeshctl` command [here](../reference/mme
     When you will run `mmeshctl login`, the account temporal credentials will be located by default at the `$HOME/.mmesh/apikey`. 
 
     This file `$HOME/.mmesh/apikey` will be removed when you execute `mmeshctl logout`
+
+## Uninstall
+
+/// tab | Linux
+    select: True
+
+To remove `mmeshctl` from the system, use the following commands:
+
+//// tab | Binary
+     select: True
+
+```shell
+sudo rm /usr/local/bin/mmeshctl
+sudo rm -f $HOME/.mmesh
+```
+////
+
+//// tab | Package Repository
+
+///// tab | Ubuntu or Debian
+      select: True
+
+```shell
+sudo apt-get -y remove mmesh-cli
+sudo rm -f $HOME/.mmesh
+```
+/////
+
+///// tab | RHEL or CentOS
+
+```shell
+sudo yum -y remove mmesh-cli
+sudo rm -f $HOME/.mmesh
+```
+/////
+
+////
+
+///
+
+/// tab | macOS
+
+To remove `mmeshctl` from the system, use the following commands:
+
+```shell
+sudo rm /usr/local/bin/mmeshctl
+sudo rm -f $HOME/.mmesh
+```
+
+///
+
+/// tab | Windows
+
+To remove `mmeshctl` from the system, open the Windows PowerShell as Administrator and use the following commands:
+
+```powershell
+rm 'C:\Program Files\mmesh' -r -force
+```

@@ -14,18 +14,18 @@ The **mmesh** internal DNS generates a fully qualified domain name for every nod
 
 The fully qualified domain name is made up of two parts:
 
-![mmesh-node FQDN](../assets/images/mmesh-node-fqdn.png)
+![mmesh-node FQDN](assets/images/mmesh-node-fqdn.png)
 
 In the case of Kubernetes integration, the fully qualified domain name is made up of three parts:
 
-![mmesh-node K8s FQDN](../assets/images/mmesh-k8s-fqdn.png)
+![mmesh-node K8s FQDN](assets/images/mmesh-k8s-fqdn.png)
 
 You can query this internal DNS service by default on the port `UDP/53535` of every mmesh node:
 
 ```
 dig @<NODE-IP> -p 53535 A <FQDN>
 ```
-![dig DNS request](../assets/images/dig-dns-request.png)
+![dig DNS request](assets/images/dig-dns-request.png)
 
 !!! Information
 
@@ -173,7 +173,7 @@ If you want to resolve `.mmesh.local` domain inside the pods, you need to custom
         
         You should select the `tenant`, `network` and `subnet` previously defined in your mmesh private virtual topology.
 
-  ![coredns-workload-connected](../assets/images/coredns-connected.png)
+    ![coredns-workload-connected](../assets/images/coredns-connected.png)
 
 
 Now we can access the [mmesh dashboard](https://mmesh.io/app) to verify that the nodes are correctly connected to the subnet. 

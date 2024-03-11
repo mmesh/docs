@@ -12,7 +12,7 @@ tags:
 
 ## Kubernetes Services Forwarding
 
-![kubernetes services](../assets/images/mmesh-k8s-svc.png)
+![kubernetes services](assets/images/mmesh-k8s-svc.png)
 
 A mmesh node with the feature `Kubernetes Gateway` enabled, if running on a Kubernetes Cluster, can expose ClusterIP Services as its own endpoints in the mmesh subnet.
 

@@ -65,6 +65,7 @@ plugins:
   - awesome-pages
   - tags:
       tags_file: tags.md
+      tags_hierarchy: true
   - search
   - autolinks
   # - git-revision-date-localized:

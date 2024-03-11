@@ -135,7 +135,7 @@ The easiest way to install the `mmesh-node` agent in seconds is by using the mag
     sudo systemctl start mmesh-node
     ```
 
-7. Check `mmesh-node` service status:
+7. Check `mmesh-node` service status.
 
     ```shell
     sudo systemctl status mmesh-node
@@ -150,7 +150,7 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
 //// tab | Ubuntu or Debian
      select: True
 
-1. Run the following to setup a new APT `sources.list` entry and install `mmesh-node`:
+1. Run the following to setup a new APT `sources.list` entry and install `mmesh-node`.
 
     ```shell
     echo 'deb [trusted=yes] https://repo.mmesh.io/apt/ /' | sudo tee /etc/apt/sources.list.d/mmesh.list
@@ -158,7 +158,7 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
     sudo apt install mmesh-node
     ```
 
-2. Check `mmesh-node` service status:
+2. Check `mmesh-node` service status.
 
     ```shell
     sudo systemctl status mmesh-node
@@ -168,7 +168,7 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
 
 //// tab | RHEL or CentOS
 
-1. Run the following to create a `mmesh.repo` file and install `mmesh-node`:
+1. Run the following to create a `mmesh.repo` file and install `mmesh-node`.
 
     ```shell
     cat <<EOF | sudo tee /etc/yum.repos.d/mmesh.repo
@@ -181,7 +181,7 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
     sudo yum install mmesh-node
     ```
 
-2. Check `mmesh-node` service status:
+2. Check `mmesh-node` service status.
 
     ```shell
     sudo systemctl status mmesh-node
@@ -191,7 +191,7 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
 
 ///
 
-## macOS Installation
+## MacOS Installation
 
 /// tab | Magic Link
     select: True
@@ -357,27 +357,27 @@ The easiest way to install the `mmesh-node` agent in seconds is by using the mag
 
 /// tab | Binary
 
-1. Open the Command Prompt as Administrator and create a folder for mmesh.
+1. Open the Windows PowerShell as Administrator and create a folder for mmesh.
 
-    ```shell
+    ```powershell
     mkdir 'C:\Program Files\mmesh'
     ```
 
 2. Download the latest release into the mmesh folder.
 
-    ```shell
-    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmesh-node.exe"
+    ```powershell
+    curl -Uri "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmesh-node.exe" -Outfile mmesh-node.exe
     ```
 
 3. Validate the binary (optional).
 
     Download the mmesh-node.exe checksum file:
 
-    ```shell
-    curl -LO "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmesh-node.exe_checksum.sha256"
+    ```powershell
+    curl -Uri "https://dl.mmesh.io/binaries/stable/latest/windows/amd64/mmesh-node.exe_checksum.sha256" -Outfile mmesh-node.exe_checksum.sha256
     ```
 
-    Validate the mmesh-node.exe binary against the checksum file:
+    Validate the `mmesh-node.exe` binary against the checksum file:
 
     - Using Command Prompt to manually compare CertUtil's output to the checksum file downloaded:
 
@@ -398,22 +398,26 @@ The easiest way to install the `mmesh-node` agent in seconds is by using the mag
 
 6. Use an editor to create the mmesh-node configuration file `C:\Program Files\mmesh\mmesh-node.yml`.
 
-    > See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+    !!! Information
 
-7. Install the mmesh-node agent as a Windows service.
+        See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
-    > The instructions below assume that the `wintun.dll`, `mmesh-node.exe` and `mmesh-node.yml` files are stored in `C:\Program Files\mmesh`.
+7. Install the `mmesh-node` agent as a Windows service.
 
-    ```shell
-    .\mmesh-node.exe service-install --config "C:\Program Files\mmesh\mmesh-node.yml"
+    ```powershell
+    'C:\Program Files\mmesh\mmesh-node.exe' service-install
     ```
 
-    Make sure to provide the absolute path of the mmesh-node.yml configuration file, otherwise the Windows service may fail to start.
+8. Start the `mmesh-node` service.
 
-8. Start the service.
+    ```powershell
+    start-Service mmmesh-node
+    ```
 
-    ```shell
-    net start "mmesh-node"
+9. Check `mmesh-node` service status.
+
+    ```powershell
+    get-Service mmesh-node
     ```
 
 ///
@@ -558,13 +562,10 @@ sudo rmdir /etc/mmesh
 
 /// tab | Windows
 
-To remove `mmesh-node` from the system, open the Command Prompt as Administrator and use the following commands:
+To remove `mmesh-node` from the system, open the Windows PowerShell as Administrator and use the following commands:
 
-```shell
-net stop "mmesh-node"
-cd 'C:\Program Files\mmesh'
-.\mmesh-node.exe service-uninstall
-del *.*
-cd ..
-rmdir 'C:\Program Files\mmesh'
+```powershell
+stop-Service "mmesh-node"
+'C:\Program Files\mmeshmmesh-node.exe` service-uninstall
+rm 'C:\Program Files\mmesh' -r -force
 ```

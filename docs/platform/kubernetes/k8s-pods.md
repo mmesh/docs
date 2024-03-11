@@ -12,7 +12,7 @@ tags:
 
 ## Kubernetes Pods Routing
 
-![kubernetes pods](../assets/images/mmesh-k8s-pod.png)
+![kubernetes pods](assets/images/mmesh-k8s-pod.png)
 
 This method connects your Kubernetes Pods as mmesh nodes to a mmesh subnet.
 

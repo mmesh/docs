@@ -7,4 +7,4 @@ description: "In this section, you can browse the mmesh documentation content gr
 
 Following is a list of relevant tags:
 
-[TAGS]
+<!-- material/tags -->
