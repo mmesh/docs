@@ -130,7 +130,7 @@ Routing: Imported Routes
 
 Node Endpoints
 ──────────────
-
+/docs/platform/howtos
 Endpoint ID / FQDN                  	IPv4         	IPv6               
 ------------------                  	----         	----               
 nginx-depl-585b788df7-2fgzr.default 
@@ -259,7 +259,7 @@ On the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) a
 
 Select one of the executions and you will get all the information about it, plus the output of your task:
 
-![Task output.](/docs/platform/howtos/assets/images/TaskOutput.png)
+![Task output.](../assets/images/workflows/TaskOutput.png)
 
 ///
 
@@ -322,10 +322,13 @@ At any time, you can disable a **workflow** to stop it to keep executing with th
 You can remove workflow task execution logs either using the webUI or the mmesctl CLI.
 
 ///tab | webUI
+    select: true
 
 On the `Workflows` section, presss the "bin" on the right on the tasklog that you want to delete:
 
+![Tasklog bin.](../assets/images/workflows/TasklogBin.png)
 
+Confirm the deletion when requested.
  
  ///
 
