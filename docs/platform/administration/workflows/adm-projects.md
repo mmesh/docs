@@ -35,7 +35,7 @@ Projects can be created using mmesh webUI or mmeshctl CLI:
 
 Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and select `Add project`.
 
-![mmesh new project form](../../assets/images/workflows/NewProject.png)
+![mmesh new project form](../../assets/images/adm-projects/NewProject.png)
 
 Provide a name and a description for your project and press `Add new project`. Select `Review Required`, `Approval Required`, or both, if required by your organization service management policy.
 
@@ -43,7 +43,7 @@ Provide a name and a description for your project and press `Add new project`. S
 
 /// tab | CLI
 
-Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project create` to create a project. 
+Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project create` to create a project. Provide a name and a description, and select if reviewal or approval is required.
 
 Example:
 
@@ -93,7 +93,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) ap
 
 Example: 
 
-![Project list.](../../assets/images/workflows/ProjectList.png)
+![Project list.](../../assets/images/adm-projects/ProjectList.png)
 
 ///
 
@@ -137,7 +137,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) an
 
 Example:
 
-![Project show.](../../assets/images/workflows/ProjectShow.png)
+![Project show.](../../assets/images/adm-projects/ProjectShow.png)
 
 ///
 
@@ -188,7 +188,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) an
 
 Example:
 
-![Project update.](../../assets/images/workflows/ProjectUpdate.png)
+![Project update.](../../assets/images/adm-projects/ProjectUpdate.png)
 
 ///
 
@@ -235,11 +235,11 @@ Delete a project with all its configuration and child entities (workflows).
 /// tab | webUI
     select: true
 
-Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select the `bin` next to the `project` that you want to remove.
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select the `bin` next to the `project` that you want to remove. A confirmation is requested.
 
 Example:
 
-![Project delete.](../../assets/images/workflows/ProjectDelete.png)
+![Project delete.](../../assets/images/adm-projects/ProjectDelete.png)
 
 
 ///
