@@ -10,7 +10,7 @@ tags:
 
 # Installation
 
-In these sections you will find detailed information on how to begin using mmesh.
+In these sections you will find detailed installation instructions.
 
 ### :material-page-next: [Nodes](nodes-install.md)
 

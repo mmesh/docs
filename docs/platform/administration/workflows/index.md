@@ -1,5 +1,5 @@
 ---
-title: "Workflows Index"
+title: "Workflows"
 description: "mmesh automation engine administration guide. Learn how to manage projects, workflows and taskslogs."
 tags:
   - admin
@@ -10,7 +10,7 @@ tags:
   - tasklogs
 ---
 
-# Workflows Index
+# Workflows
 
 mmesh automation is based on `projects`, `workflows` and `tasklogs`. Check the followint documentation for instructions to manage them.
 

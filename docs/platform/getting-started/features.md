@@ -3,7 +3,7 @@ title: "Features"
 description: "Leverage mmesh to take full advantage of the cloud technologies, modernize your infrastructure and get higher levels of automation."
 tags:
   - getting started
-  - integrations
+  - features
 ---
 
 # Features
