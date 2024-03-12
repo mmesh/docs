@@ -19,7 +19,7 @@ Learn how to manage your mmesh account.
 
 Learn how to manage your tenants.
 
-### :material-page-next: [Identity and Access Management (IAM)](./iam/)
+### :material-page-next: [Identity and Access Management (IAM)](./iam/index.md)
 
 Learn how to manage users, security groups and ACLs.
 

@@ -21,7 +21,7 @@ tags:
 
 3. Press the `Continue` button and open your email to get your one-time code similar to this:
 
-    ![Sample code email.](../../assets/images/account/stytch-code.png)
+    ![Sample code email.](../assets/images/account/stytch-code.png)
 
     !!! Warning
 
@@ -29,11 +29,11 @@ tags:
     
 4. Insert your code and press `Sign In` to continue with the sign in process:
 
-    ![Code verification.](../../assets/images/account/code-verification.png)
+    ![Code verification.](../assets/images/account/code-verification.png)
 
 5. Then you will automatically be redirected back into **mmesh** and can continue with your account setup process.
 
-    ![Account Setup.](../../assets/images/account/account-setup.png)
+    ![Account Setup.](../assets/images/account/account-setup.png)
 
     Please, provide the required information in the following sections:
 
@@ -47,7 +47,7 @@ tags:
 
 6. Finally, push the `start` button and you will be logged into the **mmesh** dashboard.
 
-    ![Initial Dashboard.](../../assets/images/account/initial-dashboard.png)
+    ![Initial Dashboard.](../assets/images/account/initial-dashboard.png)
 
 !!! success
 

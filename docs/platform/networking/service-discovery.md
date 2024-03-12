@@ -173,7 +173,7 @@ If you want to resolve `.mmesh.local` domain inside the pods, you need to custom
         
         You should select the `tenant`, `network` and `subnet` previously defined in your mmesh private virtual topology.
 
-    ![coredns-workload-connected](../assets/images/coredns-connected.png)
+    ![coredns-workload-connected](assets/images/coredns-connected.png)
 
 
 Now we can access the [mmesh dashboard](https://mmesh.io/app) to verify that the nodes are correctly connected to the subnet. 

@@ -451,7 +451,7 @@ A workflow can be deleted using the webUI or the CLI.
 
 Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and press on the `bin` icon on the workload that you want to delete. All of its tasks logs will be removed too. Confirmation is required. 
 
-![Workflow delete bin](../../assets/images/adm-workflows/WorkflowDelete.png)
+![Workflow delete bin](../assets/images/adm-workflows/WorkflowDelete.png)
 
 
 ///

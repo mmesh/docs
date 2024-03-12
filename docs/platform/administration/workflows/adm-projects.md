@@ -39,7 +39,7 @@ Projects can be created using mmesh webUI or mmeshctl CLI:
 
 Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) application and select `Add project`.
 
-![mmesh new project form](../../assets/images/adm-projects/NewProject.png)
+![mmesh new project form](../assets/images/adm-projects/NewProject.png)
 
 Provide a name and a description for your project and press `Add new project`. Select `Review Required`, `Approval Required`, or both, if required by your organization service management policy.
 
@@ -97,7 +97,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) ap
 
 Example: 
 
-![Project list.](../../assets/images/adm-projects/ProjectList.png)
+![Project list.](../assets/images/adm-projects/ProjectList.png)
 
 ///
 
@@ -141,7 +141,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) an
 
 Example:
 
-![Project show.](../../assets/images/adm-projects/ProjectShow.png)
+![Project show.](../assets/images/adm-projects/ProjectShow.png)
 
 ///
 
@@ -192,7 +192,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) an
 
 Example:
 
-![Project update.](../../assets/images/adm-projects/ProjectUpdate.png)
+![Project update.](../assets/images/adm-projects/ProjectUpdate.png)
 
 ///
 
@@ -243,7 +243,7 @@ Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) an
 
 Example:
 
-![Project delete.](../../assets/images/adm-projects/ProjectDelete.png)
+![Project delete.](../assets/images/adm-projects/ProjectDelete.png)
 
 
 ///

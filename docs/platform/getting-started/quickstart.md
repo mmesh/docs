@@ -37,12 +37,12 @@ By completing this guide you have your mmesh up and running and are ready to exp
 - [Install mmeshctl](cli-install.md), our mmesh command line interface.
 - Integrate your Kubernetes [services](k8s-services.md) and [workloads](k8s-pods.md).
 - Manage your traffic with [security polices](network-security.md#security-policies).
-- Manage your automation with [workflows](workflow.md).
+- Manage your automation with [workflows](workflows.md).
 - And [more](features.md)
 
 ## Need some inspirations?
 
-Take a look at the how-to guides:
+Check our how-to guides:
 
 - [Secure a Windows RDP (Remote Desktop Protocol) Server](secure-win-rdp.md)
 

@@ -25,7 +25,7 @@ On the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) a
 
 Example:
 
-![Workflow executions list.](../../assets/images/adm-tasklogs/TasklogList.png)
+![Workflow executions list.](../assets/images/adm-tasklogs/TasklogList.png)
 
 ///
 
@@ -73,13 +73,13 @@ On the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) a
 
 Example:
 
-![Task log show.](../../assets/images/adm-tasklogs/TasklogShow.png)
+![Task log show.](../assets/images/adm-tasklogs/TasklogShow.png)
 
 Select one of the executions and you will get all the information about it, plus the output of your task.
 
 Example:
 
-![Task log output.](../../assets/images/adm-tasklogs/TasklogOutput.png)
+![Task log output.](../assets/images/adm-tasklogs/TasklogOutput.png)
 
 ///
 
@@ -147,7 +147,7 @@ On the **Workflows** section on the [mmesh.io](https://mmesh.io/app/workflows) a
 
 Example:
 
-![Task log deletion.](../../assets/images/adm-tasklogs/TasklogDelete.png)
+![Task log deletion.](../assets/images/adm-tasklogs/TasklogDelete.png)
 
 ///
 

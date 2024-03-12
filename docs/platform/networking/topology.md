@@ -55,7 +55,7 @@ In other words, every subnet within a network with this option disabled becomes 
 
 #### Networks Administration
 
-Browse the [Networks Administration](networks.md) section to learn how to manage your networks.
+Browse the [Networks Administration](adm-networks.md) section to learn how to manage your networks.
 
 ### Subnet
 
