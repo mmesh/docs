@@ -51,5 +51,5 @@ tags:
 
 !!! success
 
-    **Your account setup is complete!** Enjoy your `15-days free trial` period with access to our business-level plan. At the end of this period, you will be notified and set into our **free forever plan**.
+    **Your account setup is complete!** Enjoy your **{++free plan++}** that allows you to have the first `tenant`, `network`, `subnet` and three first `nodes` **{++free forever**++}.
 

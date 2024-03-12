@@ -1,11 +1,11 @@
 ---
-title: "How-tos"
+title: "How-To Guides"
 description: "Guides and howtos."
 tags:
   - how-to
   - guide
 ---
-# How-tos
+# How-To Guides
 
 Check our guides for more information:
 

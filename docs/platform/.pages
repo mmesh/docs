@@ -3,7 +3,7 @@ nav:
   - getting-started
   - installation
   - architecture
-  - howtos
+  - How-To Guides: howtos
   - networking
   - kubernetes
   - automation

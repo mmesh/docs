@@ -9,7 +9,7 @@ tags:
 
 # Account Administration
 
-In these sections you will find detailed information on how to manage mmesh.
+In these sections you will find detailed information on how to manage the account section.
 
 ### :material-page-next: [Manage Account](account.md) 
 

@@ -191,6 +191,50 @@ mmesh provides a package repository that contains both DEB and RPM downloads.
 
 ///
 
+### Automate Installation on Main Cloud Providers
+
+Let's check how to automate the `mmesh-node` installation on Linux VMs on the main cloud providers:
+
+/// tab | AWS
+
+When creating a VM in **AWS**, select `Advanced details` and scroll until the bottom to `User data`. In this section, add the magic link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
+
+![AWS User Data.](../assets/images/nodes-install/AWS-UserData.png)
+
+To review the output of this script, look for its output on `/var/log/cloud-init-output.log`. 
+
+More information [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html?icmpid=docs_ec2_console#user-data-shell-scripts).
+
+///
+
+/// tab | Azure
+
+When creating a VM in **Azure**, select `Advanced`. On the `Custom data` section, the magic link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
+
+![Azure Custom Data.](../assets/images/nodes-install/Azure-CustomData.png)
+
+To review the output of this script, look for its output on `/var/log/cloud-init-output.log`.
+
+More information [here](https://learn.microsoft.com/en-us/azure/virtual-machines/custom-data).
+///
+
+/// tab | Google
+
+When creating a VM in **Google**, select `Advanced Options` and then `Management`. On the `Automation` section, add the magic link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
+
+![GCP Startup Script](./assets/images/nodes-install/GCP-StartupScript.png)
+
+To check the output of this script, execute the following command on your VM:
+
+```bash
+sudo journalctl -u google-startup-scripts.service
+```
+
+More information [here](https://cloud.google.com/compute/docs/instances/startup-scripts/linux?authuser=2#console).
+
+///
+
+
 ## MacOS Installation
 
 /// tab | Magic Link
@@ -569,3 +613,5 @@ stop-Service "mmesh-node"
 'C:\Program Files\mmeshmmesh-node.exe` service-uninstall
 rm 'C:\Program Files\mmesh' -r -force
 ```
+///
+

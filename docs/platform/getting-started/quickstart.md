@@ -14,11 +14,13 @@ tags:
 
 mmesh is an innovative overlay network build for the cloud. It lets you easily create your virtual network to integrate your on-prem and multi-cloud environments in minutes.
 
-Get started with the following steps:
+Get started with the following steps to create your own virtual private network:
 
 ## 1. Create your account
 
 Follow these [instructions](account.md#create-a-new-account) to create your account.
+
+An initial or default [network](topology.md#network) and [subnet](topology.md#subnet) are automatically created in `default` [tenant](topology.md#tenant) with the information provided in account setup.
 
 ## 2. Add your nodes
 
@@ -26,26 +28,21 @@ A first node will be automatically created as part of the account creation proce
 
 To create more nodes, select the subnet where you want to add them and click on the `Add Node` button.
 
-For additional details on how to install mmesh on your nodes, check these detailed how-tos:
-
-- [Node install on Linux](node-linux-setup.md)
 
 
-## 3. Install and configure mmeshctl
+## What's next?
 
-To work using mmesh command line interface (CLI), follow these instructions.
+By completing this guide you have your mmesh up and running and are ready to explore the features of mmesh:
 
-1. Download and install the `mmeshctl` binary. Linux, macOS and Windows binary downloads are available from the [Releases](https://github.com/mmesh/m-cli/releases) page at the mmesh-cli [GitHub repository](https://github.com/mmesh/m-cli).
-2. Execute `mmeshctl setup` to generate your `mmeshctl.yml`. This config file will be located by default in the `$HOME/.mmesh` directory.
+- [Install mmeshctl](cli-install.md), our mmesh command line interface.
+- Integrate your Kubernetes [services](k8s-services.md) and [workloads](k8s-pods.md).
+- Manage your traffic with [security polices](network-security.md#security-policies).
+- Manage your automation with [workflows](workflow.md).
+- And [more](features.md)
 
-Find more details in the [mmeshctl installation guide](../installation/cli.md).
+## Need some inspirations?
 
-## Next Steps
+Take a look at the how-to guides:
 
-By completing this guide you have your mmesh up and running and are ready to explore all the features of mmesh:
+- [Secure a Windows RDP (Remote Desktop Protocol) Server](secure-win-rdp.md)
 
-- Integrate your Kubernetes Services and Pods with `mmeshctl k8s`.
-- Manage your traffic security rules with `mmeshctl policy`.
-- Manage your automation workflows with `mmeshctl ops workflow`.
-- Check the alerts of your nodes with `mmeshctl alert list`.
-- Connect to your nodes with `mmeshctl exec`.
