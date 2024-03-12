@@ -1,0 +1,5 @@
+nav:
+    - Projects: adm-projects.md
+    - Workflows: adm-workflows.md
+    - Task logs: adm-tasklogs.md
+    - ...

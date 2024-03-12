@@ -4,6 +4,7 @@ description: "An mmesh project is a logical component of mmesh that groups autom
 tags:
   - admin
   - ops
+  - automation
   - projects
 ---
 
@@ -13,13 +14,16 @@ A `project` organizes `workflows` in a logical group. A `workflow` is a set of t
 
 A `project` allows to define common policies to be enforced for all the `workflows` belonging to the project.
 
+Projects can be [created](adm-projects.md#create-project), [listed](adm-projects.md#list-projects), [shown](adm-projects.md#show-project) their details, [updated](adm-projects.md#update-project) or [deleted](adm-projects.md#delete-project).
+
+
 ## Service Management Features
 
 Currently the options you can configure on a project are the following:
 
 - `Review Required`: [ yes | no ]
 
-  Allows to enforce peer-reviews on the workflows before they can run on the target nodes.
+  Allows to enforce peer-reviews on a workflow before it can run on the target nodes.
 
 - `Approval Required`: [ yes | no ]
 
@@ -235,7 +239,7 @@ Delete a project with all its configuration and child entities (workflows).
 /// tab | webUI
     select: true
 
-Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select the `bin` next to the `project` that you want to remove. A confirmation is requested.
+Go to the Workflows section on the [mmesh.io](https://mmesh.io/app/workflows) and select the `bin` next to the `project` that you want to remove. Confirmation is requested.
 
 Example:
 

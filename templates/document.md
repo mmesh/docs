@@ -21,7 +21,7 @@ export -f tags
 find . -name "*.md" -print -exec bash -c "tags \"{}\"" \; | grep -v ".md" | sort | uniq -c
 ```
 
-* Images are to be kept on a directory with the same name as the document. Place it on a `assets/images/<directory>' directory.
+* Images are to be kept on a directory with the same name as the document. Place it on a `assets/images/document_name' directory.
 * Images can have [attributes](https://squidfunk.github.io/mkdocs-material/reference/images/). Example:
 
 ![Image title](/docs/platform/assets/images/logo/mmesh_logo_favicon_512x512.png){ align=left; width="150px" }
@@ -59,3 +59,18 @@ Second tab content here.
 
     Use [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) where required.
 
+
+Supported Admonition types are:
+
+* note
+* abstract
+* info
+* tip
+* success
+* question
+* warning
+* failure
+* danger
+* bug
+* example
+* quote
