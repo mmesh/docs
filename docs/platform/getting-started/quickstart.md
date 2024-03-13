@@ -60,7 +60,7 @@ We can really appreciate the true power of **mmesh** when it’s installed on mu
 
 !!! success 
 
-    Congratulations! You just created your own your virtual network with **mmesh**.
+    Congratulations! You just created your own virtual private network with **mmesh**.
 
 ## What's next?
 
