@@ -12,7 +12,7 @@ mmesh monitors your nodes and generates alerts when important events occur.
 
 !!! info "Alerts"
 
-    See [Alerts](../monitoring/index.md) section to find more information on mmesh alert system.
+    See [Alerts](monitoring.md) section to find more information on mmesh alert system.
 
 
 ## List Alerts

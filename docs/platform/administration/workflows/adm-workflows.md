@@ -20,7 +20,7 @@ Workflows are created using a declarative YAML file. On it you define the jobs, 
 
 !!! info "Automation"
 
-    See the [automation](../../automation/index.md) section to find more information on mmesh workflows.
+    See the [automation](automation.md) section to find more information on mmesh workflows.
 
 Workflows are defined using a YAML [configuration](adm-workflows.md#workflow-configuration-file) file. The operations available to manage workflows are [create or update](adm-workflows.md#create-or-update-workflow), [list](adm-workflows.md#list-workflows), [show](adm-workflows.md#show-workflow), [enable](adm-workflows.md#enable-workflow), [disable](adm-workflows.md#disable-workflow), and [delete](adm-workflows.md#delete-workflow).
 

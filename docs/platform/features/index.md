@@ -21,9 +21,9 @@ mmesh implements an abstraction layer built on top of **any** physical or virtua
 - [Kubernetes Integration](../kubernetes/index.md).
 - [Security Policies](network-security.md).
 - [Service Discovery](service-discovery.md).
-- [Automation Workflows](../automation/index.md).
+- [Automation Workflows](automation.md).
 - [Third-party Integrations](account.md#integrations): GitHub, PagerDuty, Slack, Discord, Webhooks.
-- [Monitoring and Alerts](../monitoring/index.md), with analytics.
+- [Monitoring and Alerts](monitoring.md), with analytics.
 - [IAM](../iam/index.md) with RBAC-based authorization.
 - CLI and webUI.
 - Centralized management.

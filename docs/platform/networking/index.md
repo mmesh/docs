@@ -17,7 +17,7 @@ Browse the topics below to learn more.
 
 ## Network Abstraction
 
-mmesh acts as a compatibility layer on top of your cloud and traditional environments, allowing you to create a seamless [virtual topology](topology.md) where you can define your [security policies](network-security.md#security-policies) and access controls ([RBAC](authorization.md)) to operate and [automate](../automation/index.md) your [nodes](nodes.md) in a simpler and unified way.
+mmesh acts as a compatibility layer on top of your cloud and traditional environments, allowing you to create a seamless [virtual topology](topology.md) where you can define your [security policies](network-security.md#security-policies) and access controls ([RBAC](authorization.md)) to operate and [automate](automation.md) your [nodes](nodes.md) in a simpler and unified way.
 
 ### [Topology](topology.md)
 
