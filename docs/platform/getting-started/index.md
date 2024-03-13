@@ -15,18 +15,18 @@ This documentation is a reference for all features of mmesh.
 
 Browse the sections below to get started:
 
-### [Quick Start](quickstart.md)
+### :material-page-next: [Quick Start](quickstart.md)
 
 Create an account, install mmesh and get immediate connectivity.
 
-### [Features](features.md)
+### :material-page-next: [Features](features.md)
 
 Check features like connectivity, security policies or Kubernetes integration.
 
-### [Installation](../installation/index.md)
+### :material-page-next: [Installation](../installation/index.md)
 
 Detailed installation instructions.
 
-### [Integrations](integrations.md)
+### :material-page-next: [Integrations](integrations.md)
 
 Integrate our alerting system with Slack or Pagerduty.

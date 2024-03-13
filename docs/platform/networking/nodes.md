@@ -53,7 +53,9 @@ mmesh has a service discovery system that publishes every node endpoint in an in
 
 You can query this internal DNS service by default on the port `UDP/5353`.
 
-> See [DNS Integration](service-discovery.md) section for more information on how to integrate the mmesh service discovery system with your DNS infrastructure.
+!!! Note
+
+    See [DNS Integration](service-discovery.md) section for more information on how to integrate the mmesh service discovery system with your DNS infrastructure.
 
 
 ## Administration

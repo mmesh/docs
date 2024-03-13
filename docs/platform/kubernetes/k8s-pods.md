@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Pods Integration"
+title: "Kubernetes Workloads"
 description: "Learn how to connect your Kubernetes Pods to your mmesh virtual private topology without adding a single line of code or configuration."
 tags:
   - networking
@@ -8,7 +8,7 @@ tags:
   - kubernetes
 ---
 
-# Kubernetes Pods
+# Kubernetes Workloads
 
 ## Kubernetes Pods Routing
 

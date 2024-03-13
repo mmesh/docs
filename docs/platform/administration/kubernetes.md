@@ -10,7 +10,9 @@ tags:
 
 You can connect your Kubernetes Services and Pods to your mmesh in seconds with `mmeshctl` without adding a single line of code or configuration.
 
-> See [Kubernetes](../kubernetes/index.md) section to find more information on how it works the Kubernetes integration in mmesh.
+!!! Information
+
+  See [Kubernetes](../kubernetes/index.md) section to find more information on how it works the Kubernetes integration in mmesh.
 
 ## Operations
 

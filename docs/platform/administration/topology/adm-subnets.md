@@ -13,7 +13,8 @@ tags:
 
 A mmesh `subnet` is a logical component of mmesh that groups `nodes`.
 
-> See [Topology](topology.md#subnet) section to find more information on mmesh subnets.
+!!! Note
+    See [Topology](topology.md#subnet) section to find more information on mmesh subnets.
 
 ## Attributes
 

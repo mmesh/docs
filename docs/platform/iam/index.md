@@ -13,14 +13,14 @@ This documentation section provides information about user management, authentic
 
 Browse the topics below to learn more.
 
-### [Users](users.md)
+### :material-page-next: [Users](users.md)
 
 Manage the users of your mmesh.
 
-### [Authentication](authentication.md)
+### :material-page-next: [Authentication](authentication.md)
 
 Learn about the authentication methods supported by mmesh.
 
-### [Authorization](authorization.md)
+### :material-page-next: [Authorization](authorization.md)
 
 Manage the mmesh authorization system. It is based on RBAC.

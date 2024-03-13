@@ -13,7 +13,9 @@ tags:
 
 A mmesh `network` is a logical component of mmesh that groups `subnets`.
 
-> See [Topology](topology.md#network) section to find more information on mmesh networks.
+!!! Note
+
+    See [Topology](topology.md#network) section to find more information on mmesh networks.
 
 ## Attributes
 

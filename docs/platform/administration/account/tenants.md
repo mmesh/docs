@@ -12,7 +12,9 @@ tags:
 
 A mmesh `tenant` is a logical component of mmesh that groups `networks`.
 
-> See [Topology](topology.md#tenant) section to find more information on mmesh tenants.
+!!! Note
+
+    See [Topology](topology.md#tenant) section to find more information on mmesh tenants.
 
 ## Attributes
 

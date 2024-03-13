@@ -17,7 +17,9 @@ mmesh has two types of users:
 
 The IAM subsystem of mmesh allows the account administrator to manage the normal users.
 
-> See [Identity and Access Management](users.md) section to find more information about users management.
+!!! Note
+
+    See [Identity and Access Management](users.md) section to find more information about users management.
 
 ## Attributes
 

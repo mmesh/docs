@@ -51,5 +51,7 @@ tags:
 
 !!! success
 
-    **Your account setup is complete!** Enjoy your **{++free plan++}** that allows you to have the first `tenant`, `network`, `subnet` and three first `nodes` **{++free forever**++}.
+    **Your account setup is complete!** 
+    
+    Enjoy your **{++free plan++}** that allows you to have the first `tenant`, `network`, `subnet` and three first `nodes` **{++free forever**++}.
 

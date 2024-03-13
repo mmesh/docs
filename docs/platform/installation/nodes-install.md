@@ -31,10 +31,10 @@ You can download the pre-compiled binaries and install them with the appropriate
 
 ## Linux Installation
 
-/// tab | Magic Link
+/// tab | One-line command
     select: True
 
-The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
+The easiest way to install the `mmesh-node` agent in seconds is by using the one-line command provided by mmesh when you [add a new node](adm-nodes.md#add-node) from the mmesh web UI:
 
 ![Linux Setup](./assets/images/nodes-install/linux-setup.png)
 
@@ -83,7 +83,9 @@ The easiest way to install the `mmesh-node` agent in seconds is by using the mag
     sudo vim /etc/mmesh/mmesh-node.yml
     ```
 
-    See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+    !!! Note
+
+        See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
 4. Create the `mmesh-node.service` for systemd.
 
@@ -197,7 +199,7 @@ Let's check how to automate the `mmesh-node` installation on Linux VMs on the ma
 
 /// tab | AWS
 
-When creating a VM in **AWS**, select `Advanced details` and scroll until the bottom to `User data`. In this section, add the magic link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
+When creating a VM in **AWS**, select `Advanced details` and scroll until the bottom to `User data`. In this section, add the one-line command provided by mmesh when you [add a new node](adm-nodes.md#add-node):
 
 ![AWS User Data.](assets/images/nodes-install/AWS-UserData.png)
 
@@ -209,7 +211,7 @@ More information [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user
 
 /// tab | Azure
 
-When creating a VM in **Azure**, select `Advanced`. On the `Custom data` section, the magic link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
+When creating a VM in **Azure**, select `Advanced`. On the `Custom data` section, the one-line command provided by mmesh when you [add a new node](adm-nodes.md#add-node):
 
 ![Azure Custom Data.](assets/images/nodes-install/Azure-CustomData.png)
 
@@ -220,7 +222,7 @@ More information [here](https://learn.microsoft.com/en-us/azure/virtual-machines
 
 /// tab | Google
 
-When creating a VM in **Google**, select `Advanced Options` and then `Management`. On the `Automation` section, add the magic link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
+When creating a VM in **Google**, select `Advanced Options` and then `Management`. On the `Automation` section, add the one-line command link provided by mmesh when you [add a new node](adm-nodes.md#add-node):
 
 ![GCP Startup Script](assets/images/nodes-install/GCP-StartupScript.png)
 
@@ -237,10 +239,10 @@ More information [here](https://cloud.google.com/compute/docs/instances/startup-
 
 ## MacOS Installation
 
-/// tab | Magic Link
+/// tab | One-line command
     select: True
 
-The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
+The easiest way to install the `mmesh-node` agent in seconds is by using the one-line command provided by mmesh when you [add a new node](adm-nodes.md#add-node) from the mmesh web UI:
 
 ![macOs Setup](./assets/images/nodes-install/mac-setup.png)
 
@@ -390,10 +392,10 @@ The easiest way to install the `mmesh-node` agent in seconds is by using the mag
 
 ## Windows Installation
 
-/// tab | Magic Link
+/// tab | One-line command
     select: True
 
-The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
+The easiest way to install the `mmesh-node` agent in seconds is by using the one-line command provided by mmesh when you [add a new node](adm-nodes.md#add-node) from the mmesh web UI:
 
 ![Windows Setup](./assets/images/nodes-install/windows-setup.png)
 
@@ -442,7 +444,7 @@ The easiest way to install the `mmesh-node` agent in seconds is by using the mag
 
 6. Use an editor to create the mmesh-node configuration file `C:\Program Files\mmesh\mmesh-node.yml`.
 
-    !!! Information
+    !!! Note
 
         See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
@@ -475,10 +477,10 @@ Registries:
 - `mmeshdev/mmesh-node`
 - `ghcr.io/mmesh/mmesh-node`
 
-/// tab | Magic Link
+/// tab | One-line command
     select: True
 
-The easiest way to install the `mmesh-node` agent in seconds is by using the magic link that is automatically generated when you [add a new node](adm-nodes.md#add-node) in the mmesh web UI:
+The easiest way to install the `mmesh-node` agent in seconds is by using the one-line command provided by mmesh when you [add a new node](adm-nodes.md#add-node) from the mmesh web UI:
 
 ![Docker Setup](./assets/images/nodes-install/docker-setup.png)
 
@@ -540,7 +542,9 @@ COSIGN_EXPERIMENTAL=1 cosign verify mmeshdev/mmesh-node
 
 Once installed you can review the configuration at `/etc/mmesh/mmesh-node.yml`.
 
-See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
+!!! Note
+
+    See the [mmesh-node configuration reference](mmesh-node.yml.md) to find all the configuration options.
 
 
 ## Uninstall

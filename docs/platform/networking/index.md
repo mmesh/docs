@@ -47,4 +47,6 @@ mmesh implements a [service discovery](service-discovery.md) system where every 
 
 You can easily integrate the `.mmesh.local` domain into your DNS infrastructure by configuring the `mmesh.local` domain as a _forward_ zone.
 
-See [DNS Integration](service-discovery.md#dns-integration) for more details.
+!!! Note
+
+    See [DNS Integration](service-discovery.md#dns-integration) for more details.

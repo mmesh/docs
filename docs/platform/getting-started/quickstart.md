@@ -20,15 +20,47 @@ Get started with the following steps to create your own virtual private network:
 
 Follow these [instructions](account.md#create-a-new-account) to create your account.
 
-An initial or default [network](topology.md#network) and [subnet](topology.md#subnet) are automatically created in `default` [tenant](topology.md#tenant) with the information provided in account setup.
+After a sucesssful login, you will be redirected to the `Dashboard` screen. Here you can see that a default [network](topology.md#network) and [subnet](topology.md#subnet) were automatically created in the `default` [tenant](topology.md#tenant) with the information provided in the account setup.
 
-## 2. Add your nodes
+![Dashboard Screen](assets/images/quickstart/initial-dashboard.png)
 
-A first node will be automatically created as part of the account creation process. Once a node is created on the webUI, follow the provided instructions to install mmesh on it.
+## 2. Add a node to your subnet
 
-To create more nodes, select the subnet where you want to add them and click on the `Add Node` button.
+Any servers, laptops, containers or cloud VMs from different providers can be added as [node](nodes.md). 
 
+From the webUI on `Topology` section, select the `default` subnet and click on the `Add Node` button.
 
+![Add Node](assets/images/quickstart/add-node.png)
+
+Fill the `Name` and `Description` in the `New Node` pop-up window and click on the `Add New Node`.
+
+![New Node](assets/images/quickstart/new-node.png)
+
+!!! Note
+
+    See [Nodes Administration](adm-nodes.md) section for more information.
+
+## 3. Install mmesh-node agent
+
+The **mmesh-node** agent is an open-source app that runs on the machines you want to connect to your mmesh virtual private network.
+
+**mmesh-node** is available for a variety of Linux platforms, macOS and Windows.
+
+The easiest way to install the **mmesh-node** agent in seconds is using the one-line command provided in the previous step:
+
+![Linux Setup](assets/images/quickstart/linux-setup.png)
+
+!!! Note
+
+    See [Node Installation](nodes-install.md) section to find more information how to install `mmesh-node` agent.
+
+## 4. Add more nodes to your subnet
+
+We can really appreciate the true power of **mmesh** when it’s installed on multiple devices. Add more nodes to your subnet by repeating steps 2 and 3.
+
+!!! success 
+
+    Congratulations! You just created your own your virtual network with **mmesh**.
 
 ## What's next?
 
@@ -42,7 +74,7 @@ By completing this guide you have your mmesh up and running and are ready to exp
 
 ## Need some inspirations?
 
-Check our how-to guides:
+Check our [how-to guides](../howtos/index.md):
 
 - [Secure a Windows RDP (Remote Desktop Protocol) Server](secure-win-rdp.md)
 
