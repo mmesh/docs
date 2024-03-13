@@ -29,7 +29,7 @@ As example, if you were a service provider with multiple customers, you could de
 
 #### Tenants Administration
 
-Browse the [Tenants Administration](tenants.md) section to learn how to manage your tenants.
+Browse the [Tenants Administration](adm-tenants.md) section to learn how to manage your tenants.
 
 ### Network
 

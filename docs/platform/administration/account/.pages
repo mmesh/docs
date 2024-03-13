@@ -1,7 +1,7 @@
 nav:
     - index.md
-    - Manage Account: account.md
-    - Tenants: tenants.md
+    - Manage Account: adm-account.md
+    - Tenants: adm-tenants.md
     - IAM: iam
-    - Settings: settings.md
-    - Billing Portal: billing-portal.md
+    - Settings: adm-settings.md
+    - Billing Portal: adm-billing-portal.md

@@ -35,23 +35,25 @@ tags:
 
     ![Account Setup.](../assets/images/account/account-setup.png)
 
-    Please, provide the required information in the following sections:
+    !!! info "Required Information"
 
-    - **Billing Information**
-    - **Account Configuration**
-        - For `Control Plane Location` field, we suggest picking up a zone from the list that is geographically near to your network devices.
-        - For `Connectivity Zone` field, the same suggestion made for `Control Plane Location` apply.
-    - **Admin credentials**
-    - **Initial Topology**
-        - An initial or default network and subnet will be also created, so just provide the CIDR for your `default network` and define the first `subnet` of your election or just accept the defaults provided.
+        Please, provide the required information in the following sections:
+
+        - **Billing Information**
+        - **Account Configuration**
+            - For `Control Plane Location` field, we suggest picking up a zone from the list that is geographically near to your network devices.
+            - For `Connectivity Zone` field, the same suggestion made for `Control Plane Location` apply.
+        - **Admin credentials**
+        - **Initial Topology**
+            - An initial or default network and subnet will be also created, so just provide the CIDR for your `default network` and define the first `subnet` of your election or just accept the defaults provided.
 
 6. Finally, push the `start` button and you will be logged into the **mmesh** dashboard.
 
     ![Initial Dashboard.](../assets/images/account/initial-dashboard.png)
 
-!!! success
+    !!! success
 
-    **Your account setup is complete!** 
+        **Your account setup is complete!** 
     
-    Enjoy your **{++free plan++}** that allows you to have the first `tenant`, `network`, `subnet` and three first `nodes` **{++free forever**++}.
+        Enjoy your **{++free plan++}** that allows you to have the first `tenant`, `network`, `subnet` and three first `nodes` **{++free forever**++}.
 

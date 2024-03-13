@@ -18,7 +18,7 @@ Get started with the following steps to create your own virtual private network:
 
 ## 1. Create your account
 
-Follow these [instructions](account.md#create-a-new-account) to create your account.
+Follow these [instructions](adm-account.md#create-a-new-account) to create your account.
 
 After a sucesssful login, you will be redirected to the `Dashboard` screen. Here you can see that a default [network](topology.md#network) and [subnet](topology.md#subnet) were automatically created in the `default` [tenant](topology.md#tenant) with the information provided in the account setup.
 

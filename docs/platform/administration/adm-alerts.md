@@ -15,6 +15,8 @@ mmesh monitors your nodes and generates alerts when important events occur.
     See [Alerts](monitoring.md) section to find more information on mmesh alert system.
 
 
+The Alerts can be [listed](adm-alerts.md#list-alerts), [shown](adm-alerts.md#show-alerts) their details or [deleted](adm-alerts.md#delete-alerts).
+
 ## List Alerts
 
 You can list your alerts using mmesh webUI or mmeshctl CLI.

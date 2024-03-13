@@ -17,17 +17,17 @@ mmesh supports different integrations with well-known products and services to e
 Integrate your kubernetes services and workloads in a seamless, unified virtual topology without adding a single line of code or configuration. Since mmesh works directly with your pods and ClusterIP services by connecting them internally to your virtual network,
 you can save hundreds of dollars in cloud load-balancers and public IPs. All Kubernetes implementations and derivatives in on-prem or public cloud are supported.
 
-## :material-page-next: [GitHub](settings.md#github)
+## :material-page-next: [GitHub](adm-settings.md#github)
 
 The GitHub integration allows you to implement GitOps workflows and automate the configuration of your mmesh infrastructure.
 
 You will be able to keep your automation workflows and network policies YAML files well organized in your private Github repositories and automatically configure your mmesh policies and workflows, or trigger custom actions on your nodes when git-push events are detected.
 
-## :material-page-next: [PagerDuty](settings.md#pagerduty)
+## :material-page-next: [PagerDuty](adm-settings.md#pagerduty)
 
 The PagerDuty integration allows to forward all the alerts of your mmesh to your PagerDuty account.
 
-## :material-page-next: [Slack](settings.md#slack)
+## :material-page-next: [Slack](adm-settings.md#slack)
 
 The Slack integration allows to receive general notifications, automation reports and alerts right on the channels of your choice in your Slack organization.
 

@@ -11,11 +11,11 @@ tags:
 
 In these sections you will find detailed information on how to manage the account section.
 
-### :material-page-next: [Manage Account](account.md) 
+### :material-page-next: [Manage Account](adm-account.md) 
 
 Learn how to manage your mmesh account.
 
-### :material-page-next: [Tenant](tenants.md)
+### :material-page-next: [Tenant](adm-tenants.md)
 
 Learn how to manage your tenants.
 
@@ -23,10 +23,10 @@ Learn how to manage your tenants.
 
 Learn how to manage users, security groups and ACLs.
 
-### :material-page-next: [Account Setting](settings.md)
+### :material-page-next: [Account Setting](adm-settings.md)
 
 Learn how to configure mmesh account settings and configure third-party integrations.
 
-### :material-page-next: [Billing Portal](settings.md)
+### :material-page-next: [Billing Portal](adm-billing-portal.md)
 
 Learn how to configure mmesh billing portal.

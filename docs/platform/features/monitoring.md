@@ -37,7 +37,7 @@ Based on the previous monitors, mmesh generates alerts when it detects the follo
 
 You can manage your alerts using the mmesh webUI on the `Alerts` tab, or using `mmeshctl`.
 
-Browse the [Alerts Administration](alerts.md) section to learn how to manage your alerts.
+Browse the [Alerts Administration](adm-alerts.md) section to learn how to manage your alerts.
 
 
 ## Alerts Integration
@@ -50,11 +50,11 @@ The PagerDuty integration allows you to forward all the alerts of your mmesh to 
 
 mmesh highly recommends the PagerDuty service and configuring this integration to take full advantage of the mmesh alert system.
 
-[PagerDuty Integration Configuration >](account.md#pagerduty)
+[PagerDuty Integration Configuration >](adm-settings.md#pagerduty)
 
 
 ### Slack
 
 You can configure a Slack webhooks for mmesh to notify you when an alert has been triggered.
 
-[Slack Integration Configuration >](account.md#slack)
+[Slack Integration Configuration >](adm-settings.md#slack)
