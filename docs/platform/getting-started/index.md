@@ -19,10 +19,6 @@ Browse the sections below to get started:
 
 Create an account, install mmesh and get immediate connectivity.
 
-### :material-page-next: [Features](features.md)
-
-Check features like connectivity, security policies or Kubernetes integration.
-
 ### :material-page-next: [Installation](../installation/index.md)
 
 Detailed installation instructions.
@@ -30,3 +26,11 @@ Detailed installation instructions.
 ### :material-page-next: [Integrations](integrations.md)
 
 Integrate our alerting system with Slack or Pagerduty.
+
+### :material-page-next: [Features](../features/index.md)
+
+Read about mmesh features like connectivity, security functionality, or Kubernetes integration.
+
+### :material-page-next: [Architecture](../architecture/index.md)
+
+Discover mmesh architecture to understand the gears behind the curtain.

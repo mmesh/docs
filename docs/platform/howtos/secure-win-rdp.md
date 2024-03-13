@@ -31,9 +31,9 @@ Here is the high-level overview of the guide setup architecture:
 
 ## Step-by-step Guide
 
-### Step 1: Connect Client Device to our mmesh virtual private network
+### Step 1: Connect Client Device to mmesh subnet
 
-We need to connect `Client Device` to our mmesh virtual private network to allow the connection to `Azure VM` privately. 
+We need to connect `Client Device` to our mmesh subnet to allow the connection to `Azure VM` privately. 
 
 To connect a new node in a subnet with mmesh is very easy, from `Topology` section, we only need to select `Add Node` in the subnet and set a name and description:
 
@@ -51,9 +51,9 @@ You can use `ipconfig` command on `Client Device` to check the IP assigned to th
 
 ![node-ip-client](assets/images/secure-win-rdp/node-ip-client.png)
 
-### Step 2: Connect `Azure VM` to our mmesh virtual private network
+### Step 2: Connect `Azure VM` to mmesh subnet
 
-Now, we need to connect `Azure VM` to our mmesh virtual private network to allow the connection from `Client Device` privately. 
+Now, we need to connect `Azure VM` to our mmesh subnet to allow the connection from `Client Device` privately. 
 
 We are going to repeat the same steps, from `Topology` section, select `Add Node` in the subnet and set a name and description:
 
