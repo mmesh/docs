@@ -17,7 +17,10 @@ mmesh.io steps beyond the realm of individual strategies, offering a holistic so
 
 mmesh is charged with some extra features like:
 
-* End-to-end encryption. In mmesh encryption is setup for you by default. All yor mmesh connecions are fully encrypted end-to end.
-* Based on the modular peer-to-peer network stack provided by the **libp2p2** open source project.
+* End-to-end encryption. In mmesh encryption is setup for you by default. All yor mmesh connections are fully encrypted end-to end.
+* Node to node connections, based on the modular peer-to-peer network stack provided by the **libp2p2** open source project.
+* IAP.
 * Monitoring. Each mmesh node is monitored and its alerts can be integrated into PagerDuty or Slack.
-* ...
+* Alerting. All your nodes are provided with an alerting system that will notify you of any issue.
+* Vulnerability Scanning.
+* Software BOM?
