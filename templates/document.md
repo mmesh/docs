@@ -40,6 +40,9 @@ trimage -d .
 
 * Tabbed content: Use this example to add tabbed content:
 
+You can <action> using mmesh [webUI](https://mmesh.io/replace-menu-option) or [mmeshctl](mmeshctl-replace_command.md) CLI.
+
+
 /// tab | webUI
     select: true
 

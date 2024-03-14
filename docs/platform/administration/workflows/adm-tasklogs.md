@@ -16,7 +16,7 @@ Tasklogs can be [listed](adm-tasklogs.md#list-workflow-logs), [shown](adm-tasklo
 
 ## List Workflow Logs
 
-Workflow activity logs can be listed using the webUI or CLI.
+You can list activity logs using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
 /// tab | webUI
     select: true
@@ -31,12 +31,18 @@ Example:
 
 /// tab | CLI
 
-To check a workflow execution log (tasklog) using CLI, execute the command `mmeshctl ops tasklog list` and choose your tenant, project, and workflow. 
+To check a workflow execution log (tasklog) using CLI, execute the command:
+
+```bash
+mmeshctl ops tasklog list
+```
+
+and choose your tenant, project, and workflow.
 
 Example:
 
 ```bash
-# mmeshctl ops tasklog list
+$ mmeshctl ops tasklog list
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -64,7 +70,7 @@ uptime	2024-03-11 10:15:00	client-b
 
 ## Show Workflow Log
 
-For each workflow execution, its task log can be shown either using the webUI or the CLI.
+You can show a task logs using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
 /// tab | webUI
     select: true
@@ -90,7 +96,7 @@ To check a workflow execution log (tasklog) using CLI, execute the command `mmes
 Example:
 
 ```bash
-# mmeshctl ops tasklog show
+$ mmeshctl ops tasklog show
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -138,7 +144,7 @@ Activity Log
 
 ## Delete Workflow Log
 
-Remove workflow task logs.
+You can remove workflow task logs using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
 /// tab | webUI
     select: true
@@ -153,10 +159,16 @@ Example:
 
 /// tab | CLI
 
-To delete a workflow execution log (tasklog) using CLI, execute the command `mmeshctl ops tasklog delete` and choose your tenant, project, workflow and tasklog. 
+To delete a workflow execution log (tasklog) using CLI, execute the command:
+
+```bash
+mmeshctl ops tasklog delete
+```
+
+and choose your tenant, project, workflow and tasklog.
 
 ``` bash
-# mmeshctl ops tasklog delete
+$ mmeshctl ops tasklog delete
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io

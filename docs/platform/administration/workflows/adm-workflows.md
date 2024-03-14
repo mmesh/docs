@@ -85,7 +85,7 @@ mmeshctl ops workflow create -f <yamlFile>
 Example:
 
 ```bash
-# mmeshctl ops workflow create -f workflow.yml
+$ mmeshctl ops workflow create -f workflow.yml
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -161,7 +161,7 @@ mmeshctl ops workflow update -f <yamlFile>
 Example:
 
 ```bash
-# mmeshctl ops workflow update -f workflow.yml 
+$ mmeshctl ops workflow update -f workflow.yml 
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -239,7 +239,7 @@ mmeshctl ops workflow show
 Example:
 
 ```bash
-# mmeshctl ops workflow show
+$ mmeshctl ops workflow show
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -311,7 +311,7 @@ And select the workflow to enable by choosing the `tenant`, `project` and `workf
 Example:
 
 ```bash
-# mmeshctl ops workflow enable
+$ mmeshctl ops workflow enable
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -385,7 +385,7 @@ And select the workflow to disable by choosing the `tenant`, `project` and `work
 Example:
 
 ```bash
-# mmeshctl ops workflow disable
+$ mmeshctl ops workflow disable
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -471,7 +471,7 @@ And select the workflow to delete by choosing the `tenant`, `project` and `workf
 Example: 
 
 ```bash
-# mmeshctl ops workflow delete
+$ mmeshctl ops workflow delete
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -488,4 +488,3 @@ mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
 ```
 
 ///
-
