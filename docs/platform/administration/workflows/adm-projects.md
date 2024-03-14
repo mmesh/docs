@@ -32,7 +32,7 @@ Currently the options you can configure on a project are the following:
 
 ## Create Project
 
-Projects can be created using mmesh webUI or mmeshctl CLI:
+You can create a project using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
 /// tab | webUI
     select: true
@@ -47,12 +47,18 @@ Provide a name and a description for your project and press `Add new project`. S
 
 /// tab | CLI
 
-Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project create` to create a project. Provide a name and a description, and select if reviewal or approval is required.
+To create a project, use the [mmeshctl](cli-install.md) CLI command:
+
+```bash
+mmeshctl ops project create
+```
+
+Provide a name and a description, and select whether reviewal or approval is required.
 
 Example:
 
 ```bash
-# mmeshctl ops project create
+$ mmeshctl ops project create
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -88,7 +94,8 @@ Approval Required	[no]
 
 ## List Projects
 
-List all your projects either using the webUI or mmeshctl CLI:
+You can list your project using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
+
 
 /// tab | webUI
     select: true
@@ -103,12 +110,16 @@ Example:
 
 /// tab | CLI
 
-Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project list` to list your projects. 
+To list your projects, use the [mmeshctl](cli-install.md) CLI command:
+
+```bash
+mmeshctl ops project list
+```
 
 Example:
 
 ```bash
-# mmeshctl ops project list
+$ mmeshctl ops project list
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -132,7 +143,8 @@ demo                    	Demo project.
 
 ## Show Project
 
-To show all the details of a project choose either webUI or CLI:
+You can show your project details using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
+
 
 /// tab | webUI
     select: true
@@ -147,12 +159,16 @@ Example:
 
 /// tab | CLI
 
-Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project show` to show details for a project.
+To show details for a project, use the [mmeshctl](cli-install.md) CLI command:
+
+```bash
+mmeshctl ops project show
+```
 
 Example:
 
 ```bash
-# mmeshctl ops project show
+$ mmeshctl ops project show
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -184,6 +200,7 @@ Approval Required	[no]
 
 Update a project to modify its `name`, `description`, and `review` or `approval` requirements.
 
+You can show your project details using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
 /// tab | webUI
     select: true
@@ -198,10 +215,16 @@ Example:
 
 /// tab | CLI
 
-Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project update` to modify project parameters such as its `name`, `description`, and `review` or `approval` requirement.
+To modify project parameters such as its `name`, `description`, and `review` or `approval` requirement, use the [mmeshctl](cli-install.md) CLI command:
 
 ```bash
-# mmeshctl ops project update
+mmeshctl ops project update
+```
+
+Example:
+
+```bash
+$ mmeshctl ops project update
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
@@ -234,7 +257,10 @@ Approval Required	[no]
 
 ## Delete Project
 
-Delete a project with all its configuration and child entities (workflows).
+When you delete a project, all its configuration and child entities (workflows) will be deleted too.
+
+You can delete a project using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
+
 
 /// tab | webUI
     select: true
@@ -250,10 +276,16 @@ Example:
 
 /// tab | CLI
 
-Use the [mmeshctl](cli-install.md) CLI command `mmeshctl ops project delete` to delete a project and all its child workflows.
+To delete a project and all its child workflows, use the [mmeshctl](cli-install.md) CLI command:
 
 ```bash
-# mmeshctl ops project delete
+mmeshctl ops project delete
+```
+
+Example:
+
+```bash
+$ mmeshctl ops project delete
 mmeshctl v0.10.3-20240221030001+cdd3c9c--go1.22.0
   ■   ▄  ▄▄ ▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄  ▄ │
 ■  ██    █ ▄ █ █ ▄ █ █■   ▀  ▄ █▄▄█ │ Main Website:  https://mmesh.io
