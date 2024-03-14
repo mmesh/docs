@@ -10,7 +10,7 @@ tags:
 
 # Tenants Administration
 
-A mmesh `tenant` is a logical component of mmesh that groups `networks`.
+A mmesh `tenant` is a logical component of mmesh that groups `networks`, `nodes`, `alerts` and `workflows`.
 
 !!! Info "Tenants"
 
@@ -20,7 +20,7 @@ A mmesh `tenant` is a logical component of mmesh that groups `networks`.
 
 ### List Tenants
 
-You can list your tenants using mmesh webUI or mmeshctl CLI.
+You can list your tenants using mmesh [webUI](https://mmesh.io/app/account) or [mmeshctl](mmeshctl-tenants.md) CLI.
 
 /// tab | webUI
     select: true

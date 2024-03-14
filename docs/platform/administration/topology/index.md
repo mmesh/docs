@@ -1,5 +1,5 @@
 ---
-title: "Virtual Topology Administration"
+title: "Network Topology Administration"
 description: "A mmesh topology allow you segment your infraestructure environments. You can manage the networks, subnets and nodes using mmeshctl or the mmesh webUI."
 tags:
   - admin
@@ -9,9 +9,9 @@ tags:
   - nodes
 ---
 
-# Virtual Topology Administration
+# Network Topology Administration
 
-In these sections you will find detailed information on how mange the virtual topology components.
+In these sections you will find detailed information on how mange the network topology components.
 
 ### :material-page-next: [Networks](adm-networks.md)
 
