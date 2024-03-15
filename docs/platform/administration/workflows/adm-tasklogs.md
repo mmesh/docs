@@ -14,7 +14,9 @@ Each workflow execution generates an execution log. These are known as `tasklogs
 
 Tasklogs can be [listed](adm-tasklogs.md#list-workflow-logs), [shown](adm-tasklogs.md#show-workflow-log) their details or [deleted](adm-tasklogs.md#delete-workflow-log).
 
-## List Workflow Logs
+## Operations
+
+### List Workflow Logs
 
 You can list activity logs using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
@@ -68,7 +70,7 @@ uptime	2024-03-11 10:15:00	client-b
 
 ///
 
-## Show Workflow Log
+### Show Workflow Log
 
 You can show a task logs using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
@@ -142,7 +144,7 @@ Activity Log
 ///
 
 
-## Delete Workflow Log
+### Delete Workflow Log
 
 You can remove workflow task logs using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 

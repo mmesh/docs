@@ -2,6 +2,6 @@ nav:
     - index.md
     - Manage Account: adm-account.md
     - Tenants: adm-tenants.md
-    - IAM: iam
+    - Users: adm-users.md
+    - Access Management: adm-rbac.md
     - Settings: adm-settings.md
-    - Billing Portal: adm-billing-portal.md

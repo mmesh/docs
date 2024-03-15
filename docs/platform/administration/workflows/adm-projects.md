@@ -30,7 +30,9 @@ Currently the options you can configure on a project are the following:
   It allows for a service management policy to enforce approval before a workflow is scheduled on a node. The approval can be provided by a customer or service responsible, 
   before workflows can run.
 
-## Create Project
+## Operations
+
+### Create Project
 
 You can create a project using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
@@ -92,7 +94,7 @@ Approval Required	[no]
     Take note of the TenantID and the ProjectID as both will be required to define the workflows.
 
 
-## List Projects
+### List Projects
 
 You can list your project using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
@@ -141,7 +143,7 @@ demo                    	Demo project.
 ///
 
 
-## Show Project
+### Show Project
 
 You can show your project details using mmesh [webUI](https://mmesh.io/app/workflows) or [mmeshctl](mmeshctl-automation.md) CLI.
 
@@ -196,7 +198,7 @@ Approval Required	[no]
 
 ///
 
-## Update Project
+### Update Project
 
 Update a project to modify its `name`, `description`, and `review` or `approval` requirements.
 
@@ -255,7 +257,7 @@ Approval Required	[no]
 
 ///
 
-## Delete Project
+### Delete Project
 
 When you delete a project, all its configuration and child entities (workflows) will be deleted too.
 

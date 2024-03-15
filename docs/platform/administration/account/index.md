@@ -21,12 +21,11 @@ Learn how to manage your tenants.
 
 ### :material-page-next: [Identity and Access Management (IAM)](./iam/index.md)
 
-Learn how to manage users, security groups and ACLs.
+Learn how to manage users
+
+
+, security groups and ACLs.
 
 ### :material-page-next: [Account Setting](adm-settings.md)
 
 Learn how to configure mmesh account settings and configure third-party integrations.
-
-### :material-page-next: [Billing Portal](adm-billing-portal.md)
-
-Learn how to configure mmesh billing portal.

@@ -19,7 +19,7 @@ Since those logical components are basically architectural abstractions, you don
 
 ### Tenant
 
-A `tenant` is a logical component of mmesh that groups `networks`.
+A mmesh `tenant` is a logical component of mmesh to allow segregating and isolating resources such as `networks`, `nodes`, `alerts` or `workflows` of an account.
 
 You can create unlimited tenants in your mmesh topology.
 

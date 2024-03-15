@@ -72,7 +72,9 @@ targets:
 
 For the rest of configuration parameters, check the [Workflow Configuration Reference](workflow.yml.md) section with full details on the workflows YAML file format.
 
-## Create or Update Workflow
+## Operations
+
+### Create or Update Workflow
 
 To create a workflow, you need to configure its using a YAML [configuration](adm-workflows.md#workflow-configuration-file) file. 
 
@@ -220,7 +222,7 @@ Last Event Result  	[SUCCESS]
 
 ```
 
-## List Workflows
+### List Workflows
 
 List all your workflows.
 
@@ -228,7 +230,7 @@ List all your workflows.
 mmeshctl ops workflow list
 ```
 
-## Show Workflow
+### Show Workflow
 
 To show all the details of a workflow, execute the CLI command:
 
@@ -298,7 +300,7 @@ Last Event Result  	[SUCCESS]
 
 ```
 
-## Enable Workflow
+### Enable Workflow
 
 To enable a previously disabled workflow, execute the CLI command:
 
@@ -370,7 +372,7 @@ Last Event Result  	[SUCCESS]
 
 ```
 
-## Disable Workflow
+### Disable Workflow
 
 To disable a previously enabled workflow, execute the CLI command:
 
@@ -444,7 +446,7 @@ Last Event Result  	[SUCCESS]
 
 ```
 
-## Delete Workflow
+### Delete Workflow
 
 A workflow can be deleted using the webUI or the CLI.
 

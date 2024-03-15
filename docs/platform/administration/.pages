@@ -1,5 +1,6 @@
 nav:
     - Account: account
-    - Alerts: adm-alerts.md
+    - Networking: networking
+    - Alerts : adm-alerts.md
     - Kubernetes Integration: adm-kubernetes.md
     - ...

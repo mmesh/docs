@@ -3,3 +3,4 @@ nav:
     - Networks: adm-networks.md
     - Subnets: adm-subnets.md
     - Nodes: adm-nodes.md
+    - Virtual Servers: adm-virtual-servers.md
