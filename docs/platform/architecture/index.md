@@ -5,7 +5,7 @@ tags:
   - concepts
 ---
 
-## Design Principles
+# Design Principles
 
 mmesh is an all-in-one, hybrid cloud integration platform designed to be **simple**, **scalable**, **secure** and **easy-to-use**.
 
@@ -16,13 +16,14 @@ mmesh can be an excellent choice for everyone who is moving to the cloud and loo
 mmesh allows you to simplify your infrastructure deployments and get rid of complex network integrations.
 
 
+
 # Architecture
 
 
 The **mmesh** MCN platform logically split into differents planes.
 
 - **Data Plane:** the network paths that transport data (in the form of packets) from source to destination.
-- **Control Plane:** protocols and logic that change how packets are steered across the data plane.
+- **Control Plane:** the protocols and logic that change how packets are steered across the data plane.
 - **Management Plane:** the configuration and monitoring interfaces for the data plane and control plane.
 
 
@@ -41,7 +42,6 @@ Upon creating an account, you have the option to select the region of mmesh cont
 ### Connectivity Zones
 
 Connectivity zones are components that allow hosting other elements such as relays and proxies. They are an internal part of the platform and are associated with mmesh networks. The services deployed in connectivity zones may generate delays between nodes and users, as well as among mmesh nodes themselves. Therefore, it is recommended to select the region of the connectivity zone closest to the location or region where mmesh nodes of a network are planned to be deployed.
-
 
 ### Tenant
 
@@ -73,11 +73,6 @@ A node serves as a client within the mmesh, facilitating the connection of workl
 
 Up to 255 nodes can be connected to a mmesh subnet at maximum capacity. When a node is connected to a subnet, it is assigned at least one IP address from the subnet's IP range.
 
-### Relay
-
-In mmesh, nodes create peer-to-peer connections, but occasionally direct communication between them is not possible. In such cases, a relay can step in to facilitate communication, enabling connections between nodes. By default, mmesh offers relay nodes within network connectivity zones. Furthermore, clients can deploy mmesh nodes and set them up as relays, granting them the ability to determine the most efficient route for their traffic.
-
-### Proxy
 ### Relay
 
 In mmesh, nodes create peer-to-peer connections, but occasionally direct communication between them is not possible. In such cases, a relay can step in to facilitate communication, enabling connections between nodes. By default, mmesh offers relay nodes within network connectivity zones. Furthermore, clients can deploy mmesh nodes and set them up as relays, granting them the ability to determine the most efficient route for their traffic.

@@ -22,7 +22,7 @@ if [[ "$1" == "test" ]]; then
   ;;
   "platform")
     sudo docker run --rm \
-      -p 8000:8000 \
+      -p 8800:8000 \
       -v "${PWD}":/docs \
       -u "$(id -u)":"$(id -g)" \
       jsantisteban/mkdocs-material serve -f ./config/platform.yml --dev-addr 0.0.0.0:8000
